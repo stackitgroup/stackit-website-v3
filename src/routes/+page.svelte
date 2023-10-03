@@ -5,55 +5,30 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
+	<title>Stackit</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<section>
-	<h1>
-		<span class="welcome">
-			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
-			</picture>
-		</span>
-
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
-
-	<Counter />
+<section
+	class="bg-[#283c4d] min-h-[70vh] text-white flex flex-col gap-6 items-center justify-center text-center px-72"
+>
+	<p class="text-5xl">Staffing Innovation Worldwide with Latin America Software Talent.</p>
+	<a href="/">
+		<button class="text-2xl text-white rounded-full px-5 py-3 bg-[#016fce] outline-none">
+			Let's Talk ➡️
+		</button>
+	</a>
 </section>
 
-<style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 0.6;
-	}
+<section
+	class="bg-white min-h-[70vh] flex gap-6 md:items-center justify-between md:px-72 sm:flex-col pt-5"
+>
+	<div class="flex w-80 border items-center gap-2">
+		<img class="object-fit w-12 h-12" src="/images/stackit_item.png" alt="" />
+		<p class="text-3xl font-bold">Who we are</p>
+	</div>
 
-	h1 {
-		width: 100%;
-	}
-
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
-	}
-</style>
+	<div>
+		<img src="/images/who_we_are.png" alt="" />
+	</div>
+</section>
