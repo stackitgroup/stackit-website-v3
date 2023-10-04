@@ -2,7 +2,7 @@
 	import { page } from '$app/stores';
 </script>
 
-<header class="flex justify-between items-center px-24 bg-[#283c4d] transition-all py-2">
+<header class="flex justify-between items-center px-28 bg-[#283c4d] transition-all py-2">
 	<div class="">
 		<a href="/">
 			<img src="/images/stackit_logo.png" alt="SvelteKit" class="h-auto w-[200px]" />
