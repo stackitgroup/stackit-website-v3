@@ -23,7 +23,7 @@
 	</a>
 </section>
 
-<section class="bg-white min-h-[70vh] flex pt-5 px-28 gap-10">
+<section class="bg-white min-h-[70vh] flex py-10 px-28 gap-10">
 	<div class="flex flex-col gap-2">
 		<div class="flex items-center gap-3">
 			<img class="w-12 h-12 object-fit" src="/images/stackit_item.png" alt="" />
@@ -49,7 +49,7 @@
 	</div>
 </section>
 
-<section class="bg-white min-h-[70vh] flex px-28 gap-10">
+<section class="bg-white min-h-[70vh] flex py-10 px-28 gap-10">
 	<div>
 		<img src="/images/who_we_are.png" alt="" />
 	</div>
@@ -75,25 +75,25 @@
 	</div>
 </section>
 
-<section class="bg-[#f2f2f2] min-h-[70vh] flex px-28 gap-10 pt-5">
+<section class="bg-[#f2f2f2] min-h-[85vh] flex px-28 gap-10 py-10">
 	<div class="flex flex-col gap-2">
 		<div class="flex items-center gap-3">
 			<img class="w-12 h-12 object-fit" src="/images/stackit_item.png" alt="" />
 			<h2 class="text-4xl font-bold text-black">Why we excel. Why us.</h2>
 		</div>
 		<br />
-		<div class="pr-10 text-2xl text-blak px-52">
-			<ol class="items-center sm:flex">
-				<li class="relative mb-6 sm:mb-0">
-					<div class="flex items-center">
+		<div class="pr-10 text-2xl text-blak">
+			<ol class="items-center px-20 sm:flex">
+				<li class="relative flex flex-col w-1/3 gap-16 mb-6 h-72 sm:mb-0">
+					<div class="flex items-center justify-center">
 						<div
 							class="z-10 flex items-center justify-center w-6 h-6 bg-[#016fce] p-7 text-white rounded-full shrink-0"
 						>
 							1
 						</div>
-						<div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700" />
+						<div class="absolute left-44 hidden sm:flex w-full bg-gray-400 h-0.5" />
 					</div>
-					<div class="mt-3 sm:pr-8">
+					<div class="flex flex-col items-center mt-3">
 						<h3 class="text-3xl font-semibold text-black">Expertise</h3>
 						<p class="font-normal text-center text-black">
 							We leverage our deep knowledge of the LATAM tech industry to connect you with the
@@ -101,44 +101,38 @@
 						</p>
 					</div>
 				</li>
-				<li class="relative mb-6 sm:mb-0">
-					<div class="flex items-center">
+
+				<li class="relative flex flex-col w-1/3 gap-16 mb-6 h-72 sm:mb-0">
+					<div class="flex items-center justify-center">
 						<div
 							class="z-10 flex items-center justify-center w-6 h-6 bg-[#016fce] p-7 text-white rounded-full shrink-0"
 						>
 							2
 						</div>
-						<div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700" />
+						<!-- <div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700" /> -->
 					</div>
-					<div class="mt-3 text-black sm:pr-8">
-						<h3 class="text-lg font-semibold text-gray-900 dark:text-white">Expertise</h3>
-						<time
-							class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
-							>Released on December 23, 2021</time
-						>
-						<p class="text-base font-normal text-gray-500 dark:text-gray-400">
-							Get started with dozens of web components and interactive elements.
+					<div class="flex flex-col items-center mt-3">
+						<h3 class="text-3xl font-semibold text-black">Quality</h3>
+						<p class="font-normal text-center text-black">
+							Our veteran tech and HR team upholds rigorous vetting procedures, ensuring each
+							candidate we place is a perfect technical and cultural fit.
 						</p>
 					</div>
 				</li>
-				<li class="relative mb-6 sm:mb-0">
-					<div class="flex items-center">
+				<li class="relative flex flex-col w-1/3 gap-16 mb-6 h-72 sm:mb-0">
+					<div class="flex items-center justify-center">
 						<div
 							class="z-10 flex items-center justify-center w-6 h-6 bg-[#016fce] p-7 text-white rounded-full shrink-0"
 						>
 							3
 						</div>
+						<div class="absolute right-44 hidden sm:flex w-full bg-gray-400 h-0.5" />
 					</div>
-					<div class="mt-3 sm:pr-8">
-						<h3 class="text-lg font-semibold text-gray-900 dark:text-white">
-							Flowbite Library v1.3.0
-						</h3>
-						<time
-							class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
-							>Released on January 5, 2022</time
-						>
-						<p class="text-base font-normal text-gray-500 dark:text-gray-400">
-							Get started with dozens of web components and interactive elements.
+					<div class="flex flex-col items-center mt-3">
+						<h3 class="text-3xl font-semibold text-black">Consistency</h3>
+						<p class="font-normal text-center text-black">
+							We continually coach our professionals while maintaining close collaboration with your
+							organization. Sustaining the highest quality is our priority.
 						</p>
 					</div>
 				</li>
