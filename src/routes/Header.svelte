@@ -2,14 +2,16 @@
 	import { page } from '$app/stores';
 </script>
 
-<header class="flex justify-between items-center px-28 bg-[#283c4d] transition-all py-2">
+<header
+	class="flex justify-between items-center px-28 bg-[#283c4d] transition-all py-2 fixed w-full"
+>
 	<div class="">
 		<a href="/">
 			<img src="/images/stackit_logo.png" alt="SvelteKit" class="h-auto w-[200px]" />
 		</a>
 	</div>
 
-	<nav class="flex gap-4 font-semibold text-2xl">
+	<nav class="flex gap-4 text-2xl font-semibold">
 		<a
 			class="text-white hover:underline decoration-blue-500 decoration-4
 			{$page.url.pathname === '/' && 'underline'}"
