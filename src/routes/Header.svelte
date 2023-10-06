@@ -3,11 +3,11 @@
 </script>
 
 <header
-	class="flex justify-between items-center px-28 bg-[#283c4d] transition-all py-2 fixed w-full"
+	class="flex justify-between items-center px-28 bg-[#283c4d] transition-all py-2 fixed w-full z-50"
 >
 	<div class="">
 		<a href="/">
-			<img src="/images/stackit_logo.png" alt="SvelteKit" class="h-auto w-[200px]" />
+			<img src="/images/stackit_logo.png" alt="SvelteKit" class="h-auto w-[220px]" />
 		</a>
 	</div>
 
@@ -20,7 +20,7 @@
 			Staffing
 		</a>
 		<a class="text-white" href="/custom-software">Custom Software</a>
-		<a href="/sverdle">
+		<a href="https://calendly.com/fiore-0pe/introductory-meeting-with-stack-it">
 			<button class="text-white rounded-full px-3 bg-[#016fce] outline-none"> Let's Talk </button>
 		</a>
 	</nav>

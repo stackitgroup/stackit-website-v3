@@ -1,16 +1,19 @@
 <script>
 	import Header from './Header.svelte';
 	import './styles.css';
+	import { page } from '$app/stores';
+	import Transition from '../components/transition.svelte';
+	import Footer from './Footer.svelte';
 </script>
 
 <div class="flex flex-col min-h-screen">
 	<Header />
 
 	<main>
-		<slot />
+		<Transition url={$page.url}>
+			<slot />
+		</Transition>
 	</main>
 
-	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
-	</footer>
+	<Footer />
 </div>
