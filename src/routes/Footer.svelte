@@ -1,7 +1,7 @@
 <footer
 	class="flex justify-between items-center px-28 bg-[#283c4d] transition-all py-2 w-full z-50 h-[60vh]"
 >
-	<div class="flex flex-col w-1/3 h-full gap-2 pt-10">
+	<div class="flex flex-col w-1/3 h-full gap-2 pt-10 font-sui-generis-rg">
 		<a href="/" class="mb-5">
 			<img src="/images/stackit_logo.png" alt="SvelteKit" class="h-auto w-[220px]" />
 		</a>
@@ -16,7 +16,7 @@
 	</div>
 
 	<div class="flex flex-col justify-center w-1/3 h-full pl-20">
-		<div class="text-2xl font-semibold text-white">Contact</div>
+		<div class="text-2xl font-semibold text-white font-sui-generis-rg">Contact</div>
 		<div class="flex items-center gap-2 text-2xl font-semibold text-gray-300">
 			<p class="font-semibold">Phone:</p>
 			+1 (619) 917 5387

@@ -28,7 +28,7 @@
 	<div class="flex flex-col gap-2">
 		<div class="flex items-center gap-3">
 			<img class="w-12 h-12 object-fit" src="/images/stackit_item.png" alt="" />
-			<h2 class="text-4xl font-bold text-black">Software Development</h2>
+			<h2 class="text-4xl font-bold text-black font-sui-generis-rg">Software Development</h2>
 		</div>
 		<br />
 		<div class="text-2xl text-blak">
@@ -58,7 +58,7 @@
 	<div class="flex flex-col gap-2">
 		<div class="flex items-center gap-3">
 			<img class="w-12 h-12 object-fit" src="/images/maintenance.png" alt="" />
-			<h2 class="text-4xl font-bold text-black">Maintenance & Support</h2>
+			<h2 class="text-4xl font-bold text-black font-sui-generis-rg">Maintenance & Support</h2>
 		</div>
 		<br />
 		<div class="pr-10 text-2xl text-blak">
@@ -79,7 +79,7 @@
 	<div class="flex flex-col gap-2">
 		<div class="flex items-center gap-3">
 			<img class="w-12 h-12 object-fit" src="/images/custom_consulting.png" alt="" />
-			<h2 class="text-4xl font-bold text-black">Consulting</h2>
+			<h2 class="text-4xl font-bold text-black font-sui-generis-rg">Consulting</h2>
 		</div>
 		<br />
 		<div class="text-2xl text-blak">
@@ -100,7 +100,7 @@
 	<div class="flex flex-col gap-2">
 		<div class="flex items-center gap-3">
 			<img class="w-12 h-12 object-fit" src="/images/stackit_item.png" alt="" />
-			<h2 class="text-4xl font-bold text-black">Why we excel. Why us.</h2>
+			<h2 class="text-4xl font-bold text-black font-sui-generis-rg">Why we excel. Why us.</h2>
 		</div>
 		<br />
 		<div class="pr-10 text-2xl text-blak">
@@ -115,7 +115,7 @@
 						<div class="absolute left-44 hidden sm:flex w-full bg-gray-400 h-0.5" />
 					</div>
 					<div class="flex flex-col items-center mt-3">
-						<h3 class="text-3xl font-semibold text-black">Partnership</h3>
+						<h3 class="text-3xl font-semibold text-black font-sui-generis-rg">Partnership</h3>
 						<p class="font-normal text-center text-black">
 							We're your partners in success. At Stack IT, our primary aim is to maximize the value
 							we bring to our clients. We take pride in creating, managing, and delivering products
@@ -134,7 +134,7 @@
 						<!-- <div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700" /> -->
 					</div>
 					<div class="flex flex-col items-center mt-3">
-						<h3 class="text-3xl font-semibold text-black">Quality</h3>
+						<h3 class="text-3xl font-semibold text-black font-sui-generis-rg">Quality</h3>
 						<p class="font-normal text-center text-black">
 							Our culture is one of individual excellence, team synergy, and structured process. We
 							invest in meticulous hiring practices, proactive team coaching, and foster an
@@ -152,7 +152,7 @@
 						<div class="absolute right-44 hidden sm:flex w-full bg-gray-400 h-0.5" />
 					</div>
 					<div class="flex flex-col items-center mt-3">
-						<h3 class="text-3xl font-semibold text-black">Expertise</h3>
+						<h3 class="text-3xl font-semibold text-black font-sui-generis-rg">Expertise</h3>
 						<p class="font-normal text-center text-black">
 							Project roadblocks are inevitable. Regardless of the issue, it takes an expert team to
 							keep things on track. With years of industry wisdom, and unwavering determination,
@@ -168,7 +168,7 @@
 <section class="bg-white min-h-[70vh] flex py-10 px-28 gap-10 flex-col">
 	<div class="flex items-center gap-3">
 		<img class="w-12 h-12 object-fit" src="/images/stackit_item.png" alt="" />
-		<h2 class="text-4xl font-bold text-black">How to Work Together</h2>
+		<h2 class="text-4xl font-bold text-black font-sui-generis-rg">How to Work Together</h2>
 	</div>
 
 	<div class="flex flex-col w-full gap-5">
@@ -177,7 +177,7 @@
 			class="self-end flex w-4/5 justify-between text-black border-[2.5px] border-black rounded-3xl items-center h-56 relative"
 		>
 			<div class="flex flex-col items-start h-full pt-5 pl-5 border">
-				<h1 class="font-medium">Listen</h1>
+				<h1 class="font-medium font-sui-generis-rg">Listen</h1>
 				<p class="w-4/5 text-xl">
 					We pay careful attention to your business goals, using this understanding to gauge project
 					complexity and size accurately.
@@ -194,7 +194,7 @@
 			class="self-center flex w-4/5 justify-between text-black border-[2.5px] border-black rounded-3xl items-center h-56 relative"
 		>
 			<div class="flex flex-col items-start h-full pt-5 pl-5 border">
-				<h1 class="font-medium">Plan</h1>
+				<h1 class="font-medium font-sui-generis-rg">Plan</h1>
 				<p class="w-4/5 text-xl">
 					Armed with your vision and our expertise, we craft a comprehensive plan of action. This
 					includes projected timelines for feature and functionality delivery, fostering an
@@ -212,7 +212,7 @@
 			class=" flex w-4/5 justify-between text-black border-[2.5px] border-black rounded-3xl items-center h-56 relative"
 		>
 			<div class="flex flex-col items-start h-full pt-5 pl-5 border">
-				<h1 class="font-medium">Succeed</h1>
+				<h1 class="font-medium font-sui-generis-rg">Succeed</h1>
 				<p class="w-4/5 text-xl">
 					We don't just deliver code; we deliver success, neatly packaged and ready to integrate
 					seamlessly into your business. Let’s talk! Discover how Stack IT can drive your digital

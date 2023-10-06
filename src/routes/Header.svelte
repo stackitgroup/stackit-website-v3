@@ -13,13 +13,21 @@
 
 	<nav class="flex gap-4 text-2xl font-semibold">
 		<a
-			class="text-white hover:underline decoration-blue-500 decoration-4
-			{$page.url.pathname === '/' && 'underline'}"
+			class=" hover:underline decoration-blue-500 decoration-4
+			{$page.url.pathname === '/' && 'underline text-white'}
+			{$page.url.pathname !== '/' && 'text-gray-400'}
+			"
 			href="/"
 		>
 			Staffing
 		</a>
-		<a class="text-white" href="/custom-software">Custom Software</a>
+		<a
+			class=" hover:underline decoration-blue-500 decoration-4
+			{$page.url.pathname === '/custom-software' && 'underline text-white'}
+			{$page.url.pathname !== '/custom-software' && 'text-gray-400'}
+			"
+			href="/custom-software">Custom Software</a
+		>
 		<a href="https://calendly.com/fiore-0pe/introductory-meeting-with-stack-it">
 			<button class="text-white rounded-full px-3 bg-[#016fce] outline-none"> Let's Talk </button>
 		</a>

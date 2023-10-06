@@ -28,7 +28,7 @@
 	<div class="flex flex-col gap-2">
 		<div class="flex items-center gap-3">
 			<img class="w-12 h-12 object-fit" src="/images/stackit_item.png" alt="" />
-			<h2 class="text-4xl font-bold text-black">Who we are</h2>
+			<h2 class="text-4xl font-bold text-black font-sui-generis-rg">Who we are</h2>
 		</div>
 		<br />
 		<div class="text-2xl text-blak">
@@ -58,7 +58,7 @@
 	<div class="flex flex-col gap-2">
 		<div class="flex items-center gap-3">
 			<img class="w-12 h-12 object-fit" src="/images/stackit_item.png" alt="" />
-			<h2 class="text-4xl font-bold text-black">Staffing Innovation</h2>
+			<h2 class="text-4xl font-bold text-black font-sui-generis-rg">Staffing Innovation</h2>
 		</div>
 		<br />
 		<div class="pr-10 text-2xl text-blak">
@@ -80,7 +80,7 @@
 	<div class="flex flex-col gap-2">
 		<div class="flex items-center gap-3">
 			<img class="w-12 h-12 object-fit" src="/images/stackit_item.png" alt="" />
-			<h2 class="text-4xl font-bold text-black">Why we excel. Why us.</h2>
+			<h2 class="text-4xl font-bold text-black font-sui-generis-rg">Why we excel. Why us.</h2>
 		</div>
 		<br />
 		<div class="pr-10 text-2xl text-blak">
@@ -95,7 +95,7 @@
 						<div class="absolute left-44 hidden sm:flex w-full bg-gray-400 h-0.5" />
 					</div>
 					<div class="flex flex-col items-center mt-3">
-						<h3 class="text-3xl font-semibold text-black">Expertise</h3>
+						<h3 class="text-3xl font-semibold text-black font-sui-generis-rg">Expertise</h3>
 						<p class="font-normal text-center text-black">
 							We leverage our deep knowledge of the LATAM tech industry to connect you with the
 							region's top talent.
@@ -113,7 +113,7 @@
 						<!-- <div class="hidden sm:flex w-full bg-gray-200 h-0.5 dark:bg-gray-700" /> -->
 					</div>
 					<div class="flex flex-col items-center mt-3">
-						<h3 class="text-3xl font-semibold text-black">Quality</h3>
+						<h3 class="text-3xl font-semibold text-black font-sui-generis-rg">Quality</h3>
 						<p class="font-normal text-center text-black">
 							Our veteran tech and HR team upholds rigorous vetting procedures, ensuring each
 							candidate we place is a perfect technical and cultural fit.
@@ -130,7 +130,7 @@
 						<div class="absolute right-44 hidden sm:flex w-full bg-gray-400 h-0.5" />
 					</div>
 					<div class="flex flex-col items-center mt-3">
-						<h3 class="text-3xl font-semibold text-black">Consistency</h3>
+						<h3 class="text-3xl font-semibold text-black font-sui-generis-rg">Consistency</h3>
 						<p class="font-normal text-center text-black">
 							We continually coach our professionals while maintaining close collaboration with your
 							organization. Sustaining the highest quality is our priority.
@@ -145,7 +145,7 @@
 <section class="bg-white min-h-[70vh] flex py-10 px-28 gap-10 flex-col">
 	<div class="flex items-center gap-3">
 		<img class="w-12 h-12 object-fit" src="/images/stackit_item.png" alt="" />
-		<h2 class="text-4xl font-bold text-black">How to Work Together</h2>
+		<h2 class="text-4xl font-bold text-black font-sui-generis-rg">How to Work Together</h2>
 	</div>
 
 	<div class="flex flex-col w-full gap-5">
@@ -154,7 +154,7 @@
 			class="self-end flex w-4/5 justify-between text-black border-[2.5px] border-black rounded-3xl items-center h-56 relative"
 		>
 			<div class="flex flex-col items-start h-full pt-5 pl-5 border">
-				<h1 class="font-medium">Discovery</h1>
+				<h1 class="font-medium font-sui-generis-rg">Discovery</h1>
 				<p class="w-4/5 text-xl">
 					We connect with you to understand your unique project requirements and the specific skills
 					you need.
@@ -171,7 +171,7 @@
 			class="self-center flex w-4/5 justify-between text-black border-[2.5px] border-black rounded-3xl items-center h-56 relative"
 		>
 			<div class="flex flex-col items-start h-full pt-5 pl-5 border">
-				<h1 class="font-medium">Selection</h1>
+				<h1 class="font-medium font-sui-generis-rg">Selection</h1>
 				<p class="w-4/5 text-xl">
 					We handpick the perfect candidates from our pool of skilled Latin American Developers
 					based on your requirements.
@@ -188,7 +188,7 @@
 			class=" flex w-4/5 justify-between text-black border-[2.5px] border-black rounded-3xl items-center h-56 relative"
 		>
 			<div class="flex flex-col items-start h-full pt-5 pl-5 border">
-				<h1 class="font-medium">Integration</h1>
+				<h1 class="font-medium font-sui-generis-rg">Integration</h1>
 				<p class="w-4/5 text-xl">
 					We ensure seamless integration of the selected developers into your team, driving
 					successful outcomes and bringing value to your projects.
@@ -206,7 +206,7 @@
 <section class="bg-white min-h-[40vh] flex py-10 px-28 gap-10 flex-col">
 	<div class="flex items-center gap-3">
 		<img class="w-12 h-12 object-fit" src="/images/stackit_item.png" alt="" />
-		<h2 class="text-4xl font-bold text-black">Some of our Clients</h2>
+		<h2 class="text-4xl font-bold text-black font-sui-generis-rg">Some of our Clients</h2>
 	</div>
 
 	<div class="flex items-center w-full gap-3">
