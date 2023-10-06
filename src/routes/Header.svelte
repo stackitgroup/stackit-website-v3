@@ -29,7 +29,9 @@
 			href="/custom-software">Custom Software</a
 		>
 		<a href="https://calendly.com/fiore-0pe/introductory-meeting-with-stack-it">
-			<button class="text-white rounded-full px-3 bg-[#016fce] outline-none"> Let's Talk </button>
+			<button class="text-white text-base rounded-full px-3 bg-[#016fce] outline-none w-42 h-10">
+				Let's Talk
+			</button>
 		</a>
 	</nav>
 </header>
