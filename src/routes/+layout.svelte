@@ -1,9 +1,9 @@
 <script>
-	import Header from './Header.svelte';
+	import Header from './components/Header.svelte';
 	import './styles.css';
 	import { page } from '$app/stores';
 	import Transition from '../components/transition.svelte';
-	import Footer from './Footer.svelte';
+	import Footer from './components/Footer.svelte';
 </script>
 
 <div class="flex flex-col min-h-screen">

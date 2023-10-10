@@ -8,5 +8,5 @@ export default {
 			'sui-generis-rg': ['Sui Generis Rg']
 		}
 	},
-	plugins: []
+	plugins: [require('daisyui')]
 };
