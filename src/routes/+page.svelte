@@ -62,57 +62,50 @@
 			<img class="w-12 h-12 object-fit" src="/images/stackit_item.png" alt="" />
 			<h2 class="text-4xl font-bold text-black">Staffing Innovation</h2>
 		</div>
-		<div
-			class="flex flex-col-reverse sm:flex-row justify-between p-[5%] gap-5 w-full max-w-[1200px] mx-auto"
-		>
-			<div class="w-full sm:w-2/5">
-				<img src="/images/who_we_are.png" alt="" />
-			</div>
-
-			<div class="flex flex-col gap-2 w-full sm:w-3/5 sm:pl-5">
-				<div class="pr-10 text-md sm:text-2xl text-black">
-					<p>
-						At Stack IT, a San Diego, CA-based company, we believe that talent drives success. Since
-						2017, we've connected companies with top tech professionals from Latin America for
-						cost-effective, flexible, and productive remote staffing solutions.
-					</p>
-					<br />
-					<p>
-						Our motto is “Success. Coded.” because our part in your success is to deliver the
-						perfect technical figure you need
-					</p>
-				</div>
-			</div>
+		<br />
+		<div class="pr-10 text-2xl text-blak">
+			<p>
+				At Stack IT, a San Diego, CA-based company, we believe that talent drives success. Since
+				2017, we've connected companies with top tech professionals from Latin America for
+				cost-effective, flexible, and productive remote staffing solutions.
+			</p>
+			<br />
+			<p>
+				Our motto is “Success. Coded.” because our part in your success is to deliver the perfect
+				technical figure you need
+			</p>
 		</div>
-	</section>
-	<!-- Why we excel. Why us -->
-	<section class="bg-[#f2f2f2] flex w-full">
-		<div class="flex flex-col gap-10 max-w-[1200px] mx-auto p-[5%]">
-			<div class="flex items-center gap-3">
-				<img class="w-12 h-12 object-fit" src="/images/stackit_item.png" alt="" />
-				<h2 class="text-4xl font-bold text-black">Why we excel. Why us.</h2>
-			</div>
-			<div class="text-2xl text-black">
-				<ol class="flex flex-col md:flex-row">
-					<li class="relative flex flex-col w-1/3 gap-16 sm:mb-0">
-						<div class="flex items-center justify-center">
-							<div
-								class="z-10 flex items-center justify-center w-6 h-6 bg-[#016fce] p-7 text-white rounded-full shrink-0"
-							>
-								1
-							</div>
-							<div class="absolute left-44 hidden sm:flex w-full bg-gray-400 h-0.5" />
+	</div>
+</section>
+<!-- Why we excel. Why us -->
+<section class="bg-[#f2f2f2] min-h-[85vh] flex px-28 gap-10 py-10">
+	<div class="flex flex-col gap-2">
+		<div class="flex items-center gap-3">
+			<img class="w-12 h-12 object-fit" src="/images/stackit_item.png" alt="" />
+			<h2 class="text-4xl font-bold text-black">Why we excel. Why us.</h2>
+		</div>
+		<br />
+		<div class="pr-10 text-2xl text-blak">
+			<ol class="items-center px-20 sm:flex">
+				<li class="relative flex flex-col w-1/3 gap-16 mb-6 h-72 sm:mb-0">
+					<div class="flex items-center justify-center">
+						<div
+							class="z-10 flex items-center justify-center w-6 h-6 bg-[#016fce] p-7 text-white rounded-full shrink-0"
+						>
+							1
 						</div>
-						<div class="flex flex-col items-center mt-3">
-							<h3 class="text-3xl font-semibold text-black">Expertise</h3>
-							<p class="font-normal text-center text-black">
-								We leverage our deep knowledge of the LATAM tech industry to connect you with the
-								region's top talent.
-							</p>
-						</div>
-					</li>
+						<div class="absolute left-44 hidden sm:flex w-full bg-gray-400 h-0.5" />
+					</div>
+					<div class="flex flex-col items-center mt-3">
+						<h3 class="text-3xl font-semibold text-black">Expertise</h3>
+						<p class="font-normal text-center text-black">
+							We leverage our deep knowledge of the LATAM tech industry to connect you with the
+							region's top talent.
+						</p>
+					</div>
+				</li>
 
-					<li class="relative flex flex-col w-1/3 gap-16 sm:mb-0">
+					<li class="relative flex flex-col w-1/3 gap-16 mb-6 h-72 sm:mb-0">
 						<div class="flex items-center justify-center">
 							<div
 								class="z-10 flex items-center justify-center w-6 h-6 bg-[#016fce] p-7 text-white rounded-full shrink-0"
@@ -129,7 +122,7 @@
 							</p>
 						</div>
 					</li>
-					<li class="relative flex flex-col w-1/3 gap-16 sm:mb-0">
+					<li class="relative flex flex-col w-1/3 gap-16 mb-6 h-72 sm:mb-0">
 						<div class="flex items-center justify-center">
 							<div
 								class="z-10 flex items-center justify-center w-6 h-6 bg-[#016fce] p-7 text-white rounded-full shrink-0"

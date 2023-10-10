@@ -1,7 +1,16 @@
 @import '@fontsource/fira-mono';
+@import './open-sans.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+	font-family: 'Sui Generis Rg';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Sui Generis Rg'),
+		url('https://fonts.cdnfonts.com/s/8640/sui generis rg.woff') format('woff');
+}
 
 :root {
 	--font-body: 'Open Sans', sans-serif;
