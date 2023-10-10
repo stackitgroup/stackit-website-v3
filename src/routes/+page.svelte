@@ -41,14 +41,15 @@
 					</div>
 					<div class="text-md sm:text-xl">
 						<p>
-							At Stack IT, a San Diego, CA-based company, we believe that talent drives success.
-							Since 2017, we've connected companies with top tech professionals from Latin America
-							for cost-effective, flexible, and productive remote staffing solutions.
+							At <span class="font-semibold text-[var(--blue)]">Stack IT</span>, a San Diego,
+							CA-based company, we believe that talent drives success. Since 2017, we've connected
+							companies with top tech professionals from Latin America for cost-effective, flexible,
+							and productive remote staffing solutions.
 						</p>
 						<br />
 						<p>
-							Our motto is “Success. Coded.” because our part in your success is to deliver the
-							perfect technical figure you need
+							Our motto is “<span class="font-semibold text-[var(--blue)]">Success. Coded.</span>”
+							because our part in your success is to deliver the perfect technical figure you need
 						</p>
 					</div>
 				</div>
@@ -68,7 +69,7 @@
 			<div
 				class="w-full sm:w-2/5 max-h-[260px] max-w-[260px] md:max-h-[380px] md:max-w-[380px] mx-auto"
 			>
-				<img src="/images/who_we_are.png" alt="" />
+				<img src="/images/staffing.png" alt="" />
 			</div>
 
 			<div class="flex flex-col gap-2 w-full md:w-3/5 sm:pl-5">
@@ -103,9 +104,7 @@
 			</div>
 			<div class="text-2xl">
 				<ol class="flex flex-col md:flex-row justify-center items-center md:items-start gap-10">
-					<li
-						class="relative flex flex-col w-full md:w-1/3 gap-5 sm:mb-0 px-[1%] lg:px-[5%] justify-start"
-					>
+					<li class="relative flex flex-col w-full md:w-1/3 gap-5 sm:mb-0 px-[1%] justify-start">
 						<div class="flex items-center justify-center">
 							<div
 								class="z-10 flex items-center justify-center w-6 h-6 bg-[#016fce] p-7 text-white rounded-full shrink-0"
@@ -176,8 +175,9 @@
 					<div class="flex flex-col w-full md:w-[80%] gap-2 text-center md:text-start">
 						<h3 class="text-2xl font-semibold">Discovery</h3>
 						<p class="text-xl">
-							We connect with you to understand your unique project requirements and the specific
-							skills you need.
+							We connect with you to understand your <span class="text-[var(--blue)] font-semibold">
+								unique project requirements
+							</span> and the specific skills you need.
 						</p>
 					</div>
 					<picture
@@ -194,14 +194,15 @@
 					<div class="flex flex-col w-full md:w-[80%] gap-2 text-center md:text-start">
 						<h3 class="text-2xl font-semibold">Selection</h3>
 						<p class="text-xl">
-							We handpick the perfect candidates from our pool of skilled Latin American Developers
-							based on your requirements.
+							We handpick the <span class="text-[var(--blue)] font-semibold"
+								>perfect candidates from our pool
+							</span> of skilled Latin American Developers based on your requirements.
 						</p>
 					</div>
 					<picture
 						class="flex items-center justify-center h-[220px] w-[220px] bg-white mx-auto md:mx-0 border-[2px] border-[var(--black)] rounded-full overflow-hidden md:absolute md:right-[-80px]"
 					>
-						<img class="object-contain h-[80%] w-[80%]" src="/images/step1.png" alt="Selection" />
+						<img class="object-contain h-[80%] w-[80%]" src="/images/step2.png" alt="Selection" />
 					</picture>
 				</div>
 				<!-- Integration -->
@@ -211,8 +212,9 @@
 					<div class="flex flex-col w-full md:w-[80%] gap-2 text-center md:text-start">
 						<h3 class="text-2xl font-semibold">Integration</h3>
 						<p class="text-xl">
-							We ensure seamless integration of the selected developers into your team, driving
-							successful outcomes and bringing value to your projects.
+							We ensure <span class="text-[var(--blue)] font-semibold">seamless integration</span> of
+							the selected developers into your team, driving successful outcomes and bringing value
+							to your projects.
 						</p>
 					</div>
 					<picture
@@ -260,14 +262,12 @@
 	</section>
 	<!-- The result?  -->
 	<section class="bg-[#f2f2f2] h-auto">
-		<div
-			class="flex flex-col md:flex-row w-full max-w-[1200px] p-[5%] lg:p-[3%] mx-auto gap-10 items-center"
-		>
+		<div class="flex flex-col md:flex-row w-full max-w-[1200px] p-[5%] mx-auto gap-10 items-center">
 			<div class="flex items-center gap-3">
-				<h2 class="text-2xl md:text-4xl text-center md:text-start font-bold">
+				<p class="text-2xl md:text-4xl text-center md:text-start font-bold">
 					The result? Top-tier professionals with the skillset to build you nothing but the best
 					software.
-				</h2>
+				</p>
 			</div>
 
 			<a href="https://calendly.com/fiore-0pe/introductory-meeting-with-stack-it">

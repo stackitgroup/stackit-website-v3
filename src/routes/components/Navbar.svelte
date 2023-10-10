@@ -10,7 +10,11 @@
 	>
 		Staffing
 	</a>
-	<a class="text-white" href="/custom-software">Custom Software</a>
+	<a
+		class="text-white hover:underline decoration-blue-500 decoration-4 {$page.url.pathname ===
+			'/custom-software' && 'underline font-semibold'}"
+		href="/custom-software">Custom Software</a
+	>
 	<a href="https://calendly.com/fiore-0pe/introductory-meeting-with-stack-it">
 		<button class="text-white rounded-full px-3 bg-[#016fce] outline-none"> Let's Talk </button>
 	</a>
