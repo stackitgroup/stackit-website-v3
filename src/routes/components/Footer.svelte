@@ -1,33 +1,81 @@
-<footer class="bg-[#283c4d] w-full">
-	<div class="flex flex-col gap-6 pb-[3%] p-[5%] transition-all w-full max-w-[1200px] mx-auto">
-		<a href="/">
-			<img src="/images/stackit_logo.png" alt="SvelteKit" class="h-auto w-[200px]" />
-		</a>
-		<section class="flex flex-col sm:flex-row w-full items-start justify-between gap-5">
-			<div class="flex flex-col h-full gap-2 text-lg md:text-xl text-gray-300">
-				<h3 class="text-xl md:text-2xl font-semibold text-white">Quick Links</h3>
-				<a href="/">Staffing</a>
-				<a href="/custom-software">Custom Software</a>
-			</div>
+<script>
+	import linkedin from 'svelte-awesome/icons/linkedin';
+	import { Icon } from 'svelte-awesome';
+</script>
 
-			<div class="flex flex-col justify-center h-full text-gray-300">
-				<h3 class="text-xl md:text-2xl font-semibold text-white mb-2">Contact</h3>
-				<h4 class="text-lg font-semibold">Phone:</h4>
-				<span class="text-base">+1 (619) 917 5387</span>
-				<h4 class="text-lg font-semibold mt-2">Email:</h4>
+<footer
+	class="grid grid-cols-4 md:grid-cols-5 max-w-7xl px-[5%] lg:py-[1%] mx-auto gap-2 py-5 md:mt-5"
+>
+	<div class="col-span-4 md:col-span-1">
+		<figure class="flex items-center w-full gap-2">
+			<img class="w-12 h-12 object-fit" src="/images/stackit_item.png" alt="" />
+			<figcaption class="text-3xl font-bold text-[#293c4d]">Stack IT</figcaption>
+		</figure>
+		<div class="flex-col hidden w-1/2 text-xl md:flex">
+			<span>Success.</span>
+			<span class="font-medium text-blue-500">Coded.</span>
+		</div>
+	</div>
+	<!-- Quick Links -->
+	<div class="col-span-2 md:col-span-1 md:pl-5">
+		<span class="text-xl font-semibold">Quick links</span>
+		<ul class="flex flex-col gap-2 pl-1 text-sm">
+			<li><a href="/staffing">Staffing</a></li>
+			<li><a href="/custom-software">Custom Software</a></li>
+		</ul>
+	</div>
+	<!-- Contact -->
+	<div class="col-span-2 md:[grid-column:5/6] md:[grid-row:1/2]">
+		<span class="text-xl font-semibold">Contact</span>
+		<ul class="flex flex-col gap-1 pl-1 text-sm">
+			<li>Phone: +1 (619) 917 5387</li>
+			<li>
 				<a class="text-base" href="mailto:hello@stackitgroup.com"> hello@stackitgroup.com</a>
-				<a
-					href="https://www.linkedin.com/company/stackit"
-					class="mt-5 text-4xl font-semibold text-white"
-				>
-					<i class="fa-brands fa-linkedin" />
+			</li>
+			<li>
+				<a href="https://www.linkedin.com/company/stackit">
+					<Icon
+						class="text-white bg-gray-700 rounded-sm p-[1px] w-7 h-7"
+						data={linkedin}
+						scale={2}
+					/>
 				</a>
-			</div>
-		</section>
+			</li>
+		</ul>
+	</div>
+	<!-- Revisit -->
+	<div class="col-span-2 md:col-span-1">
+		<span class="text-xl font-semibold">Revisit</span>
+		<ul class="flex flex-col gap-1 pl-1 text-sm">
+			<li><a href="#who-we-are">Who we are</a></li>
+			<li>
+				<a href="#staffing-innovation" class="text-clip">Staffing Innovation </a>
+			</li>
+			<li>
+				<a href="#why-we-excel">Why we excel</a>
+			</li>
+			<li>
+				<a href="#how-to-work-together">How to work together</a>
+			</li>
+			<li><a href="#our-clients">Our clients</a></li>
+		</ul>
+	</div>
+	<!-- Product Sites -->
+	<div class="col-span-2 md:col-span-1">
+		<span class="text-xl font-semibold">Product Sites</span>
 
-		<div class="flex flex-col items-center justify-end h-full text-base md:text-xl text-gray-400">
-			<p>© 2023 Stackit. All Rights Reserved</p>
-			<p>v3</p>
+		<ul class="flex flex-col gap-1 pl-1 text-sm">
+			<li>LEDA</li>
+			<li>Metis</li>
+			<li>Interview Buddy</li>
+		</ul>
+	</div>
+	<div class="col-span-4 md:col-span-5">
+		<div class="bg-gray-300 h-[2px] divider"></div>
+
+		<div class="text-gray-400">
+			Copyright © Stack IT | 4955 Wightman St. San Diego, California, 92105 United States | VAT,
+			tax code, and number of registration with the US Equivalent
 		</div>
 	</div>
 </footer>

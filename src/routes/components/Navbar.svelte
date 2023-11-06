@@ -2,20 +2,19 @@
 	import { page } from '$app/stores';
 </script>
 
-<nav class="gap-4 text-lg hidden lg:flex">
+<nav class="hidden w-1/2 gap-4 text-lg md:justify-end md:flex">
 	<a
-		class="text-white hover:underline decoration-blue-500 decoration-4
+		class="hover:underline decoration-blue-500 decoration-4
   {$page.url.pathname === '/' && 'underline font-semibold'}"
 		href="/"
 	>
 		Staffing
 	</a>
 	<a
-		class="text-white hover:underline decoration-blue-500 decoration-4 {$page.url.pathname ===
+		class="hover:underline decoration-blue-500 decoration-4 {$page.url.pathname ===
 			'/custom-software' && 'underline font-semibold'}"
-		href="/custom-software">Custom Software</a
+		href="/custom-software"
 	>
-	<a href="https://calendly.com/fiore-0pe/introductory-meeting-with-stack-it">
-		<button class="text-white rounded-full px-3 bg-[#016fce] outline-none"> Let's Talk </button>
+		Custom Software
 	</a>
 </nav>

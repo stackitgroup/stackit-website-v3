@@ -1,0 +1,39 @@
+<script>
+	import { Icon } from 'svelte-awesome';
+	import arrowRight from 'svelte-awesome/icons/arrowRight';
+</script>
+
+<section class="mx-auto max-w-7xl">
+	<picture class="relative">
+		<div class="absolute w-full h-full overlay" />
+		<div
+			class="absolute grid justify-start w-full h-full gap-5 px-5 font-light md:w-4/5 md:px-28 place-content-center"
+		>
+			<span class="text-3xl font-medium text-blue-500 md:text-5xl">The result</span>
+			<span class="text-xl text-gray-200 md:text-2xl">
+				Top-tier professionals with the skillset to build you nothing but the best software.
+			</span>
+
+			<a
+				class="flex items-center justify-center gap-2 rounded-full text-gray-200 border-[1.5px] border-[#016fce] h-11 w-40 hover:bg-[#016fce] transition-colors duration-200"
+				href="https://calendly.com/fiore-0pe/introductory-meeting-with-stack-it"
+			>
+				Let's Talk
+
+				<Icon data={arrowRight} />
+			</a>
+		</div>
+		<source
+			class="object-cover w-full h-80"
+			media="(min-width: 768px)"
+			srcset="/images/the_result.jpeg"
+		/>
+		<img class="object-cover w-full h-80" alt="who_we_are" src="/images/the_result.jpeg" />
+	</picture>
+</section>
+
+<style>
+	.overlay {
+		background: linear-gradient(113deg, rgba(3, 21, 35, 0.8) 55.9%, rgba(1, 111, 206, 0.2) 87.95%);
+	}
+</style>

@@ -4,16 +4,43 @@
 	import { page } from '$app/stores';
 	import Transition from '../components/transition.svelte';
 	import Footer from './components/Footer.svelte';
+	import arrowUp from 'svelte-awesome/icons/arrowUp';
+	import { Icon } from 'svelte-awesome';
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+		const $top = document.getElementById('top');
+		const $backToTop = document.getElementById('back-to-top');
+		window.addEventListener('scroll', () => {
+			// If scroll is at the top, remove opacity
+			// Else, add opacity
+			$backToTop?.classList[!$top?.getBoundingClientRect().top ? 'remove' : 'add']('opacity-100');
+		});
+	});
 </script>
 
-<div class="flex flex-col min-h-screen">
-	<Header />
+<div id="top" />
+<Header />
 
-	<main>
-		<Transition url={$page.url}>
-			<slot />
-		</Transition>
-	</main>
+<main>
+	<Transition url={$page.url}>
+		<slot />
+	</Transition>
+</main>
+<Footer />
 
-	<Footer />
+<div
+	id="back-to-top"
+	class="opacity-0 transition-all flex duration-200 fixed z-50 bg-[#259aff] border rounded-full w-14 h-14 items-center justify-center right-3 bottom-6"
+>
+	<a
+		href="#top"
+		on:click|preventDefault={() =>
+			window.scrollTo({
+				top: 0,
+				behavior: 'smooth'
+			})}
+	>
+		<Icon class="text-white" data={arrowUp} scale={2} />
+	</a>
 </div>

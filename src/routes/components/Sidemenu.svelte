@@ -5,47 +5,59 @@
 	import { page } from '$app/stores';
 </script>
 
-<div class="drawer w-[24px] lg:hidden">
-	<input id="my-drawer" type="checkbox" class="drawer-toggle" />
+<div class="w-1/2 drawer drawer-end md:hidden">
 	<div class="drawer-content">
-		<button class="flex text-[var(--white)]">
-			<label for="my-drawer">
-				<Icon data={bars} scale={1.5} />
-			</label>
-		</button>
+		<!-- Page content here -->
+		<label for="my-drawer-4">
+			<Icon data={bars} scale={1.5} />
+		</label>
 	</div>
-	<div class="drawer-side right-0">
-		<label for="my-drawer" aria-label="close sidebar" class="drawer-overlay" />
-		<ul class="menu p-4 min-h-full w-[300px] bg-[var(--brand-blue)] text-base-content text-2xl">
+
+	<input id="my-drawer-4" type="checkbox" class=" drawer-toggle" />
+	<div class="drawer-side">
+		<label for="my-drawer-4" aria-label="close sidebar" class="drawer-overlay"></label>
+		<ul class="min-h-full p-4 text-xl bg-white menu w-80 text-base-content">
+			<!-- Sidebar content here -->
 			<li>
-				<div class="flex flex-row w-full items-start justify-between">
-					<a href="/">
-						<img src="/images/stackit_logo.png" alt="SvelteKit" class="h-[52px] w-[200px]" />
-					</a>
-					<label for="my-drawer"><Icon data={remove} scale={1.5} /></label>
-				</div>
+				<label class="absolute top-0 right-0" for="my-drawer-4">
+					<Icon data={remove} scale={1.5} />
+				</label>
 			</li>
+			<br />
 			<li>
 				<a
-					class="text-white hover:underline decoration-blue-500 decoration-4
+					class="focus:bg-none text-black hover:underline decoration-blue-500 decoration-2
 			{$page.url.pathname === '/' && 'underline font-semibold'}"
-					href="/">Staffing</a
+					href="/"
 				>
+					Staffing
+				</a>
 			</li>
 			<li>
 				<a
-					class="text-white hover:underline decoration-blue-500 decoration-4
-				{$page.url.pathname === '/custom-software' && 'underline font-semibold'}"
+					class="text-black hover:underline decoration-blue-500 decoration-2
+			{$page.url.pathname === '/custom-software' && 'underline font-semibold'}"
 					href="/custom-software"
 				>
-					Custom Software</a
-				>
+					Custom Software
+				</a>
 			</li>
 			<li>
-				<a href="https://calendly.com/fiore-0pe/introductory-meeting-with-stack-it">
-					<button class="text-white rounded-full px-3 bg-[#016fce] outline-none">
-						Let's Talk
-					</button>
+				<a
+					class="text-black hover:underline decoration-blue-500 decoration-2
+			{$page.url.pathname === '/about' && 'underline font-semibold'}"
+					href="/about"
+				>
+					About
+				</a>
+			</li>
+			<li>
+				<a
+					class="text-black hover:underline decoration-blue-500 decoration-2
+			{$page.url.pathname === '/contact-us' && 'underline font-semibold'}"
+					href="/contact-us"
+				>
+					Contact Us
 				</a>
 			</li>
 		</ul>

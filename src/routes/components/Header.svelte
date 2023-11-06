@@ -3,17 +3,14 @@
 	import Sidemenu from './Sidemenu.svelte';
 </script>
 
-<header class="bg-[#283c4d] fixed w-full h-auto z-50">
-	<div
-		class="flex flex-row justify-between items-center lg:max-h-[70px] max-w-[1200px] mx-auto py-[3%] lg:py-[1%] px-[5%]"
-	>
-		<div class="">
-			<a href="/">
-				<img src="/images/stackit_logo.png" alt="SvelteKit" class="h-[52px] w-[200px]" />
-			</a>
-		</div>
+<header
+	class="sticky top-0 z-50 w-full bg-white flex justify-between items-center lg:max-h-[70px] max-w-7xl mx-auto py-[3%] lg:py-[1%] px-[5%]"
+>
+	<figure class="flex items-center w-1/2 gap-2">
+		<img class="w-12 h-12 object-fit" src="/images/stackit_item.png" alt="" />
+		<figcaption class="text-3xl font-bold text-[#293c4d]">Stack IT</figcaption>
+	</figure>
 
-		<Sidemenu />
-		<Navbar />
-	</div>
+	<Sidemenu />
+	<Navbar />
 </header>
