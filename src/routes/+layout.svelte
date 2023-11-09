@@ -5,8 +5,8 @@
 	import arrowUp from 'svelte-awesome/icons/arrowUp';
 	import { Icon } from 'svelte-awesome';
 	import { onMount } from 'svelte';
-	import Header from './components/header.svelte';
-	import Footer from './components/footer.svelte';
+	import Header from '../components/header.svelte';
+	import Footer from '../components/footer.svelte';
 
 	onMount(() => {
 		const $top = document.getElementById('top');
