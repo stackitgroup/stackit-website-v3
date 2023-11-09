@@ -1,9 +1,9 @@
 <script>
-	import Header from './components/Header.svelte';
+	import Header from './components/header.svelte';
 	import './styles.css';
 	import { page } from '$app/stores';
 	import Transition from '../components/transition.svelte';
-	import Footer from './components/Footer.svelte';
+	import Footer from './components/footer.svelte';
 	import arrowUp from 'svelte-awesome/icons/arrowUp';
 	import { Icon } from 'svelte-awesome';
 	import { onMount } from 'svelte';

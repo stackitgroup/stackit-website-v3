@@ -1,6 +1,6 @@
 <script>
-	import Navbar from './Navbar.svelte';
-	import Sidemenu from './Sidemenu.svelte';
+	import Navbar from './navbar.svelte';
+	import SideMenu from './side-menu.svelte';
 </script>
 
 <header
@@ -11,6 +11,6 @@
 		<figcaption class="text-3xl font-bold text-[#293c4d]">Stack IT</figcaption>
 	</figure>
 
-	<Sidemenu />
+	<SideMenu />
 	<Navbar />
 </header>

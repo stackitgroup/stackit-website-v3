@@ -3,9 +3,7 @@
 	import { Icon } from 'svelte-awesome';
 </script>
 
-<footer
-	class="grid grid-cols-4 md:grid-cols-5 max-w-7xl px-[5%] lg:py-[1%] mx-auto gap-2 py-5 md:mt-5"
->
+<footer class="grid grid-cols-4 md:grid-cols-5 max-w-7xl lg:py-[1%] mx-auto gap-2 py-5 md:mt-5">
 	<div class="col-span-4 md:col-span-1">
 		<figure class="flex items-center w-full gap-2">
 			<img class="w-12 h-12 object-fit" src="/images/stackit_item.png" alt="" />
@@ -17,7 +15,7 @@
 		</div>
 	</div>
 	<!-- Quick Links -->
-	<div class="col-span-2 md:col-span-1 md:pl-5">
+	<div class="col-span-2 md:col-span-1">
 		<span class="text-xl font-semibold">Quick links</span>
 		<ul class="flex flex-col gap-2 pl-1 text-sm">
 			<li><a href="/staffing">Staffing</a></li>
