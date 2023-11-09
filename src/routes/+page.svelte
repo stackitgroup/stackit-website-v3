@@ -1,13 +1,11 @@
 <script>
-	import Icon from 'svelte-awesome';
-	import arrowRight from 'svelte-awesome/icons/arrowRight';
-	import WhoWeAre from './staffing/components/who-we-are.svelte';
-	import StaffingInnovation from './staffing/components/staffing-innovation.svelte';
-	import WhyWeExcel from './staffing/components/why-we-excel.svelte';
+	import HeroStaffing from './staffing/components/hero-staffing.svelte';
 	import HowToWorkTogether from './staffing/components/how-to-work-together.svelte';
 	import SomeOfOurClients from './staffing/components/some-of-our-clients.svelte';
+	import StaffingInnovation from './staffing/components/staffing-innovation.svelte';
 	import TheResult from './staffing/components/the-result.svelte';
-	import HeroStaffing from './staffing/components/hero-staffing.svelte';
+	import WhoWeAre from './staffing/components/who-we-are.svelte';
+	import WhyWeExcel from './staffing/components/why-we-excel.svelte';
 </script>
 
 <svelte:head>

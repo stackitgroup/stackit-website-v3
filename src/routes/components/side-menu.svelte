@@ -42,7 +42,7 @@
 					Custom Software
 				</a>
 			</li>
-			<li>
+			<!-- <li>
 				<a
 					class="text-black hover:underline decoration-blue-500 decoration-2
 			{$page.url.pathname === '/about' && 'underline font-semibold'}"
@@ -50,16 +50,16 @@
 				>
 					About
 				</a>
-			</li>
-			<li>
+			</li> -->
+			<!-- <li>
 				<a
 					class="text-black hover:underline decoration-blue-500 decoration-2
 			{$page.url.pathname === '/contact-us' && 'underline font-semibold'}"
-					href="/contact-us"
+					href="/#contact-us"
 				>
 					Contact Us
 				</a>
-			</li>
+			</li> -->
 		</ul>
 	</div>
 </div>
