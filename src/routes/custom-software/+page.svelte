@@ -10,7 +10,7 @@
 
 <section class="bg-[#283c4d] w-full">
 	<div
-		class="h-auto w-full max-w-[1200px] mx-auto pt-[25%] sm:pt-[15%] lg:pt-[10%] px-[15%] pb-[7%] text-white flex flex-col gap-6 items-center justify-center text-center"
+		class="h-auto w-full max-w-7xl mx-auto pt-[25%] sm:pt-[15%] lg:pt-[10%] px-[15%] pb-[7%] text-white flex flex-col gap-6 items-center justify-center text-center"
 	>
 		<p class="text-3xl lg:text-5xl">Custom-built software. Empowering your Success.</p>
 
@@ -26,12 +26,12 @@
 	</div>
 </section>
 <!-- Software Development -->
-<section class="bg-white w-full">
-	<div class="flex flex-col justify-between p-[5%] md:p-[3%] gap-2 w-full max-w-[1200px] mx-auto">
+<section class="w-full bg-white">
+	<div class="flex flex-col justify-between p-[5%] md:p-[3%] gap-2 w-full max-w-7xl mx-auto">
 		<div
-			class="flex flex-col justify-between items-center md:flex-row sm:items-start gap-5 md:gap-0"
+			class="flex flex-col items-center justify-between gap-5 md:flex-row sm:items-start md:gap-0"
 		>
-			<div class="flex flex-col gap-2 w-full md:w-3/5">
+			<div class="flex flex-col w-full gap-2 md:w-3/5">
 				<div class="flex items-center gap-3 mb-5">
 					<img class="w-12 h-12 object-fit" src="/images/stackit_item.png" alt="" />
 					<h2 class="text-4xl font-bold">Software Development</h2>
@@ -54,15 +54,15 @@
 			<div
 				class="h-full w-[80%] sm:w-2/5 max-h-[260px] max-w-[260px] md:max-h-[380px] md:max-w-[380px] mx-auto"
 			>
-				<img alt="who_we_are" class="h-full w-full" src="/images/custom_software_development.png" />
+				<img alt="who_we_are" class="w-full h-full" src="/images/custom_software_development.png" />
 			</div>
 		</div>
 	</div>
 </section>
 <!-- Maintenance & Support -->
-<section class="bg-white flex flex-col w-full">
+<section class="flex flex-col w-full bg-white">
 	<div
-		class="flex flex-col-reverse md:flex-row justify-between p-[5%] md:p-[3%] gap-5 w-full max-w-[1200px] mx-auto"
+		class="flex flex-col-reverse md:flex-row justify-between p-[5%] md:p-[3%] gap-5 w-full max-w-7xl mx-auto"
 	>
 		<div
 			class="w-full sm:w-2/5 max-h-[260px] max-w-[260px] md:max-h-[380px] md:max-w-[380px] mx-auto"
@@ -70,8 +70,8 @@
 			<img src="/images/maintenance.png" alt="" />
 		</div>
 
-		<div class="flex flex-col gap-2 w-full md:w-3/5 sm:pl-5">
-			<div class="flex items-center gap-3 w-full mb-5">
+		<div class="flex flex-col w-full gap-2 md:w-3/5 sm:pl-5">
+			<div class="flex items-center w-full gap-3 mb-5">
 				<img class="w-12 h-12 object-fit" src="/images/stackit_item.png" alt="" />
 				<h2 class="text-4xl font-bold">Maintenance & Support</h2>
 			</div>
@@ -93,12 +93,12 @@
 	</div>
 </section>
 <!-- Consulting -->
-<section class="bg-white w-full">
-	<div class="flex flex-col justify-between p-[5%] md:p-[3%] gap-2 w-full max-w-[1200px] mx-auto">
+<section class="w-full bg-white">
+	<div class="flex flex-col justify-between p-[5%] md:p-[3%] gap-2 w-full max-w-7xl mx-auto">
 		<div
-			class="flex flex-col justify-between items-center md:flex-row sm:items-start gap-5 md:gap-0"
+			class="flex flex-col items-center justify-between gap-5 md:flex-row sm:items-start md:gap-0"
 		>
-			<div class="flex flex-col gap-2 w-full md:w-3/5">
+			<div class="flex flex-col w-full gap-2 md:w-3/5">
 				<div class="flex items-center gap-3 mb-5">
 					<img class="w-12 h-12 object-fit" src="/images/stackit_item.png" alt="" />
 					<h2 class="text-4xl font-bold">Consulting</h2>
@@ -115,20 +115,20 @@
 			<div
 				class="h-full w-[80%] sm:w-2/5 max-h-[260px] max-w-[260px] md:max-h-[380px] md:max-w-[380px] mx-auto"
 			>
-				<img alt="who_we_are" class="h-full w-full" src="/images/custom_consulting.png" />
+				<img alt="who_we_are" class="w-full h-full" src="/images/custom_consulting.png" />
 			</div>
 		</div>
 	</div>
 </section>
 <!-- Why we excel. Why us -->
-<section class="bg-[#f2f2f2] flex w-full">
-	<div class="flex flex-col gap-10 max-w-[1200px] mx-auto p-[5%] pb-[8%] md:p-[3%]md:pb-[7%]">
+<section id="why-we-excel" class="bg-[#f2f2f2] flex w-full">
+	<div class="flex flex-col gap-10 max-w-7xl mx-auto p-[5%] pb-[8%] md:p-[3%]md:pb-[7%]">
 		<div class="flex items-center gap-3">
 			<img class="w-12 h-12 object-fit" src="/images/stackit_item.png" alt="" />
 			<h2 class="text-4xl font-bold">Why we excel. Why us.</h2>
 		</div>
 		<div class="text-2xl">
-			<ol class="flex flex-col md:flex-row justify-center items-center md:items-start gap-10">
+			<ol class="flex flex-col items-center justify-center gap-10 md:flex-row md:items-start">
 				<li class="relative flex flex-col w-full md:w-1/3 gap-5 sm:mb-0 px-[1%] justify-start">
 					<div class="flex items-center justify-center">
 						<div
@@ -188,8 +188,8 @@
 	</div>
 </section>
 <!-- How to work together -->
-<section class="bg-white w-full h-auto">
-	<div class="flex flex-col w-full max-w-[1200px] mx-auto gap-10 p-[5%] md:p-[3%]">
+<section id="how-to-work-together" class="w-full h-auto bg-white">
+	<div class="flex flex-col w-full max-w-7xl mx-auto gap-10 p-[5%] md:p-[3%]">
 		<div class="flex items-center gap-3">
 			<img class="w-12 h-12 object-fit" src="/images/stackit_item.png" alt="" />
 			<h2 class="text-4xl font-bold">How to Work Together</h2>
@@ -261,9 +261,9 @@
 </section>
 <!-- The result?  -->
 <section class="bg-[#f2f2f2] h-auto">
-	<div class="flex flex-col md:flex-row w-full max-w-[1200px] p-[5%] mx-auto gap-10 items-center">
+	<div class="flex flex-col md:flex-row w-full max-w-7xl p-[5%] mx-auto gap-10 items-center">
 		<div class="flex items-center gap-3">
-			<p class="text-2xl md:text-4xl text-center md:text-start font-bold">
+			<p class="text-2xl font-bold text-center md:text-4xl md:text-start">
 				The result? A solid custom software solution for your business.
 			</p>
 		</div>
