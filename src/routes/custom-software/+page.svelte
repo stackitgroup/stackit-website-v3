@@ -33,7 +33,7 @@
 		>
 			<div class="flex flex-col w-full gap-2 md:w-3/5">
 				<div class="flex items-center gap-3 mb-5">
-					<img class="w-12 h-12 object-fit" src="/images/stackit_item.png" alt="" />
+					<img class="w-12 h-12 object-fit" src="/images/stackit_isotipo.png" alt="" />
 					<h2 class="text-4xl font-bold">Software Development</h2>
 				</div>
 				<div class="text-md sm:text-xl">
@@ -72,7 +72,7 @@
 
 		<div class="flex flex-col w-full gap-2 md:w-3/5 sm:pl-5">
 			<div class="flex items-center w-full gap-3 mb-5">
-				<img class="w-12 h-12 object-fit" src="/images/stackit_item.png" alt="" />
+				<img class="w-12 h-12 object-fit" src="/images/stackit_logo.png" alt="" />
 				<h2 class="text-4xl font-bold">Maintenance & Support</h2>
 			</div>
 			<div class="pr-10 text-md sm:text-xl">
@@ -100,7 +100,7 @@
 		>
 			<div class="flex flex-col w-full gap-2 md:w-3/5">
 				<div class="flex items-center gap-3 mb-5">
-					<img class="w-12 h-12 object-fit" src="/images/stackit_item.png" alt="" />
+					<img class="w-12 h-12 object-fit" src="/images/stackit_logo.png" alt="" />
 					<h2 class="text-4xl font-bold">Consulting</h2>
 				</div>
 				<div class="text-md sm:text-xl">
@@ -124,7 +124,7 @@
 <section id="why-we-excel" class="bg-[#f2f2f2] flex w-full">
 	<div class="flex flex-col gap-10 max-w-7xl mx-auto p-[5%] pb-[8%] md:p-[3%]md:pb-[7%]">
 		<div class="flex items-center gap-3">
-			<img class="w-12 h-12 object-fit" src="/images/stackit_item.png" alt="" />
+			<img class="w-12 h-12 object-fit" src="/images/stackit_logo.png" alt="" />
 			<h2 class="text-4xl font-bold">Why we excel. Why us.</h2>
 		</div>
 		<div class="text-2xl">
@@ -191,7 +191,7 @@
 <section id="how-to-work-together" class="w-full h-auto bg-white">
 	<div class="flex flex-col w-full max-w-7xl mx-auto gap-10 p-[5%] md:p-[3%]">
 		<div class="flex items-center gap-3">
-			<img class="w-12 h-12 object-fit" src="/images/stackit_item.png" alt="" />
+			<img class="w-12 h-12 object-fit" src="/images/stackit_logo.png" alt="" />
 			<h2 class="text-4xl font-bold">How to Work Together</h2>
 		</div>
 

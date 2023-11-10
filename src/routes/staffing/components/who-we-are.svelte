@@ -1,6 +1,6 @@
 <!-- Who we are -->
-<section id="who-we-are" class="grid grid-cols-2 w-full max-w-7xl mx-auto">
-	<div class="col-span-2 px-5 py-5 text-md md:col-span-1">
+<section id="who-we-are" class="grid w-full grid-cols-2 mx-auto max-w-7xl">
+	<article class="col-span-2 px-5 py-5 text-md md:col-span-1">
 		<h2 class="text-3xl md:col-span-1">Who we are</h2>
 		<br />
 		<p>
@@ -14,7 +14,7 @@
 			Our motto is “<span class="font-semibold text-[var(--blue)]">Success. Coded.</span>” because
 			our part in your success is to deliver the perfect technical figure you need
 		</p>
-	</div>
+	</article>
 
 	<picture class="relative col-span-2 md:col-span-1">
 		<div class="absolute w-full h-full overlay" />

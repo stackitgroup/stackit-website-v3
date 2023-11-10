@@ -3,10 +3,10 @@
 	import { Icon } from 'svelte-awesome';
 </script>
 
-<footer class="grid grid-cols-4 md:grid-cols-5 max-w-7xl lg:py-[1%] mx-auto gap-2 py-5 md:mt-5">
+<footer class="grid grid-cols-4 gap-2 py-5 mx-auto md:grid-cols-5 max-w-7xl md:px-5 md:mt-5">
 	<div class="col-span-4 md:col-span-1">
 		<figure class="flex items-center w-full gap-2">
-			<img class="w-12 h-12 object-fit" src="/images/stackit_item.png" alt="" />
+			<img class="w-12 h-12 object-fit" src="/images/stackit_isotipo.png" alt="" />
 			<figcaption class="text-3xl font-bold text-[#293c4d]">Stack IT</figcaption>
 		</figure>
 		<div class="flex-col hidden w-1/2 text-xl md:flex">
