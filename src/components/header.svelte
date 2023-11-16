@@ -4,12 +4,11 @@
 </script>
 
 <header
-	class="sticky top-0 z-50 w-full bg-white flex justify-between items-center lg:max-h-[70px] max-w-7xl mx-auto py-[3%] lg:py-[1%] px-[5%]"
+	class="sticky top-0 z-50 w-full bg-white flex justify-between items-center lg:max-h-[70px] max-w-7xl mx-auto py-[2%] px-5 xl:px-0"
 >
-	<figure class="flex items-center w-1/2 gap-2" title="Stackit Logo">
-		<img class="w-12 h-12 object-fit" src="/images/stackit_isotipo.png" alt="Stakit Isotipo" />
-		<figcaption class="text-3xl font-bold text-[#293c4d]">Stack IT</figcaption>
-	</figure>
+	<picture class="flex items-center w-1/2 gap-2" title="Stackit Logo">
+		<img class="h-12 w-44 object-fit" src="/images/stackit_logo_dark.png" alt="Stakit Isotipo" />
+	</picture>
 
 	<SideMenu />
 	<Navbar />

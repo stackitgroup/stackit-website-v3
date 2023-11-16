@@ -3,7 +3,7 @@
 	class="grid w-full grid-cols-3 mx-auto max-w-7xl"
 	title="How to work together Section"
 >
-	<h2 class="col-span-3 px-5 pb-5 text-3xl font-light">How to Work Together</h2>
+	<h2 class="col-span-3 px-5 pb-5 text-3xl font-light xl:px-0">How to Work Together</h2>
 
 	<!-- Discovery Card -->
 	<picture class="relative self-center h-full col-span-3 md:col-span-1" title="Discovery Stage">

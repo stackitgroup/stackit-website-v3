@@ -5,7 +5,7 @@
 
 <footer
 	title="Layout Footer"
-	class="grid grid-cols-4 gap-2 px-5 py-5 mx-auto md:grid-cols-5 max-w-7xl md:mt-5"
+	class="grid grid-cols-4 gap-2 px-5 py-5 mx-auto xl:px-0 md:grid-cols-5 max-w-7xl md:mt-5"
 >
 	<div class="col-span-4 md:col-span-1">
 		<figure class="flex items-center w-full gap-2">

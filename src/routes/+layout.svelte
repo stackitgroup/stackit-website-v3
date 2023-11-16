@@ -39,6 +39,6 @@
 				behavior: 'smooth'
 			})}
 	>
-		<Icon class="text-white" data={arrowUp} scale={2} />
+		<img src="/icons/arrow.svg" alt="arrow to scroll up" />
 	</a>
 </div>

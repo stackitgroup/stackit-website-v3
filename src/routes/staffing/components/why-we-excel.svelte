@@ -3,14 +3,14 @@
 	title="Why we excel. Why Us"
 	class="grid w-full grid-cols-3 py-5 mx-auto md:py-10 max-w-7xl"
 >
-	<h2 class="col-span-3 px-5 mb-10 text-3xl font-light">
+	<h2 class="col-span-3 px-5 mb-10 text-3xl font-light xl:px-0">
 		Why we excel.
 
 		<span class="font-normal">Why us.</span>
 	</h2>
 
 	<article
-		class="flex items-center col-span-3 py-2 md:ml-7 md:px-5 md:items-start md:flex-col md:col-span-1"
+		class="flex items-center col-span-3 py-2 md:ml-7 xl:ml-0 md:px-5 md:items-start md:flex-col md:col-span-1"
 		title="Expertise Principle"
 	>
 		<span
@@ -18,7 +18,7 @@
 		>
 			1
 		</span>
-		<div class="flex flex-col w-2/3 gap-4 py-5 md:w-full">
+		<div class="flex flex-col w-2/3 gap-4 px-2 py-5 md:w-full">
 			<h3 class="text-2xl md:text-5xl md:font-light">Expertise</h3>
 			<p class="font-light md:text-lg">
 				At Stack IT, our foundation is built on <span class="font-medium text-[var(--blue)]">
@@ -42,7 +42,7 @@
 		>
 			2
 		</span>
-		<div class="flex flex-col w-2/3 gap-4 py-5 md:w-full">
+		<div class="flex flex-col w-2/3 gap-4 px-2 py-5 md:w-full">
 			<h3 class="text-2xl md:text-5xl md:font-light">Quality</h3>
 			<p class="font-light md:text-lg">
 				Quality is our hallmark. Our <span class="font-medium"> veteran tech and HR team </span>
@@ -55,7 +55,7 @@
 	</article>
 
 	<article
-		class="flex items-center col-span-3 py-2 bg-gray-200 md:mr-7 md:col-span-1 md:items-start md:flex-col md:px-5"
+		class="flex items-center col-span-3 py-2 bg-gray-200 md:mr-7 xl:mr-0 md:col-span-1 md:items-start md:flex-col md:px-5"
 		title="Consistency Principle"
 	>
 		<span
@@ -63,7 +63,7 @@
 		>
 			3
 		</span>
-		<div class="flex flex-col w-2/3 gap-4 py-5 md:w-full">
+		<div class="flex flex-col w-2/3 gap-4 px-2 py-5 md:w-full">
 			<h3 class="text-2xl md:text-5xl text-[var(--blue)] md:font-light consistency-gradient">
 				Consistency
 			</h3>

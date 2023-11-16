@@ -2,7 +2,7 @@
 <section
 	id="our-clients"
 	title="Some of our Clients Section"
-	class="grid w-full grid-cols-6 gap-2 px-5 py-10 mx-auto max-w-7xl"
+	class="grid w-full grid-cols-6 gap-2 px-5 py-10 mx-auto xl:px-0 max-w-7xl"
 >
 	<h2 class="col-span-6 text-3xl font-light md:pb-5">Some of our Clients</h2>
 

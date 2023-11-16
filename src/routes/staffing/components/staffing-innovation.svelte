@@ -1,9 +1,12 @@
 <section
 	id="staffing-innovation"
-	title="Staffing Innovation Ssection"
+	title="Staffing Innovation Section"
 	class="grid w-full grid-cols-2 mx-auto max-w-7xl"
 >
-	<article class="col-span-2 px-10 py-5 text-md md:col-span-1" title="Staffing Innovation Article">
+	<article
+		class="col-span-2 px-5 py-5 xl:pr-0 xl:pl-5 text-md md:col-span-1"
+		title="Staffing Innovation Article"
+	>
 		<header>
 			<h2 class="text-3xl md:col-span-1">Staffing Innovation</h2>
 		</header>

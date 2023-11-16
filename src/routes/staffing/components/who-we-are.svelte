@@ -4,7 +4,10 @@
 	title="Who we are Section"
 	class="grid w-full grid-cols-2 mx-auto max-w-7xl"
 >
-	<article class="col-span-2 px-10 text-md md:col-span-1" title="Who we are Article">
+	<article
+		class="col-span-2 px-5 py-5 pr-10 xl:pl-0 text-md md:col-span-1"
+		title="Who we are Article"
+	>
 		<header>
 			<h2 class="text-3xl md:col-span-1">Who we are</h2>
 		</header>
