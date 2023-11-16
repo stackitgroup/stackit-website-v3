@@ -22,11 +22,9 @@
 <div id="top" />
 <Header />
 
-<main>
-	<Transition url={$page.url}>
-		<slot />
-	</Transition>
-</main>
+<Transition url={$page.url}>
+	<slot />
+</Transition>
 <Footer />
 
 <div

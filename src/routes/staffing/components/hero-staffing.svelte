@@ -3,11 +3,11 @@
 	import arrowRight from 'svelte-awesome/icons/arrowRight';
 </script>
 
-<section id="hero" class="w-full mx-auto border-b-2 border-blue-400 max-w-7xl">
+<section id="hero" title="Hero Section" class="w-full mx-auto border-b-2 border-blue-400 max-w-7xl">
 	<picture class="relative h-72 md:h-96">
 		<div class="absolute w-full h-72 md:h-96 overlay" />
 		<div
-			class="absolute grid justify-start w-full pl-5 text-2xl font-light text-white md:pl-20 h-72 md:h-96 place-content-center"
+			class="absolute grid justify-start w-full pl-5 text-2xl font-light text-white md:text-4xl md:pl-20 h-72 md:h-96 place-content-center"
 		>
 			<h1>Staffing Innovation with</h1>
 			<h2 class="font-normal text-blue-500">Latin American</h2>

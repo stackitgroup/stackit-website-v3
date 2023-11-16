@@ -1,20 +1,42 @@
-<section id="staffing-innovation" class="grid grid-cols-2 w-full max-w-7xl mx-auto">
-	<div class="col-span-2 px-5 py-5 text-md md:col-span-1">
-		<h2 class="text-3xl md:col-span-1">Staffing Innovation</h2>
+<section
+	id="staffing-innovation"
+	title="Staffing Innovation Ssection"
+	class="grid w-full grid-cols-2 mx-auto max-w-7xl"
+>
+	<article class="col-span-2 px-10 py-5 text-md md:col-span-1" title="Staffing Innovation Article">
+		<header>
+			<h2 class="text-3xl md:col-span-1">Staffing Innovation</h2>
+		</header>
 		<br />
 		<p>
-			Our full-stack staffing solution is designed to deliver
-			<span class="text-[var(--blue)] font-semibold">top-tier</span>
-			software developers and help push your business to new heights.
+			At Stack IT, we've redefined <span class="text-[var(--blue)] font-semibold">
+				staffing innovation.
+			</span>
+			Our comprehensive
+			<span class="text-[var(--blue)] font-semibold">full-stack staffing solution</span>
+			connects you with top-tier
+			<span class="text-[var(--blue)] font-semibold">software developers</span> from Latin America, propelling
+			your business to new heights.
+		</p>
+
+		<br />
+		<p>
+			Through a meticulous selection process, <span class="text-[var(--blue)] font-semibold">
+				tech talent acquisition
+			</span>
+			becomes a breeze. We customize training to fit your unique needs and evaluate candidates keenly.
+			With our expertise, we handpick the
+			<span class="text-[var(--blue)] font-semibold">perfect talent</span> that aligns with your specific
+			requirements, industry standards, and technological demands.
 		</p>
 		<br />
 		<p>
-			With a meticulous selection process, tailored training, and keen evaluation, we handpick the
-			perfect
-			<span class="text-[var(--blue)] font-semibold"> talent to match your requirements</span>
-			, industry, and technological demands.
+			<span class="text-[var(--blue)] font-semibold">Innovative staffing solutions</span>
+			await you at Stack IT. Contact us to explore how our
+			<span class="text-[var(--blue)] font-semibold">cost-effective tech staffing</span> services can
+			benefit your business.
 		</p>
-	</div>
+	</article>
 
 	<picture class="relative col-span-2 md:[grid-column:1/2] md:[grid-row:1/2]">
 		<div class="absolute w-full h-full overlay" />
@@ -36,11 +58,15 @@
 			</span>
 		</div>
 		<source
-			class="object-cover w-full h-80"
+			class="object-cover w-full"
 			media="(min-width: 768px)"
 			srcset="/images/staffing_innovation.png"
 		/>
-		<img class="object-cover w-full h-80" alt="who_we_are" src="/images/staffing_innovation.png" />
+		<img
+			class="object-cover w-full h-full"
+			alt="who_we_are"
+			src="/images/staffing_innovation.png"
+		/>
 	</picture>
 </section>
 

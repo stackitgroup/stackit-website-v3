@@ -10,19 +10,13 @@
 
 <svelte:head>
 	<title>Stackit</title>
-	<meta name="description" content="Svelte demo app" />
+	<meta name="og:description" content="Stackit Website" />
 </svelte:head>
 
 <HeroStaffing />
-<!-- Who we are -->
 <WhoWeAre />
-<!-- Staffing Innovation -->
 <StaffingInnovation />
-<!-- Why we excel. Why us -->
 <WhyWeExcel />
-<!-- How to work together -->
 <HowToWorkTogether />
-<!-- Some of our Clients -->
 <SomeOfOurClients />
-<!-- The result?  -->
 <TheResult />

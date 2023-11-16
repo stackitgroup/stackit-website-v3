@@ -1,66 +1,85 @@
-<section id="why-we-excel" class="grid w-full grid-cols-3 py-5 mx-auto md:py-10 max-w-7xl">
-	<h2 class="col-span-3 px-5 text-3xl font-light">
+<section
+	id="why-we-excel"
+	title="Why we excel. Why Us"
+	class="grid w-full grid-cols-3 py-5 mx-auto md:py-10 max-w-7xl"
+>
+	<h2 class="col-span-3 px-5 mb-10 text-3xl font-light">
 		Why we excel.
 
 		<span class="font-normal">Why us.</span>
 	</h2>
 
-	<div
+	<article
 		class="flex items-center col-span-3 py-2 md:ml-7 md:px-5 md:items-start md:flex-col md:col-span-1"
+		title="Expertise Principle"
 	>
 		<span
 			class="md:text-[6rem] md:justify-start flex items-center justify-center w-1/3 h-48 md:h-24 font-light text-[12rem]"
 		>
 			1
 		</span>
-		<div class="flex flex-col w-2/3 gap-4 md:w-full">
+		<div class="flex flex-col w-2/3 gap-4 py-5 md:w-full">
 			<h3 class="text-2xl md:text-5xl md:font-light">Expertise</h3>
 			<p class="font-light md:text-lg">
-				We leverage our
-				<span class="font-medium text-[var(--blue)]">deep knowledge</span>
-				of the LATAM tech industry <span class="font-medium text-[var(--blue)]">to connect</span> you
-				with the region's top talent.
+				At Stack IT, our foundation is built on <span class="font-medium text-[var(--blue)]">
+					expertise.
+				</span>
+				We harness our in-depth knowledge of the
+				<span class="font-medium text-[var(--blue)]">LATAM tech industry</span>
+				to seamlessly connect you with the region's
+				<span class="font-medium text-[var(--blue)]">top tech talent.</span> We understand the nuances,
+				the trends, and the unique strengths of the Latin American tech landscape.
 			</p>
 		</div>
-	</div>
+	</article>
 
-	<div
+	<article
 		class="flex items-center col-span-3 py-2 text-white md:col-span-1 overlay md:px-5 md:items-start md:flex-col"
+		title="Quality Principle"
 	>
 		<span
 			class="md:text-[6rem] md:justify-start flex items-center justify-center w-1/3 h-48 md:h-24 font-light text-[12rem]"
 		>
 			2
 		</span>
-		<div class="flex flex-col w-2/3 gap-4 md:w-full">
+		<div class="flex flex-col w-2/3 gap-4 py-5 md:w-full">
 			<h3 class="text-2xl md:text-5xl md:font-light">Quality</h3>
 			<p class="font-light md:text-lg">
-				Our <span class="font-medium text-gray-900">veteran tech</span> and HR team upholds rigorous
-				vetting procedures, ensuring each candidate we place is a
-				<span class="font-medium text-gray-900">perfect technical</span> and cultural fit.
+				Quality is our hallmark. Our <span class="font-medium"> veteran tech and HR team </span>
+				is dedicated to upholding stringent vetting procedures, guaranteeing that every candidate we
+				place is not only a <span class="font-medium"> perfect technical fit </span>
+				but also an impeccable <span class="font-medium">cultural fit</span> for your organization. We
+				take pride in delivering top-notch talent tailored to your needs.
 			</p>
 		</div>
-	</div>
+	</article>
 
-	<div
+	<article
 		class="flex items-center col-span-3 py-2 bg-gray-200 md:mr-7 md:col-span-1 md:items-start md:flex-col md:px-5"
+		title="Consistency Principle"
 	>
 		<span
 			class="md:text-[6rem] md:justify-start flex items-center justify-center w-1/3 md:h-24 h-48 font-light text-[12rem] text-[var(--blue)]"
 		>
 			3
 		</span>
-		<div class="flex flex-col w-2/3 gap-4 md:w-full">
+		<div class="flex flex-col w-2/3 gap-4 py-5 md:w-full">
 			<h3 class="text-2xl md:text-5xl text-[var(--blue)] md:font-light consistency-gradient">
 				Consistency
 			</h3>
 			<p class="font-light md:text-lg">
-				We <span class="font-medium text-[var(--blue)]">continually coach</span> our professionals
-				while maintaining close collaboration with your organization.
-				<span class="font-medium text-[var(--blue)]">Sustaining the highest quality</span> is our priority.
+				At Stack IT, we are committed to maintaining <span class="font-medium text-[var(--blue)]">
+					consistency.
+				</span>
+				We provide ongoing coaching and professional development for our candidates while fostering
+				<span class="font-medium text-[var(--blue)]">
+					close collaboration with your organization.
+				</span>
+				Our priority is to sustain the
+				<span class="font-medium text-[var(--blue)]">highest quality</span> in every aspect of our service.
 			</p>
 		</div>
-	</div>
+	</article>
 </section>
 
 <style>

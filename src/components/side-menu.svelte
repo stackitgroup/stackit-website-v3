@@ -5,7 +5,7 @@
 	import { page } from '$app/stores';
 </script>
 
-<div class="w-1/2 drawer drawer-end md:hidden">
+<aside class="w-1/2 drawer drawer-end md:hidden" title="Aside Menu">
 	<div class="drawer-content">
 		<!-- Page content here -->
 		<label for="my-drawer-4">
@@ -62,4 +62,4 @@
 			</li> -->
 		</ul>
 	</div>
-</div>
+</aside>

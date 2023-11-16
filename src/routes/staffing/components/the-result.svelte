@@ -3,16 +3,16 @@
 	import arrowRight from 'svelte-awesome/icons/arrowRight';
 </script>
 
-<section class="mx-auto max-w-7xl">
+<section class="mx-auto max-w-7xl" title="The result Section">
 	<picture class="relative">
 		<div class="absolute w-full h-full overlay" />
 		<div
 			class="absolute grid justify-start w-full h-full gap-5 px-5 font-light md:w-4/5 md:px-28 place-content-center"
 		>
-			<span class="text-3xl font-medium text-blue-500 md:text-5xl">The result</span>
-			<span class="text-xl text-gray-200 md:text-2xl">
+			<h2 class="text-3xl font-medium text-blue-500 md:text-5xl">The result</h2>
+			<h3 class="text-xl text-gray-200 md:text-2xl">
 				Top-tier professionals with the skillset to build you nothing but the best software.
-			</span>
+			</h3>
 
 			<a
 				class="flex items-center justify-center gap-2 rounded-full text-gray-200 border-[1.5px] border-[#016fce] h-11 w-40 hover:bg-[#016fce] transition-colors duration-200"
