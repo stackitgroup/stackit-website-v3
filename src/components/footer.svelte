@@ -1,11 +1,29 @@
-<script>
+<script lang="ts">
 	import linkedin from 'svelte-awesome/icons/linkedin';
 	import { Icon } from 'svelte-awesome';
+	import { page } from '$app/stores';
+	import { onMount } from 'svelte';
+
+	const pathname = $page.url.pathname;
+
+	onMount(() => {
+		document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+			anchor.addEventListener('click', function (e) {
+				e.preventDefault();
+
+				// eslint-disable-next-line @typescript-eslint/no-explicit-any
+				document.querySelector(anchor?.getAttribute('href') as any).scrollIntoView({
+					behavior: 'smooth',
+					block: 'center'
+				});
+			});
+		});
+	});
 </script>
 
 <footer
 	title="Layout Footer"
-	class="grid grid-cols-4 gap-2 px-5 py-5 mx-auto xl:px-0 md:grid-cols-5 max-w-7xl md:mt-5"
+	class="grid grid-cols-4 gap-2 px-5 py-5 mx-auto 2xl:px-0 md:grid-cols-5 max-w-7xl md:mt-5"
 >
 	<div class="col-span-4 md:col-span-1">
 		<figure class="flex items-center w-full gap-2">
@@ -45,22 +63,44 @@
 		</ul>
 	</div>
 	<!-- Revisit -->
-	<div class="col-span-2 md:col-span-1">
-		<span class="text-xl font-semibold">Revisit</span>
-		<ul class="flex flex-col gap-1 pl-1 text-sm">
-			<li><a href="#who-we-are">Who we are</a></li>
-			<li>
-				<a href="#staffing-innovation" class="text-clip">Staffing Innovation </a>
-			</li>
-			<li>
-				<a href="#why-we-excel">Why we excel</a>
-			</li>
-			<li>
-				<a href="#how-to-work-together">How to work together</a>
-			</li>
-			<li><a href="#our-clients">Our clients</a></li>
-		</ul>
-	</div>
+
+	{#if pathname === '/staffing'}
+		<div class="col-span-2 md:col-span-1">
+			<span class="text-xl font-semibold">Revisit</span>
+			<ul class="flex flex-col gap-1 pl-1 text-sm">
+				<li><a href="#who-we-are">Who we are</a></li>
+				<li>
+					<a href="#staffing-innovation" class="text-clip">Staffing Innovation </a>
+				</li>
+				<li>
+					<a href="#why-we-excel">Why we excel</a>
+				</li>
+				<li>
+					<a href="#how-to-work-together">How to work together</a>
+				</li>
+				<li><a href="#our-clients">Our clients</a></li>
+			</ul>
+		</div>
+	{/if}
+
+	{#if pathname === '/custom-software'}
+		<div class="col-span-2 md:col-span-1">
+			<span class="text-xl font-semibold">Revisit</span>
+			<ul class="flex flex-col gap-1 pl-1 text-sm">
+				<li><a href="#software-development">Software Development</a></li>
+				<li>
+					<a href="#maintenance-support" class="text-clip">Maintenance & Support</a>
+				</li>
+				<li>
+					<a href="#why-choose-us">Why choose us</a>
+				</li>
+				<li>
+					<a href="#how-we-collaborate">How We Collaborate</a>
+				</li>
+				<li><a href="#our-clients">Our clients</a></li>
+			</ul>
+		</div>
+	{/if}
 	<!-- Product Sites -->
 	<div class="col-span-2 md:col-span-1">
 		<span class="text-xl font-semibold">Product Sites</span>

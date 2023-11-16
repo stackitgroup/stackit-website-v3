@@ -4,7 +4,7 @@
 	class="grid w-full grid-cols-2 mx-auto max-w-7xl"
 >
 	<article
-		class="col-span-2 px-5 py-5 xl:pr-0 xl:pl-5 text-md md:col-span-1"
+		class="col-span-2 px-5 py-5 2xl:pr-0 2xl:pl-5 text-md md:col-span-1"
 		title="Staffing Innovation Article"
 	>
 		<header>

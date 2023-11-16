@@ -1,11 +1,11 @@
 <section
-	id="how-to-work-together"
+	id="how-we-collaborate"
 	class="grid w-full grid-cols-3 mx-auto max-w-7xl"
-	title="How to work together Section"
+	title="How we collaborate Section"
 >
-	<h2 class="col-span-3 px-5 pb-5 text-3xl font-light 2xl:px-0">How to Work Together</h2>
+	<h2 class="col-span-3 px-5 pb-5 text-3xl font-light 2xl:px-0">How We Collaborate</h2>
 
-	<!-- Discovery Card -->
+	<!-- Listen Card -->
 	<picture class="relative self-center h-full col-span-3 md:col-span-1" title="Discovery Stage">
 		<div class="absolute w-full h-full overlay" />
 		<div
@@ -34,12 +34,12 @@
 						/>
 					</svg>
 				</span>
-				Discovery
+				Listen
 			</h3>
 			<p>
-				The journey begins with discovery. We connect with you to gain a deep understanding of your
-				unique project requirements and the specific skills you need. This phase is crucial for
-				laying a strong foundation for a successful partnership.
+				Our collaboration starts with listening. We pay careful attention to your business goals,
+				using this understanding to gauge project complexity and size accurately. This listening
+				phase is fundamental to establishing a strong foundation for our partnership.
 			</p>
 		</div>
 		<source
@@ -54,7 +54,7 @@
 		/>
 	</picture>
 
-	<!-- Selection Card -->
+	<!-- Plan Card -->
 	<picture title="Selection Stage" class="relative self-center h-full col-span-3 md:col-span-1">
 		<div class="absolute w-full h-full overlay" />
 		<div
@@ -83,12 +83,13 @@
 						/>
 					</svg>
 				</span>
-				Selection
+				Plan
 			</h3>
 			<p>
-				Next, we embark on the selection process. With expertise and precision, we handpick the
-				perfect candidates from our pool of skilled Latin American Developers tailored precisely to
-				your requirements. Our thorough vetting ensures that you receive top-tier talent.
+				Next, we plan. Armed with your vision and our expertise, we craft a comprehensive plan of
+				action. This includes projected timelines for feature and functionality delivery, fostering
+				an environment of agile teams, and functional results. This planning stage ensures
+				transparency and efficiency.
 			</p>
 		</div>
 		<source
@@ -103,7 +104,7 @@
 		/>
 	</picture>
 
-	<!-- Integration -->
+	<!-- Succeed -->
 	<picture title="Integration Stage" class="relative self-center h-full col-span-3 md:col-span-1">
 		<div class="absolute w-full h-full overlay" />
 		<div
@@ -144,12 +145,12 @@
 						/>
 					</svg>
 				</span>
-				Integration
+				Succeed
 			</h3>
 			<p>
-				Seamless integration is the final step. We orchestrate the smooth transition of the selected
-				developers into your team. This collaborative approach drives successful outcomes and
-				consistently brings added value to your projects.
+				Our ultimate goal is your success. We don't just deliver code; we deliver success, neatly
+				packaged and ready to integrate seamlessly into your business. Let's talk! Discover how
+				Stack IT can drive your digital transformation and help you reach new heights.
 			</p>
 		</div>
 		<source

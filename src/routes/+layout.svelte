@@ -1,12 +1,10 @@
 <script>
-	import './styles.css';
 	import { page } from '$app/stores';
-	import Transition from '../components/transition.svelte';
-	import arrowUp from 'svelte-awesome/icons/arrowUp';
-	import { Icon } from 'svelte-awesome';
 	import { onMount } from 'svelte';
-	import Header from '../components/header.svelte';
 	import Footer from '../components/footer.svelte';
+	import Header from '../components/header.svelte';
+	import Transition from '../components/transition.svelte';
+	import './styles.css';
 
 	onMount(() => {
 		const $top = document.getElementById('top');

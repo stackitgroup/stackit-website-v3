@@ -1,13 +1,9 @@
 <section
-	id="why-we-excel"
-	title="Why we excel. Why Us"
+	id="why-choose-us"
+	title="Why choose us Section"
 	class="grid w-full grid-cols-3 py-5 mx-auto md:py-10 max-w-7xl"
 >
-	<h2 class="col-span-3 px-5 mb-10 text-3xl font-light 2xl:px-0 md:text-5xl">
-		Why we excel.
-
-		<span class="font-normal">Why us.</span>
-	</h2>
+	<h2 class="col-span-3 px-5 mb-10 text-3xl font-light 2xl:px-0 md:text-5xl">Why Choose Us</h2>
 
 	<article
 		class="flex items-center col-span-3 py-2 md:ml-7 2xl:ml-0 md:px-5 md:items-start md:flex-col md:col-span-1"
@@ -19,13 +15,14 @@
 			1
 		</span>
 		<div class="flex flex-col w-2/3 gap-4 px-2 py-5 md:w-full">
-			<h3 class="text-2xl md:text-5xl md:font-light">Expertise</h3>
+			<h3 class="text-2xl md:text-5xl md:font-light">Partnership</h3>
 			<p class="font-light md:text-lg">
-				Our foundation is built on <span class="font-medium text-[var(--blue)]"> expertise. </span>
-				We harness our knowledge of the
-				<span class="font-medium text-[var(--blue)]">LATAM tech industry</span>
-				to seamlessly connect you with the region's
-				<span class="font-medium text-[var(--blue)]">top tech talent.</span>
+				We believe in building <span class="font-medium text-[var(--blue)]">partnerships</span>for
+				success. Our primary aim is to maximize the
+				<span class="font-medium text-[var(--blue)]">value we bring to our clients.</span> We take
+				pride in creating, managing, and delivering products that are not only
+				<span class="font-medium text-[var(--blue)]">high-quality</span> but also truly
+				<span class="font-medium text-[var(--blue)]">impactful.</span>
 			</p>
 		</div>
 	</article>
@@ -42,10 +39,14 @@
 		<div class="flex flex-col w-2/3 gap-4 px-2 py-5 md:w-full">
 			<h3 class="text-2xl md:text-5xl md:font-light">Quality</h3>
 			<p class="font-light md:text-lg">
-				Our <span class="font-medium"> veteran tech and HR team </span>
-				is dedicated to upholding vetting procedures, guaranteeing that every candidate we place is not
-				only a <span class="font-medium"> perfect technical fit </span>
-				but also an impeccable <span class="font-medium">cultural fit</span> for your organization.
+				We uphold a commitment to <span class="font-medium">
+					individual excellence, team synergy,
+				</span>
+				and structured processes. We invest in
+				<span class="font-medium">meticulous hiring practices,</span> proactive team coaching, and
+				cultivate an environment that values
+				<span class="font-medium">creativity, teamwork, </span>and
+				<span class="font-medium">accountability.</span>
 			</p>
 		</div>
 	</article>
@@ -61,15 +62,13 @@
 		</span>
 		<div class="flex flex-col w-2/3 gap-4 px-2 py-5 md:w-full">
 			<h3 class="text-2xl md:text-5xl text-[var(--blue)] md:font-light consistency-gradient">
-				Consistency
+				Expertise
 			</h3>
 			<p class="font-light md:text-lg">
-				We provide ongoing coaching and professional development for our candidates while fostering
-				<span class="font-medium text-[var(--blue)]">
-					close collaboration with your organization.
-				</span>
-				Our priority is to sustain the
-				<span class="font-medium text-[var(--blue)]">highest quality</span> in every aspect of our service.
+				Inevitably, project roadblocks occur. Regardless of the issue, it takes an
+				<span class="font-medium text-[var(--blue)]"> expert team </span>to keep things on track.
+				With <span class="font-medium text-[var(--blue)]">years of industry</span> wisdom and unwavering
+				determination, we are the team to call when the going gets tough.
 			</p>
 		</div>
 	</article>
