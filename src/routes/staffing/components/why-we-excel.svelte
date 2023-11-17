@@ -1,7 +1,7 @@
 <section
 	id="why-we-excel"
 	title="Why we excel. Why Us"
-	class="grid w-full grid-cols-3 py-5 mx-auto md:py-10 max-w-7xl"
+	class="grid w-full grid-cols-3 pt-16 mx-auto max-w-7xl"
 >
 	<h2 class="col-span-3 px-5 mb-10 text-3xl font-light 2xl:px-0 md:text-5xl">
 		Why we excel.

@@ -8,7 +8,7 @@
 		title="Staffing Innovation Article"
 	>
 		<header>
-			<h2 class="text-3xl md:col-span-1">Staffing Innovation</h2>
+			<h2 class="text-3xl md:col-span-1 md:text-4xl">Staffing Innovation</h2>
 		</header>
 		<br />
 		<p>

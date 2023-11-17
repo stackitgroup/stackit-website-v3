@@ -5,7 +5,7 @@
 >
 	<article class="col-span-2 px-5 py-5 2xl:pl-0 text-md md:col-span-1" title="Who we are Article">
 		<header>
-			<h2 class="text-3xl md:col-span-1">Who we are</h2>
+			<h2 class="text-3xl md:col-span-1 md:text-4xl">Who we are</h2>
 		</header>
 		<br />
 		<p>
