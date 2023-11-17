@@ -35,10 +35,10 @@
 		</p>
 	</article>
 
-	<picture class="relative col-span-2 md:[grid-column:1/2] md:[grid-row:1/2]">
-		<div class="absolute w-full h-full overlay" />
+	<picture class="grid col-span-2 md:[grid-column:1/2] md:[grid-row:1/2]">
+		<div class="[grid-row:1/2] z-10 [grid-column:1/2] overlay" />
 		<div
-			class="absolute grid w-full h-full gap-1 text-2xl font-light text-white place-content-center"
+			class="[grid-row:1/2] z-20 [grid-column:1/2] grid gap-1 text-2xl font-light text-white place-content-center"
 		>
 			<span>
 				<span class="font-semibold text-[var(--blue)]">20+ </span>
@@ -55,12 +55,12 @@
 			</span>
 		</div>
 		<source
-			class="object-cover w-full"
+			class="[grid-row:1/2] [grid-column:1/2] object-cover w-full h-full"
 			media="(min-width: 768px)"
 			srcset="/images/staffing_innovation.png"
 		/>
 		<img
-			class="object-cover w-full h-full"
+			class="[grid-row:1/2] [grid-column:1/2] object-cover w-full h-full"
 			alt="who_we_are"
 			src="/images/staffing_innovation.png"
 		/>

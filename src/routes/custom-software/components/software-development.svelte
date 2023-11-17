@@ -31,23 +31,23 @@
 		</p>
 	</article>
 
-	<picture class="relative col-span-2 md:col-span-1" title="Image to describe Software Development">
-		<div class="absolute w-full h-full overlay" />
+	<picture class="grid col-span-2 md:col-span-1" title="Image to describe Software Development">
+		<div class="[grid-row:1/2] z-10 [grid-column:1/2] overlay" />
 		<div
-			class="absolute grid w-full h-full gap-1 text-3xl font-light text-white md:text-4xl place-content-center"
+			class="[grid-row:1/2] z-20 [grid-column:1/2] grid w-full h-full gap-1 text-3xl font-light text-white md:text-4xl place-content-center"
 		>
 			<span>Success. </span>
 			<span class="text-[var(--blue)]">Coded.</span>
 		</div>
 		<source
-			class="object-cover w-full"
+			class="[grid-row:1/2] [grid-column:1/2] object-cover w-full h-full"
 			media="(min-width: 768px)"
-			srcset="/images/success_coded.jpeg"
+			srcset="/images/software_development.jpg"
 		/>
 		<img
-			class="object-cover w-full h-full"
+			class="[grid-row:1/2] [grid-column:1/2] object-cover w-full h-full"
 			alt="Software Development"
-			src="/images/success_coded.jpeg"
+			src="/images/software_development.jpg"
 		/>
 	</picture>
 </section>

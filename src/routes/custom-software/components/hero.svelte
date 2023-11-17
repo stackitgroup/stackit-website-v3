@@ -2,11 +2,15 @@
 	import LetsTalkButton from '../../../components/lets-talk-button.svelte';
 </script>
 
-<section id="hero" title="Hero Section" class="w-full mx-auto border-b-2 border-blue-400 max-w-7xl">
-	<picture class="relative h-72 md:h-96">
-		<div class="absolute w-full h-72 md:h-96 overlay" />
+<section
+	id="hero"
+	title="Hero Section"
+	class="w-full h-full mx-auto border-b-2 border-blue-400 max-w-7xl"
+>
+	<picture class="grid">
+		<div class="[grid-row:1/2] z-10 [grid-column:1/2] overlay" />
 		<div
-			class="absolute grid justify-start w-full px-5 text-2xl font-light text-white md:text-4xl md:pl-20 h-72 md:h-96 place-content-center"
+			class="[grid-row:1/2] z-20 [grid-column:1/2] grid justify-start px-5 text-2xl font-light text-white duration-500 md:text-4xl md:pl-20 py-10 md:py-0 place-content-center"
 		>
 			<h1>Custom-built software with</h1>
 			<h2>
@@ -15,11 +19,17 @@
 			<br />
 			<LetsTalkButton />
 		</div>
-		<source class="w-full h-72 md:h-96" media="(min-width: 768px)" srcset="/images/hero_2.jpeg" />
+		<source
+			class="[grid-row:1/2] [grid-column:1/2] object-cover w-full h-full"
+			media="(min-width: 768px)"
+			srcset="/images/hero_2.jpeg"
+			style="aspect-ratio: 75/34;"
+		/>
 		<img
-			class="object-cover w-full h-72 md:h-96"
+			class="[grid-row:1/2] [grid-column:1/2] object-cover w-full h-full"
 			alt="Staffing Innovation Hero"
 			src="/images/hero.jpeg"
+			style="aspect-ratio: 75/34;"
 		/>
 	</picture>
 </section>

@@ -3,12 +3,12 @@
 </script>
 
 <section class="mx-auto max-w-7xl" title="The result Section">
-	<picture class="relative">
-		<div class="absolute w-full h-full overlay" />
+	<picture class="grid">
+		<div class="[grid-row:1/2] z-10 [grid-column:1/2] overlay" />
 		<div
-			class="absolute grid justify-start w-full h-full gap-5 px-5 font-light md:w-4/5 md:pl-20 place-content-center"
+			class="[grid-row:1/2] z-20 [grid-column:1/2] grid justify-start gap-5 px-5 font-light md:w-4/5 md:py-5 md:pl-20 place-content-center"
 		>
-			<h2 class="text-3xl font-medium text-blue-500 md:text-5xl">The result?</h2>
+			<h2 class="text-3xl font-medium text-blue-500 md:text-5xl">The result</h2>
 			<h3 class="text-xl text-gray-200 md:text-2xl">
 				A solid custom software solution for your business.
 
@@ -19,12 +19,11 @@
 
 			<LetsTalkButton />
 		</div>
-		<source
-			class="object-cover w-full h-80"
-			media="(min-width: 768px)"
-			srcset="/images/the_result.jpeg"
+		<img
+			class="[grid-row:1/2] [grid-column:1/2] object-cover w-full h-80"
+			alt="who_we_are"
+			src="/images/the_result.jpeg"
 		/>
-		<img class="object-cover w-full h-80" alt="who_we_are" src="/images/the_result.jpeg" />
 	</picture>
 </section>
 

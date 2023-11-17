@@ -5,11 +5,11 @@
 >
 	<h2 class="col-span-3 px-5 pb-5 text-3xl font-light 2xl:px-0">How to Work Together</h2>
 
-	<!-- Discovery Card -->
-	<picture class="relative self-center h-full col-span-3 md:col-span-1" title="Discovery Stage">
-		<div class="absolute w-full h-full overlay" />
+	<!-- Discovery Stage -->
+	<picture title="Discovery Stage" class="grid col-span-3 md:col-span-1">
+		<div class="z-10 [grid-row:1/2] [grid-column:1/2] overlay" />
 		<div
-			class="absolute flex flex-col justify-center w-full h-full gap-4 px-10 pt-10 font-normal text-gray-200 md:justify-start"
+			class="[grid-row:1/2] [grid-column:1/2] z-20 grid place-content-center gap-4 px-10 md:py-10 font-normal text-gray-200"
 		>
 			<h3 class="text-3xl text-[var(--blue)] relative">
 				<span
@@ -42,23 +42,18 @@
 				laying a strong foundation for a successful partnership.
 			</p>
 		</div>
-		<source
-			class="object-cover w-full h-full"
-			media="(min-width: 768px)"
-			srcset="/images/how-to-work-together-discovery.png"
-		/>
 		<img
-			class="object-cover w-full h-full"
+			class="object-cover w-full h-full [grid-row:1/2] [grid-column:1/2]"
 			alt="who_we_are"
 			src="/images/how-to-work-together-discovery.png"
 		/>
 	</picture>
 
 	<!-- Selection Card -->
-	<picture title="Selection Stage" class="relative self-center h-full col-span-3 md:col-span-1">
-		<div class="absolute w-full h-full overlay" />
+	<picture title="Selection Stage" class="grid col-span-3 md:col-span-1">
+		<div class="z-10 [grid-row:1/2] [grid-column:1/2] overlay" />
 		<div
-			class="absolute flex flex-col justify-center w-full h-full gap-4 px-10 pt-10 font-normal text-gray-200 md:justify-start"
+			class="[grid-row:1/2] [grid-column:1/2] z-20 grid place-content-center gap-4 px-10 md:py-10 font-normal text-gray-200"
 		>
 			<h3 class="text-3xl text-[var(--blue)] relative">
 				<span
@@ -91,23 +86,18 @@
 				your requirements. Our thorough vetting ensures that you receive top-tier talent.
 			</p>
 		</div>
-		<source
-			class="object-cover w-full h-full"
-			media="(min-width: 768px)"
-			srcset="/images/how-to-work-together-selection.png"
-		/>
 		<img
-			class="object-cover w-full h-full"
+			class="object-cover w-full h-full [grid-row:1/2] [grid-column:1/2]"
 			alt="who_we_are"
 			src="/images/how-to-work-together-selection.png"
 		/>
 	</picture>
 
 	<!-- Integration -->
-	<picture title="Integration Stage" class="relative self-center h-full col-span-3 md:col-span-1">
-		<div class="absolute w-full h-full overlay" />
+	<picture title="Integration Stage" class="grid col-span-3 md:col-span-1">
+		<div class="z-10 [grid-row:1/2] [grid-column:1/2] overlay" />
 		<div
-			class="absolute flex flex-col justify-center w-full h-full gap-4 px-10 pt-10 font-normal text-gray-200 md:justify-start"
+			class="[grid-row:1/2] [grid-column:1/2] z-20 grid place-content-center gap-4 px-10 md:py-10 font-normal text-gray-200"
 		>
 			<h3 class="text-3xl text-[var(--blue)] relative">
 				<span class="absolute text-2xl font-semibold text-gray-400 -left-5 top-3 md:hidden">
@@ -152,13 +142,8 @@
 				consistently brings added value to your projects.
 			</p>
 		</div>
-		<source
-			class="object-cover w-full h-full"
-			media="(min-width: 768px)"
-			srcset="/images/how-to-work-together-integration.jpeg"
-		/>
 		<img
-			class="object-cover w-full h-full"
+			class="object-cover w-full h-full [grid-row:1/2] [grid-column:1/2]"
 			alt="who_we_are"
 			src="/images/how-to-work-together-integration.jpeg"
 		/>

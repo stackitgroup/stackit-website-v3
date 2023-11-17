@@ -25,3 +25,23 @@ body {
 	color: var(--black);
 	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
+
+section {
+	opacity: 0;
+	animation: reveal linear both;
+	animation-timeline: view();
+	animation-range: 0% 30%;
+}
+
+@keyframes reveal {
+	0% {
+		opacity: 0;
+		transform: translateY(50px);
+		scale: 0.9;
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+		scale: 1;
+	}
+}
