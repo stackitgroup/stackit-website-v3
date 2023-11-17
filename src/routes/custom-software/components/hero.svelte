@@ -19,12 +19,6 @@
 			<br />
 			<LetsTalkButton />
 		</div>
-		<source
-			class="[grid-row:1/2] [grid-column:1/2] object-cover w-full h-full"
-			media="(min-width: 768px)"
-			srcset="/images/hero_2.jpeg"
-			style="aspect-ratio: 75/34;"
-		/>
 		<img
 			class="[grid-row:1/2] [grid-column:1/2] object-cover w-full h-full"
 			alt="Staffing Innovation Hero"
