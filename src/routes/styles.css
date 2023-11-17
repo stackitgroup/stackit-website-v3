@@ -31,6 +31,7 @@ section {
 	animation: reveal linear both;
 	animation-timeline: view();
 	animation-range: 0% 30%;
+	scroll-behavior: smooth;
 }
 
 @keyframes reveal {

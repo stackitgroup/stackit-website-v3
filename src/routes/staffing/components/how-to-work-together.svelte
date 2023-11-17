@@ -158,4 +158,33 @@
 			rgba(1, 111, 206, 0.2) 101.73%
 		);
 	}
+
+	picture:nth-of-type(1) {
+		animation: slideInFromLeft linear both;
+		animation-timeline: view();
+		animation-range: 0% 15%;
+	}
+	picture:nth-of-type(2) {
+		animation: slideInFromLeft linear both;
+		animation-timeline: view();
+		animation-range: 0% 25%;
+	}
+	picture:nth-of-type(3) {
+		animation: slideInFromLeft linear both;
+		animation-timeline: view();
+		animation-range: 0% 35%;
+	}
+
+	@keyframes slideInFromLeft {
+		0% {
+			transform: translateY(100%);
+			scale: 0.5;
+			opacity: 0;
+		}
+		100% {
+			transform: translateY(0);
+			scale: 1;
+			opacity: 1;
+		}
+	}
 </style>
