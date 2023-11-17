@@ -4,8 +4,6 @@
 	import { page } from '$app/stores';
 	import { onMount } from 'svelte';
 
-	const pathname = $page.url.pathname;
-
 	onMount(() => {
 		document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 			anchor.addEventListener('click', function (e) {
@@ -58,13 +56,15 @@
 						data={linkedin}
 						scale={2}
 					/>
+
+					{$page.url.pathname}
 				</a>
 			</li>
 		</ul>
 	</div>
 	<!-- Revisit -->
 
-	{#if pathname === '/staffing'}
+	{#if ['/', '/staffing'].includes($page.url.pathname)}
 		<div class="col-span-2 md:col-span-1">
 			<span class="text-xl font-semibold">Revisit</span>
 			<ul class="flex flex-col gap-1 pl-1 text-sm">
@@ -83,7 +83,7 @@
 		</div>
 	{/if}
 
-	{#if pathname === '/custom-software'}
+	{#if $page.url.pathname === '/custom-software'}
 		<div class="col-span-2 md:col-span-1">
 			<span class="text-xl font-semibold">Revisit</span>
 			<ul class="flex flex-col gap-1 pl-1 text-sm">
