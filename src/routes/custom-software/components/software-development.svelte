@@ -34,10 +34,10 @@
 	<picture class="grid col-span-2 md:col-span-1" title="Image to describe Software Development">
 		<div class="[grid-row:1/2] z-10 [grid-column:1/2] overlay" />
 		<div
-			class="[grid-row:1/2] z-20 [grid-column:1/2] grid w-full h-full gap-1 text-3xl font-light text-white md:text-4xl place-content-center"
+			class="[grid-row:1/2] z-20 [grid-column:1/2] px-5 grid w-full h-full gap-1 text-3xl font-light text-white md:text-4xl place-content-center"
 		>
 			<span>Bespoke software designed</span>
-			<span class="text-[var(--blue)]">Amplify your Path to Success</span>
+			<span class="text-[#259AFF] font-normal">Amplify your Path to Success</span>
 		</div>
 		<source
 			class="[grid-row:1/2] [grid-column:1/2] object-cover w-full h-full"
