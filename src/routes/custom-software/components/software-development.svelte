@@ -36,8 +36,8 @@
 		<div
 			class="[grid-row:1/2] z-20 [grid-column:1/2] grid w-full h-full gap-1 text-3xl font-light text-white md:text-4xl place-content-center"
 		>
-			<span>Success. </span>
-			<span class="text-[var(--blue)]">Coded.</span>
+			<span>Bespoke software designed</span>
+			<span class="text-[var(--blue)]">Amplify your Path to Success</span>
 		</div>
 		<source
 			class="[grid-row:1/2] [grid-column:1/2] object-cover w-full h-full"
