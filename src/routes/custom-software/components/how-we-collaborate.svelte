@@ -1,15 +1,15 @@
 <section
 	id="how-we-collaborate"
-	class="grid w-full grid-cols-3 mx-auto max-w-7xl"
+	class="grid w-full grid-cols-3 pt-16 mx-auto max-w-7xl"
 	title="How we collaborate Section"
 >
-	<h2 class="col-span-3 px-5 pb-5 text-3xl font-light 2xl:px-0">How We Collaborate</h2>
+	<h2 class="col-span-3 px-5 mb-10 text-3xl font-light 2xl:px-0 md:text-5xl">How We Collaborate</h2>
 
 	<!-- Listen Card -->
 	<picture title="Discovery Stage" class="grid col-span-3 md:col-span-1">
 		<div class="z-10 [grid-row:1/2] [grid-column:1/2] overlay" />
-		<div
-			class="[grid-row:1/2] [grid-column:1/2] z-20 grid place-content-center gap-4 px-10 md:py-10 font-normal text-gray-200"
+		<article
+			class="[grid-row:1/2] py-10 [grid-column:1/2] z-20 grid place-content-center gap-4 px-10 md:place-content-start font-normal text-gray-200"
 		>
 			<h3 class="text-3xl text-[var(--blue)] relative">
 				<span
@@ -41,7 +41,7 @@
 				using this understanding to gauge project complexity and size accurately. This listening
 				phase is fundamental to establishing a strong foundation for our partnership.
 			</p>
-		</div>
+		</article>
 		<source
 			class="object-cover w-full h-full [grid-row:1/2] [grid-column:1/2]"
 			media="(min-width: 768px)"
@@ -57,8 +57,8 @@
 	<!-- Plan Card -->
 	<picture title="Selection Stage" class="grid col-span-3 md:col-span-1">
 		<div class="z-10 [grid-row:1/2] [grid-column:1/2] overlay" />
-		<div
-			class="[grid-row:1/2] [grid-column:1/2] z-20 grid place-content-center gap-4 px-10 md:py-10 font-normal text-gray-200"
+		<article
+			class="[grid-row:1/2] py-10 [grid-column:1/2] z-20 grid place-content-center gap-4 px-10 md:place-content-start font-normal text-gray-200"
 		>
 			<h3 class="text-3xl text-[var(--blue)] relative">
 				<span
@@ -91,7 +91,7 @@
 				an environment of agile teams, and functional results. This planning stage ensures
 				transparency and efficiency.
 			</p>
-		</div>
+		</article>
 		<source
 			class="object-cover w-full h-full [grid-row:1/2] [grid-column:1/2]"
 			media="(min-width: 768px)"
@@ -107,8 +107,8 @@
 	<!-- Succeed -->
 	<picture title="Integration Stage" class="grid col-span-3 md:col-span-1">
 		<div class="z-10 [grid-row:1/2] [grid-column:1/2] overlay" />
-		<div
-			class="[grid-row:1/2] [grid-column:1/2] z-20 grid place-content-center gap-4 px-10 md:py-10 font-normal text-gray-200"
+		<article
+			class="[grid-row:1/2] py-10 [grid-column:1/2] z-20 grid place-content-center gap-4 px-10 md:place-content-start font-normal text-gray-200"
 		>
 			<h3 class="text-3xl text-[var(--blue)] relative">
 				<span class="absolute text-2xl font-semibold text-gray-400 -left-5 top-3 md:hidden">
@@ -152,7 +152,7 @@
 				packaged and ready to integrate seamlessly into your business. Let's talk! Discover how
 				Stack IT can drive your digital transformation and help you reach new heights.
 			</p>
-		</div>
+		</article>
 		<source
 			class="object-cover w-full h-full [grid-row:1/2] [grid-column:1/2]"
 			media="(min-width: 768px)"

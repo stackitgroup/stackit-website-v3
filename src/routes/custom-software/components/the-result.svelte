@@ -2,7 +2,7 @@
 	import LetsTalkButton from '../../../components/lets-talk-button.svelte';
 </script>
 
-<section class="mx-auto max-w-7xl" title="The result Section">
+<section class="pt-16 mx-auto max-w-7xl" title="The result Section">
 	<picture class="grid">
 		<div class="[grid-row:1/2] z-10 [grid-column:1/2] overlay" />
 		<div

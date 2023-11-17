@@ -8,7 +8,7 @@
 		title="Software Development Article"
 	>
 		<header>
-			<h2 class="text-3xl md:col-span-1">Software Development</h2>
+			<h2 class="text-3xl md:col-span-1 md:text-4xl">Software Development</h2>
 		</header>
 		<br />
 		<p>

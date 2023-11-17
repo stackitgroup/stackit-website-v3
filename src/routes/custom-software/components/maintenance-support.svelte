@@ -8,7 +8,7 @@
 		title="Maintenance & Support Article"
 	>
 		<header>
-			<h2 class="text-3xl md:col-span-1">Maintenance & Support</h2>
+			<h2 class="text-3xl md:col-span-1 md:text-4xl">Maintenance & Support</h2>
 		</header>
 		<br />
 		<p>
