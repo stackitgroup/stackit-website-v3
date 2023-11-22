@@ -5,7 +5,7 @@ services:
     container_name: stackit-website-v3
     restart: always
     ports:
-      - '3000:3000'
+      - 3000:3000
     # environment:
     #   - MONGO_URI=${MONGO_URI}
     build:

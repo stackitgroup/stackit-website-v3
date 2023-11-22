@@ -7,8 +7,10 @@ WORKDIR /app
 COPY . /app
 
 # Then install the NPM module
-RUN npm install
+RUN corepack enable
+RUN pnpm install --force
+RUN pnpm run build
 
 EXPOSE 3000
 
-CMD ["npm", "run", "preview"]
+CMD ["pnpm", "run", "preview"]
