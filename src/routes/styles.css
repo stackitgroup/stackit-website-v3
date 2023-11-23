@@ -9,10 +9,12 @@
 	--font-mono: 'Fira Mono', monospace;
 	--brand-blue: #283c4d;
 	--blue: #016fce;
+	--light-blue: #259aff;
 	--light-gray: #f2f2f2;
 	--white: #fff;
 	--black: #181823;
 }
+
 * {
 	box-sizing: border-box;
 	padding: 0;
