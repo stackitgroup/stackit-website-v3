@@ -1,7 +1,7 @@
 <section
 	id="staffing-innovation"
 	title="Staffing Innovation Section"
-	class="grid w-full grid-cols-2 mx-auto max-w-7xl"
+	class="grid w-full grid-cols-2 mx-auto max-w-[1730px]"
 >
 	<article
 		class="col-span-2 px-5 py-5 2xl:pr-0 2xl:pl-5 text-md md:col-span-1"
