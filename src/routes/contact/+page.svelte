@@ -1,16 +1,7 @@
-<script lang="ts">
-	import { onMount } from 'svelte';
-
-	onMount(() => {
-		const script = document.createElement('script');
-		script.type = 'text/javascript';
-		script.async = true;
-		script.src = 'https://assets.calendly.com/assets/external/widget.js';
-		document.head.appendChild(script);
-	});
+<script>
+	import CalendlyWidget from './components/calendly-widget.svelte';
 </script>
 
-<div
-	class="calendly-inline-widget h-[600px] md:w-[500px] md:h-[600px]"
-	data-url="https://calendly.com/testingalphablock/30min?hide_event_type_details=1&hide_gdpr_banner=1&background_color=510621&text_color=ffffff&primary_color=ed3688"
-/>
+<section title="Contact us" class="grid gird-cols-1 md:gird-cols-2 gap-10">
+	<CalendlyWidget />
+</section>

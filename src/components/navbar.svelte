@@ -19,6 +19,22 @@
 			class:w-0={$page.url.pathname !== '/custom-software'}
 		/>
 	</a>
+	<a class="relative group" href="/about">
+		About
+		<hr
+			class="absolute h-1 duration-700 transform -translate-x-1/2 bg-blue-500 left-1/2 group-hover:w-full"
+			class:w-full={$page.url.pathname === '/about'}
+			class:w-0={$page.url.pathname !== '/about'}
+		/>
+	</a>
+	<a class="relative group" href="/contact">
+		Contact
+		<hr
+			class="absolute h-1 duration-700 transform -translate-x-1/2 bg-blue-500 left-1/2 group-hover:w-full"
+			class:w-full={$page.url.pathname === '/contact'}
+			class:w-0={$page.url.pathname !== '/contact'}
+		/>
+	</a>
 </nav>
 
 <style lang="postcss">
