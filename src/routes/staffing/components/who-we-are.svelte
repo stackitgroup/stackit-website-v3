@@ -1,7 +1,7 @@
 <section
 	id="who-we-are"
 	title="Who we are Section"
-	class="grid w-full grid-cols-2 mx-auto max-w-7xl"
+	class="grid w-full grid-cols-2 mx-auto max-w-[1730px]"
 >
 	<article class="col-span-2 px-5 py-5 2xl:pl-0 text-md md:col-span-1" title="Who we are Article">
 		<header>

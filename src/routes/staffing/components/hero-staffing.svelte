@@ -5,7 +5,7 @@
 <section
 	id="hero"
 	title="Hero Section"
-	class="w-full mx-auto border-b-2 border-blue-400 h-96 max-w-7xl"
+	class="w-full mx-auto border-b-2 border-blue-400 h-96 max-w-[1730px]"
 >
 	<picture class="grid h-96">
 		<div class="[grid-row:1/2] z-10 [grid-column:1/2] overlay" />

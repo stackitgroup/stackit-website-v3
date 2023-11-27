@@ -21,7 +21,7 @@
 
 <footer
 	title="Layout Footer"
-	class="grid grid-cols-4 gap-2 px-5 py-5 mx-auto 2xl:px-0 md:grid-cols-5 max-w-7xl md:mt-5"
+	class="grid grid-cols-4 gap-2 px-5 py-5 mx-auto 2xl:px-0 md:grid-cols-5 max-w-[1730px] md:mt-5"
 >
 	<section class="flex flex-col col-span-4 gap-2 md:col-span-1">
 		<figure class="flex items-center w-full gap-2">

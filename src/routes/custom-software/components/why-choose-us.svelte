@@ -1,7 +1,7 @@
 <section
 	id="why-choose-us"
 	title="Why choose us Section"
-	class="grid w-full grid-cols-3 pt-16 mx-auto max-w-7xl"
+	class="grid w-full grid-cols-3 pt-16 mx-auto max-w-[1730px]"
 >
 	<h2 class="col-span-3 px-5 mb-10 text-3xl font-light 2xl:px-0 md:text-5xl">Why Choose Us</h2>
 
