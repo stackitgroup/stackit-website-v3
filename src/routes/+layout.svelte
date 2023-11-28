@@ -20,9 +20,9 @@
 <div id="top" />
 <Header />
 
-<Transition url={$page.url}>
-	<slot />
-</Transition>
+<!-- <Transition url={$page.url}> -->
+<slot />
+<!-- </Transition> -->
 <Footer />
 
 <div
