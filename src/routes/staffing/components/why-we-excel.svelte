@@ -1,78 +1,79 @@
-<section
-	id="why-we-excel"
-	title="Why we excel. Why Us"
-	class="grid w-full grid-cols-3 pt-16 mx-auto max-w-[1730px]"
->
-	<h2 class="col-span-3 px-5 mb-10 text-3xl font-light 2xl:px-0 md:text-5xl">
-		Why we excel.
+<section id="why-we-excel" title="Why we excel. Why Us" class="w-full py-[3%] px-[5%]">
+	<div class="grid grid-cols-3 gap-5 xl:gap-10 w-full mx-auto max-w-[1730px]">
+		<h2 class="col-span-3 px-5 text-3xl font-light 2xl:px-0 md:text-5xl pb-[4%]">
+			Why we excel.
+			<span class="font-normal">Why us.</span>
+		</h2>
 
-		<span class="font-normal">Why us.</span>
-	</h2>
-
-	<article
-		class="flex items-center col-span-3 py-2 md:ml-7 2xl:ml-0 md:px-5 md:items-start md:flex-col md:col-span-1"
-		title="Expertise Principle"
-	>
-		<span
-			class="md:text-[6rem] md:justify-start flex items-center justify-center w-1/3 h-48 md:h-24 font-light text-[12rem]"
+		<article
+			class="flex items-center col-span-3 p-[1%] md:p-[5%] md:items-start md:flex-col md:col-span-1 rounded-xl border border-[--light-blue] md:h-[408px]"
+			title="Expertise Principle"
 		>
-			1
-		</span>
-		<div class="flex flex-col w-2/3 gap-4 px-2 py-5 md:w-full">
-			<h3 class="text-2xl md:text-5xl md:font-light">Expertise</h3>
-			<p class="font-light md:text-lg">
-				Our foundation is built on <span class="font-medium text-[var(--blue)]"> expertise. </span>
-				We harness our knowledge of the
-				<span class="font-medium text-[var(--blue)]">LATAM tech industry</span>
-				to seamlessly connect you with the region's
-				<span class="font-medium text-[var(--blue)]">top tech talent.</span>
-			</p>
-		</div>
-	</article>
+			<span
+				class="md:text-[6rem] md:justify-start flex items-center justify-center w-1/3 h-48 md:h-24 font-light text-[12rem]"
+			>
+				1
+			</span>
+			<div class="flex flex-col w-2/3 gap-4 px-2 py-5 md:w-full">
+				<h3 class="text-2xl md:text-5xl md:font-light">Expertise</h3>
+				<p class="font-light md:text-lg">
+					Our foundation is built on <span class="font-medium text-[var(--blue)]">
+						expertise.
+					</span>
+					We harness our knowledge of the
+					<span class="font-medium text-[var(--blue)]">LATAM tech industry</span>
+					to seamlessly connect you with the region's
+					<span class="font-medium text-[var(--blue)]">top tech talent.</span>
+				</p>
+			</div>
+		</article>
 
-	<article
-		class="flex items-center col-span-3 py-2 text-white md:col-span-1 overlay md:px-5 md:items-start md:flex-col"
-		title="Quality Principle"
-	>
-		<span
-			class="md:text-[6rem] md:justify-start flex items-center justify-center w-1/3 h-48 md:h-24 font-light text-[12rem]"
+		<article
+			class="flex p-[5%] items-center col-span-3 text-white md:col-span-1 overlay md:items-start md:flex-col rounded-xl md:h-[408px]"
+			title="Quality Principle"
 		>
-			2
-		</span>
-		<div class="flex flex-col w-2/3 gap-4 px-2 py-5 md:w-full">
-			<h3 class="text-2xl md:text-5xl md:font-light">Quality</h3>
-			<p class="font-light md:text-lg">
-				Our <span class="font-medium"> veteran tech and HR team </span>
-				is dedicated to upholding vetting procedures, guaranteeing that every candidate we place is not
-				only a <span class="font-medium"> perfect technical fit </span>
-				but also an impeccable <span class="font-medium">cultural fit</span> for your organization.
-			</p>
-		</div>
-	</article>
+			<span
+				class="md:text-[6rem] md:justify-start flex items-center justify-center w-1/3 h-48 md:h-24 font-light text-[12rem]"
+			>
+				2
+			</span>
+			<div class="flex flex-col w-2/3 gap-4 px-2 py-5 md:w-full">
+				<h3 class="text-2xl md:text-5xl md:font-light">Quality</h3>
+				<p class="font-light md:text-lg">
+					Our <span class="font-medium"> veteran tech and HR team </span>
+					is dedicated to upholding vetting procedures, guaranteeing that every candidate we place is
+					not only a <span class="font-medium"> perfect technical fit </span>
+					but also an impeccable <span class="font-medium">cultural fit</span> for your organization.
+				</p>
+			</div>
+		</article>
 
-	<article
-		class="flex items-center col-span-3 py-2 bg-gray-200 md:mr-7 2xl:mr-0 md:col-span-1 md:items-start md:flex-col md:px-5"
-		title="Consistency Principle"
-	>
-		<span
-			class="md:text-[6rem] md:justify-start flex items-center justify-center w-1/3 md:h-24 h-48 font-light text-[12rem] text-[var(--blue)]"
+		<article
+			class="flex p-[5%] items-center col-span-3 bg-gray-200 md:col-span-1 md:items-start md:flex-col rounded-xl md:h-[408px]"
+			title="Consistency Principle"
 		>
-			3
-		</span>
-		<div class="flex flex-col w-2/3 gap-4 px-2 py-5 md:w-full">
-			<h3 class="text-2xl md:text-5xl text-[var(--blue)] md:font-light consistency-gradient">
-				Consistency
-			</h3>
-			<p class="font-light md:text-lg">
-				We provide ongoing coaching and professional development for our candidates while fostering
-				<span class="font-medium text-[var(--blue)]">
-					close collaboration with your organization.
-				</span>
-				Our priority is to sustain the
-				<span class="font-medium text-[var(--blue)]">highest quality</span> in every aspect of our service.
-			</p>
-		</div>
-	</article>
+			<span
+				class="md:text-[6rem] md:justify-start flex items-center justify-center w-1/3 md:h-24 h-48 font-light text-[12rem] text-[var(--blue)]"
+			>
+				3
+			</span>
+			<div class="flex flex-col w-2/3 gap-4 px-2 py-5 md:w-full">
+				<h3 class="text-2xl md:text-5xl text-[var(--blue)] md:font-light consistency-gradient">
+					Consistency
+				</h3>
+				<p class="font-light md:text-lg">
+					We provide ongoing coaching and professional development for our candidates while
+					fostering
+					<span class="font-medium text-[var(--blue)]">
+						close collaboration with your organization.
+					</span>
+					Our priority is to sustain the
+					<span class="font-medium text-[var(--blue)]">highest quality</span> in every aspect of our
+					service.
+				</p>
+			</div>
+		</article>
+	</div>
 </section>
 
 <style>

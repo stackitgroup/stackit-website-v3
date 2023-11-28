@@ -1,76 +1,74 @@
 <section
 	id="staffing-innovation"
 	title="Staffing Innovation Section"
-	class="grid w-full grid-cols-2 mx-auto max-w-[1730px]"
+	class="w-full py-[2%] px-[5%]"
 >
-	<article
-		class="col-span-2 px-5 py-5 2xl:pr-0 2xl:pl-5 text-md md:col-span-1"
-		title="Staffing Innovation Article"
-	>
-		<header>
-			<h2 class="text-3xl md:col-span-1 md:text-4xl">Staffing Innovation</h2>
-		</header>
-		<br />
-		<p>
-			At Stack IT, we've redefined <span class="text-[var(--blue)] font-semibold">
-				staffing innovation.
-			</span>
-			Our comprehensive
-			<span class="text-[var(--blue)] font-semibold">full-stack staffing solution</span>
-			connects you with top-tier
-			<span class="text-[var(--blue)] font-semibold">software developers</span> from Latin America, propelling
-			your business to new heights.
-		</p>
-
-		<br />
-		<p>
-			Through a meticulous selection process, <span class="text-[var(--blue)] font-semibold">
-				tech talent acquisition
-			</span>
-			becomes a breeze. We customize training to fit your unique needs and evaluate candidates keenly.
-			With our expertise, we handpick the
-			<span class="text-[var(--blue)] font-semibold">perfect talent</span> that aligns with your specific
-			requirements, industry standards, and technological demands.
-		</p>
-		<br />
-		<p>
-			<span class="text-[var(--blue)] font-semibold">Innovative staffing solutions</span>
-			await you at Stack IT. Contact us to explore how our
-			<span class="text-[var(--blue)] font-semibold">cost-effective tech staffing</span> services can
-			benefit your business.
-		</p>
-	</article>
-
-	<picture class="grid col-span-2 md:[grid-column:1/2] md:[grid-row:1/2]">
-		<div class="[grid-row:1/2] z-10 [grid-column:1/2] overlay" />
-		<div
-			class="[grid-row:1/2] z-20 [grid-column:1/2] grid gap-1 text-2xl font-light text-white place-content-center"
+	<div class="grid grid-cols-2 gap-10 mx-auto w-full max-w-[1730px]">
+		<article
+			class="flex flex-col gap-5 col-span-2 text-md md:col-span-1"
+			title="Staffing Innovation Article"
 		>
-			<span>
-				<span class="font-semibold text-[var(--blue)]">20+ </span>
-				Countries
-			</span>
+			<header class="mb-5">
+				<h2 class="text-3xl md:col-span-1 md:text-5xl font-light">Staffing Innovation</h2>
+			</header>
+			<p>
+				At Stack IT, we've redefined <span class="text-[var(--blue)] font-semibold">
+					staffing innovation.
+				</span>
+				Our comprehensive
+				<span class="text-[var(--blue)] font-semibold">full-stack staffing solution</span>
+				connects you with top-tier
+				<span class="text-[var(--blue)] font-semibold">software developers</span> from Latin America,
+				propelling your business to new heights.
+			</p>
+			<p>
+				Through a meticulous selection process, <span class="text-[var(--blue)] font-semibold">
+					tech talent acquisition
+				</span>
+				becomes a breeze. We customize training to fit your unique needs and evaluate candidates keenly.
+				With our expertise, we handpick the
+				<span class="text-[var(--blue)] font-semibold">perfect talent</span> that aligns with your specific
+				requirements, industry standards, and technological demands.
+			</p>
+			<p>
+				<span class="text-[var(--blue)] font-semibold">Innovative staffing solutions</span>
+				await you at Stack IT. Contact us to explore how our
+				<span class="text-[var(--blue)] font-semibold">cost-effective tech staffing</span> services can
+				benefit your business.
+			</p>
+		</article>
 
-			<span>
-				<span class="font-semibold text-[var(--blue)]">7+ </span>
-				World Cups
-			</span>
-			<span>
-				<span class="font-semibold text-[var(--blue)]">1M+ </span>
-				Clients
-			</span>
-		</div>
-		<source
-			class="[grid-row:1/2] [grid-column:1/2] object-cover w-full h-full"
-			media="(min-width: 768px)"
-			srcset="/images/staffing_innovation.png"
-		/>
-		<img
-			class="[grid-row:1/2] [grid-column:1/2] object-cover w-full h-full"
-			alt="who_we_are"
-			src="/images/staffing_innovation.png"
-		/>
-	</picture>
+		<picture class="grid col-span-2 md:[grid-column:1/2] md:[grid-row:1/2]">
+			<div class="[grid-row:1/2] z-10 [grid-column:1/2] overlay rounded-xl" />
+			<div
+				class="[grid-row:1/2] z-20 [grid-column:1/2] grid gap-1 text-2xl font-light text-white place-content-center"
+			>
+				<span>
+					<span class="font-semibold text-[var(--blue)]">20+ </span>
+					Countries
+				</span>
+
+				<span>
+					<span class="font-semibold text-[var(--blue)]">7+ </span>
+					World Cups
+				</span>
+				<span>
+					<span class="font-semibold text-[var(--blue)]">1M+ </span>
+					Clients
+				</span>
+			</div>
+			<source
+				class="[grid-row:1/2] [grid-column:1/2] object-cover w-full h-full"
+				media="(min-width: 768px)"
+				srcset="/images/staffing_innovation.png"
+			/>
+			<img
+				class="[grid-row:1/2] [grid-column:1/2] object-cover w-full h-full rounded-xl"
+				alt="who_we_are"
+				src="/images/staffing_innovation.png"
+			/>
+		</picture>
+	</div>
 </section>
 
 <style>

@@ -2,15 +2,11 @@
 	import LetsTalkButton from '../../../components/lets-talk-button.svelte';
 </script>
 
-<section
-	id="hero"
-	title="Hero Section"
-	class="w-full mx-auto border-b-2 border-blue-400 h-96 max-w-[1730px]"
->
-	<picture class="grid h-96">
+<section id="hero" title="Hero Section" class="w-full mx-auto border-b-2 border-blue-400 h-auto">
+	<picture class="grid min-h-[300px] md:min-h-[400px] h-auto">
 		<div class="[grid-row:1/2] z-10 [grid-column:1/2] overlay" />
 		<div
-			class="[grid-row:1/2] z-20 [grid-column:1/2] grid justify-start px-5 text-2xl font-light text-white duration-500 md:text-5xl md:pl-20 py-10 md:py-0 place-content-center"
+			class="[grid-row:1/2] z-20 [grid-column:1/2] grid justify-start px-[5%] text-2xl font-light text-white duration-500 md:text-5xl place-content-center"
 		>
 			<h1>Staffing Innovation with</h1>
 			<h2 class="font-normal text-blue-500">Latin American</h2>
@@ -21,7 +17,7 @@
 			<LetsTalkButton />
 		</div>
 		<img
-			class="[grid-row:1/2] [grid-column:1/2] object-cover w-full h-96"
+			class="[grid-row:1/2] [grid-column:1/2] object-cover w-full h-full max-h-[600px]"
 			alt="Staffing Innovation Hero"
 			src="/images/hero.jpeg"
 			style="aspect-ratio: 75/34;"
