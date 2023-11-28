@@ -2,7 +2,8 @@ import { fail } from '@sveltejs/kit';
 import type { Actions } from './$types';
 import { ZodError, z } from 'zod';
 import { Resend } from 'resend';
-const resend = new Resend('CODE RESEND API KEY');
+const VITE_RESEND_API_KEY = import.meta.env.VITE_GOOGLE_RECAPTCHA_PUBLIC_KEY;
+const resend = new Resend(VITE_RESEND_API_KEY);
 
 const requestSchema = z.object({
 	email: z.string().email({ message: 'Invalid email address' }),

@@ -6,7 +6,7 @@
 	export let form: ActionData;
 </script>
 
-<section title="Contact us" class="grid gap-10 gird-cols-1 md:gird-cols-2">
-	<ContactForm {form} />
+<section title="Contact us" class="grid gap-10 gird-cols-1 md:grid-cols-2">
 	<CalendlyWidget />
+	<ContactForm {form} />
 </section>

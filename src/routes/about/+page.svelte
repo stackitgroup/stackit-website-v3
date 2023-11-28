@@ -3,5 +3,8 @@
 	import Timeline from './components/timeline.svelte';
 </script>
 
+<svelte:head>
+	<title>About Us | Stackit Group</title>
+</svelte:head>
 <AboutSection />
 <Timeline />
