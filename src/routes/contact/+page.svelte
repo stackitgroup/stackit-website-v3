@@ -8,5 +8,5 @@
 
 <section title="Contact us" class="grid gap-10 gird-cols-1 md:gird-cols-2">
 	<ContactForm {form} />
-	<!-- <CalendlyWidget /> -->
+	<CalendlyWidget />
 </section>
