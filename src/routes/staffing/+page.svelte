@@ -14,9 +14,9 @@
 </svelte:head>
 
 <HeroStaffing />
+<SomeOfOurClients />
 <WhoWeAre />
 <StaffingInnovation />
 <WhyWeExcel />
 <HowToWorkTogether />
-<SomeOfOurClients />
 <TheResult />

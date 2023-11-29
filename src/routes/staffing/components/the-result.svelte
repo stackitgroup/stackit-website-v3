@@ -16,7 +16,7 @@
 			<LetsTalkButton />
 		</div>
 		<img
-			class="[grid-row:1/2] [grid-column:1/2] object-cover w-full h-80"
+			class="[grid-row:1/2] [grid-column:1/2] object-cover w-full h-auto max-h-[600px]"
 			alt="who_we_are"
 			src="/images/the_result.jpeg"
 		/>
