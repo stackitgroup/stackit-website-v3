@@ -10,6 +10,6 @@ services:
       - 3000:3000
 
     volumes:
-      - /projects/stackit-website-v3:/usr/src/app
-      #- .:/app
-      #- /app/node_modules
+      #- /projects/stackit-website-v3:/usr/src/app
+      - .:/app
+      - /app/node_modules
