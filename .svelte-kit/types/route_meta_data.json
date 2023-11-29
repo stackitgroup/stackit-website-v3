@@ -1,0 +1,11 @@
+{
+	"/": [
+		"src/routes/+page.ts"
+	],
+	"/about": [],
+	"/contact": [
+		"src/routes/contact/+page.server.ts"
+	],
+	"/custom-software": [],
+	"/staffing": []
+}

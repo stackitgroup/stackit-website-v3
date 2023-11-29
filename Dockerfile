@@ -1,15 +1,13 @@
-# Image source
-FROM node:21-alpine
+FROM node:19-alpine
 
-# Docker working directory
-WORKDIR /app
+WORKDIR /usr/src/app
 
-COPY . /app
+COPY . .
 
-# Then install the NPM module
+RUN corepack enable
 RUN corepack enable
 RUN pnpm install
 
 EXPOSE 3000
 
-CMD ["pnpm", "run", "preview", "--host", "--port", "3000"]
+CMD ["pnpm", "run", "dev", "--host", "--port", "3000"]

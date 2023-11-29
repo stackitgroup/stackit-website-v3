@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { fail } from '@sveltejs/kit';
 import { Resend } from 'resend';
 import { ZodError, z } from 'zod';
@@ -17,8 +18,8 @@ type ContactForm = {
 	message?: string;
 };
 
-export const actions: Actions = {
-	default: async ({ request }) => {
+export const actions = {
+	default: async ({ request }: import('./$types').RequestEvent) => {
 		const data: ContactForm = Object.fromEntries(await request.formData());
 		try {
 			const result = requestSchema.parse(data);
@@ -42,3 +43,4 @@ export const actions: Actions = {
 		}
 	}
 };
+;null as any as Actions;

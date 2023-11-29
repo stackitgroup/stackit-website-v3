@@ -1,0 +1,142 @@
+{
+  "node_modules/.pnpm/@sveltejs+kit@1.27.6_svelte@4.2.7_vite@4.0.0/node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "src": "node_modules/.pnpm/@sveltejs+kit@1.27.6_svelte@4.2.7_vite@4.0.0/node_modules/@sveltejs/kit/src/runtime/server/index.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js",
+      "_index.js",
+      "_ssr.js"
+    ]
+  },
+  "src/routes/+layout.svelte": {
+    "file": "entries/pages/_layout.svelte.js",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.b447a5f0.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/fira-mono-cyrillic-ext-400-normal.3df7909e.woff2",
+      "_app/immutable/assets/fira-mono-cyrillic-ext-400-normal.3d9a53f4.woff",
+      "_app/immutable/assets/fira-mono-cyrillic-400-normal.c7d433fd.woff2",
+      "_app/immutable/assets/fira-mono-cyrillic-400-normal.905abef2.woff",
+      "_app/immutable/assets/fira-mono-greek-ext-400-normal.9e2fe623.woff2",
+      "_app/immutable/assets/fira-mono-greek-ext-400-normal.98f88801.woff",
+      "_app/immutable/assets/fira-mono-greek-400-normal.a8be01ce.woff2",
+      "_app/immutable/assets/fira-mono-greek-400-normal.7ccfa1d7.woff",
+      "_app/immutable/assets/fira-mono-latin-ext-400-normal.6bfabd30.woff2",
+      "_app/immutable/assets/fira-mono-latin-ext-400-normal.0369dfa5.woff",
+      "_app/immutable/assets/fira-mono-latin-400-normal.e43b3538.woff2",
+      "_app/immutable/assets/fira-mono-latin-400-normal.a19663e4.woff"
+    ]
+  },
+  "src/routes/+error.svelte": {
+    "file": "entries/pages/_error.svelte.js",
+    "src": "src/routes/+error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_why-we-excel.js",
+      "_some-of-our-clients.js"
+    ]
+  },
+  "src/routes/+page.ts": {
+    "file": "entries/pages/_page.ts.js",
+    "src": "src/routes/+page.ts",
+    "isEntry": true
+  },
+  "src/routes/about/+page.svelte": {
+    "file": "entries/pages/about/_page.svelte.js",
+    "src": "src/routes/about/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "src/routes/contact/+page.svelte": {
+    "file": "entries/pages/contact/_page.svelte.js",
+    "src": "src/routes/contact/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "src/routes/contact/+page.server.ts": {
+    "file": "entries/pages/contact/_page.server.ts.js",
+    "src": "src/routes/contact/+page.server.ts",
+    "isEntry": true,
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "src/routes/custom-software/+page.svelte": {
+    "file": "entries/pages/custom-software/_page.svelte.js",
+    "src": "src/routes/custom-software/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_some-of-our-clients.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.d8ac35eb.css"
+    ]
+  },
+  "src/routes/staffing/+page.svelte": {
+    "file": "entries/pages/staffing/_page.svelte.js",
+    "src": "src/routes/staffing/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_why-we-excel.js",
+      "_some-of-our-clients.js"
+    ]
+  },
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "src": ".svelte-kit/generated/server/internal.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js"
+    ]
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_index.js": {
+    "file": "chunks/index.js"
+  },
+  "_ssr.js": {
+    "file": "chunks/ssr.js"
+  },
+  "_why-we-excel.js": {
+    "file": "chunks/why-we-excel.js",
+    "imports": [
+      "_ssr.js",
+      "_some-of-our-clients.js"
+    ],
+    "css": [
+      "_app/immutable/assets/why-we-excel.68349d82.css"
+    ]
+  },
+  "_some-of-our-clients.js": {
+    "file": "chunks/some-of-our-clients.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  }
+}
