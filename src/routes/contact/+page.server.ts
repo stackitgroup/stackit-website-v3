@@ -1,7 +1,7 @@
 import { fail } from '@sveltejs/kit';
-import type { Actions } from './$types';
-import { ZodError, z } from 'zod';
 import { Resend } from 'resend';
+import { ZodError, z } from 'zod';
+import type { Actions } from './$types';
 const VITE_RESEND_API_KEY = import.meta.env.VITE_GOOGLE_RECAPTCHA_PUBLIC_KEY;
 const resend = new Resend(VITE_RESEND_API_KEY);
 
