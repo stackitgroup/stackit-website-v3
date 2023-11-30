@@ -35,6 +35,14 @@
 			class:w-0={$page.url.pathname !== '/contact'}
 		/>
 	</a>
+	<a class="relative group" href="/case-study">
+		Case Study
+		<hr
+			class="absolute h-1 duration-700 transform -translate-x-1/2 bg-blue-500 left-1/2 group-hover:w-full"
+			class:w-full={$page.url.pathname === '/case-study'}
+			class:w-0={$page.url.pathname !== '/case-study'}
+		/>
+	</a>
 </nav>
 
 <style lang="postcss">

@@ -6,5 +6,6 @@
 <svelte:head>
 	<title>About Us | Stackit Group</title>
 </svelte:head>
+
 <AboutSection />
 <Timeline />

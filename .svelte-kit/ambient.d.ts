@@ -42,7 +42,7 @@ declare module '$env/static/private' {
 	export const COREPACK_ROOT: string;
 	export const DISPLAY: string;
 	export const DriverData: string;
-	export const EFC_5988: string;
+	export const EFC_5504: string;
 	export const EXEPATH: string;
 	export const FPS_BROWSER_APP_PROFILE_STRING: string;
 	export const FPS_BROWSER_USER_PROFILE_STRING: string;
@@ -233,7 +233,7 @@ declare module '$env/dynamic/private' {
 		COREPACK_ROOT: string;
 		DISPLAY: string;
 		DriverData: string;
-		EFC_5988: string;
+		EFC_5504: string;
 		EXEPATH: string;
 		FPS_BROWSER_APP_PROFILE_STRING: string;
 		FPS_BROWSER_USER_PROFILE_STRING: string;

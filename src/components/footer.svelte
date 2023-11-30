@@ -1,8 +1,8 @@
 <script lang="ts">
-	import linkedin from 'svelte-awesome/icons/linkedin';
-	import { Icon } from 'svelte-awesome';
 	import { page } from '$app/stores';
 	import { onMount } from 'svelte';
+	import { Icon } from 'svelte-awesome';
+	import linkedin from 'svelte-awesome/icons/linkedin';
 
 	onMount(() => {
 		document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
@@ -63,25 +63,6 @@
 		</section>
 		<!-- Revisit -->
 
-		{#if ['/', '/staffing'].includes($page.url.pathname)}
-			<section class="flex flex-col col-span-2 gap-2 md:col-span-1">
-				<h3 class="text-xl font-semibold">Revisit</h3>
-				<ul class="flex flex-col gap-2 pl-1 text-sm">
-					<li><a href="#who-we-are">Who we are</a></li>
-					<li>
-						<a href="#staffing-innovation" class="text-clip">Staffing Innovation </a>
-					</li>
-					<li>
-						<a href="#why-we-excel">Why we excel</a>
-					</li>
-					<li>
-						<a href="#how-to-work-together">How to work together</a>
-					</li>
-					<li><a href="#our-clients">Our clients</a></li>
-				</ul>
-			</section>
-		{/if}
-
 		{#if $page.url.pathname === '/custom-software'}
 			<section class="flex flex-col col-span-2 gap-2 md:col-span-1">
 				<h3 class="text-xl font-semibold">Revisit</h3>
@@ -100,7 +81,25 @@
 					<li><a href="#our-clients">Our clients</a></li>
 				</ul>
 			</section>
+		{:else}
+			<section class="flex flex-col col-span-2 gap-2 md:col-span-1">
+				<h3 class="text-xl font-semibold">Revisit</h3>
+				<ul class="flex flex-col gap-2 pl-1 text-sm">
+					<li><a href="#who-we-are">Who we are</a></li>
+					<li>
+						<a href="#staffing-innovation" class="text-clip">Staffing Innovation </a>
+					</li>
+					<li>
+						<a href="#why-we-excel">Why we excel</a>
+					</li>
+					<li>
+						<a href="#how-to-work-together">How to work together</a>
+					</li>
+					<li><a href="#our-clients">Our clients</a></li>
+				</ul>
+			</section>
 		{/if}
+
 		<!-- Product Sites -->
 		<section class="flex flex-col col-span-2 gap-2 md:col-span-1">
 			<h3 class="text-xl font-semibold">Product Sites</h3>
