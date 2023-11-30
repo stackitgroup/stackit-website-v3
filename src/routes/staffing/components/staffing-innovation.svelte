@@ -1,40 +1,37 @@
 <section
 	id="staffing-innovation"
 	title="Staffing Innovation Section"
-	class="w-full py-[2%] px-[5%]"
+	class="w-full p-[5%] bg-[--blue]"
 >
 	<div class="grid grid-cols-2 gap-10 mx-auto w-full max-w-[1730px]">
 		<article
-			class="flex flex-col gap-5 col-span-2 text-md md:col-span-1"
+			class="flex flex-col gap-5 col-span-2 text-md md:col-span-1 text-white [&>p]:opacity-80"
 			title="Staffing Innovation Article"
 		>
 			<header class="mb-5">
-				<h2 class="text-3xl md:col-span-1 md:text-5xl font-light">Staffing Innovation</h2>
+				<h2 class="text-3xl md:col-span-1 md:text-5xl font-light">Our Services</h2>
 			</header>
 			<p>
-				At Stack IT, we've redefined <span class="text-[var(--blue)] font-semibold">
-					staffing innovation.
-				</span>
+				At Stack IT, we've redefined <span class="font-bold"> staffing innovation. </span>
 				Our comprehensive
-				<span class="text-[var(--blue)] font-semibold">full-stack staffing solution</span>
+				<span class="font-bold">full-stack staffing solution</span>
 				connects you with top-tier
-				<span class="text-[var(--blue)] font-semibold">software developers</span> from Latin America,
-				propelling your business to new heights.
+				<span class="font-bold">software developers</span> from Latin America, propelling your business
+				to new heights.
 			</p>
 			<p>
-				Through a meticulous selection process, <span class="text-[var(--blue)] font-semibold">
+				Through a meticulous selection process, <span class="font-bold">
 					tech talent acquisition
 				</span>
 				becomes a breeze. We customize training to fit your unique needs and evaluate candidates keenly.
 				With our expertise, we handpick the
-				<span class="text-[var(--blue)] font-semibold">perfect talent</span> that aligns with your specific
-				requirements, industry standards, and technological demands.
+				<span class="font-bold">perfect talent</span> that aligns with your specific requirements, industry
+				standards, and technological demands.
 			</p>
 			<p>
-				<span class="text-[var(--blue)] font-semibold">Innovative staffing solutions</span>
+				<span class="font-bold">Innovative staffing solutions</span>
 				await you at Stack IT. Contact us to explore how our
-				<span class="text-[var(--blue)] font-semibold">cost-effective tech staffing</span> services can
-				benefit your business.
+				<span class="font-bold">cost-effective tech staffing</span> services can benefit your business.
 			</p>
 		</article>
 

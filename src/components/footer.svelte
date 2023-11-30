@@ -19,7 +19,7 @@
 	});
 </script>
 
-<footer title="Layout Footer" class="w-full py-[2%] px-[5%]">
+<footer title="Layout Footer" class="w-full pt-[4%] px-[5%] pb-[1%]">
 	<div class="grid grid-cols-4 gap-2 mx-auto md:grid-cols-5 max-w-[1730px]">
 		<section class="flex flex-col col-span-4 gap-2 md:col-span-1">
 			<figure class="flex items-center w-full gap-2">

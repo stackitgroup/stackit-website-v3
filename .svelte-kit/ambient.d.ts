@@ -30,8 +30,11 @@ declare module '$env/static/private' {
 	export const VITE_RESEND_API_KEY: string;
 	export const VITE_GOOGLE_RECAPTCHA_PUBLIC_KEY: string;
 	export const ACLOCAL_PATH: string;
+	export const ACSetupSvcPort: string;
+	export const ACSvcPort: string;
 	export const ALLUSERSPROFILE: string;
 	export const APPDATA: string;
+	export const ChocolateyInstall: string;
 	export const CHROME_CRASHPAD_PIPE_NAME: string;
 	export const COLORTERM: string;
 	export const COMMONPROGRAMFILES: string;
@@ -42,7 +45,8 @@ declare module '$env/static/private' {
 	export const COREPACK_ROOT: string;
 	export const DISPLAY: string;
 	export const DriverData: string;
-	export const EFC_5504: string;
+	export const EFC_13372: string;
+	export const EnableLog: string;
 	export const EXEPATH: string;
 	export const FPS_BROWSER_APP_PROFILE_STRING: string;
 	export const FPS_BROWSER_USER_PROFILE_STRING: string;
@@ -85,7 +89,6 @@ declare module '$env/static/private' {
 	export const npm_config_version_git_sign: string;
 	export const npm_config_version_git_tag: string;
 	export const npm_config_version_tag_prefix: string;
-	export const npm_config__stackit_registry: string;
 	export const npm_execpath: string;
 	export const npm_lifecycle_event: string;
 	export const npm_lifecycle_script: string;
@@ -141,7 +144,6 @@ declare module '$env/static/private' {
 	export const NVM_HOME: string;
 	export const NVM_SYMLINK: string;
 	export const OneDrive: string;
-	export const OneDriveConsumer: string;
 	export const ORIGINAL_PATH: string;
 	export const ORIGINAL_TEMP: string;
 	export const ORIGINAL_TMP: string;
@@ -153,7 +155,6 @@ declare module '$env/static/private' {
 	export const PKG_CONFIG_SYSTEM_INCLUDE_PATH: string;
 	export const PKG_CONFIG_SYSTEM_LIBRARY_PATH: string;
 	export const PLINK_PROTOCOL: string;
-	export const PNPM_HOME: string;
 	export const PROCESSOR_ARCHITECTURE: string;
 	export const PROCESSOR_IDENTIFIER: string;
 	export const PROCESSOR_LEVEL: string;
@@ -165,6 +166,7 @@ declare module '$env/static/private' {
 	export const PSModulePath: string;
 	export const PUBLIC: string;
 	export const PWD: string;
+	export const RlsSvcPort: string;
 	export const SESSIONNAME: string;
 	export const SHELL: string;
 	export const SHLVL: string;
@@ -188,6 +190,7 @@ declare module '$env/static/private' {
 	export const VSCODE_INSPECTOR_OPTIONS: string;
 	export const WINDIR: string;
 	export const YARN_WRAP_OUTPUT: string;
+	export const ZES_ENABLE_SYSMAN: string;
 }
 
 /**
@@ -221,8 +224,11 @@ declare module '$env/dynamic/private' {
 		VITE_RESEND_API_KEY: string;
 		VITE_GOOGLE_RECAPTCHA_PUBLIC_KEY: string;
 		ACLOCAL_PATH: string;
+		ACSetupSvcPort: string;
+		ACSvcPort: string;
 		ALLUSERSPROFILE: string;
 		APPDATA: string;
+		ChocolateyInstall: string;
 		CHROME_CRASHPAD_PIPE_NAME: string;
 		COLORTERM: string;
 		COMMONPROGRAMFILES: string;
@@ -233,7 +239,8 @@ declare module '$env/dynamic/private' {
 		COREPACK_ROOT: string;
 		DISPLAY: string;
 		DriverData: string;
-		EFC_5504: string;
+		EFC_13372: string;
+		EnableLog: string;
 		EXEPATH: string;
 		FPS_BROWSER_APP_PROFILE_STRING: string;
 		FPS_BROWSER_USER_PROFILE_STRING: string;
@@ -276,7 +283,6 @@ declare module '$env/dynamic/private' {
 		npm_config_version_git_sign: string;
 		npm_config_version_git_tag: string;
 		npm_config_version_tag_prefix: string;
-		npm_config__stackit_registry: string;
 		npm_execpath: string;
 		npm_lifecycle_event: string;
 		npm_lifecycle_script: string;
@@ -332,7 +338,6 @@ declare module '$env/dynamic/private' {
 		NVM_HOME: string;
 		NVM_SYMLINK: string;
 		OneDrive: string;
-		OneDriveConsumer: string;
 		ORIGINAL_PATH: string;
 		ORIGINAL_TEMP: string;
 		ORIGINAL_TMP: string;
@@ -344,7 +349,6 @@ declare module '$env/dynamic/private' {
 		PKG_CONFIG_SYSTEM_INCLUDE_PATH: string;
 		PKG_CONFIG_SYSTEM_LIBRARY_PATH: string;
 		PLINK_PROTOCOL: string;
-		PNPM_HOME: string;
 		PROCESSOR_ARCHITECTURE: string;
 		PROCESSOR_IDENTIFIER: string;
 		PROCESSOR_LEVEL: string;
@@ -356,6 +360,7 @@ declare module '$env/dynamic/private' {
 		PSModulePath: string;
 		PUBLIC: string;
 		PWD: string;
+		RlsSvcPort: string;
 		SESSIONNAME: string;
 		SHELL: string;
 		SHLVL: string;
@@ -379,6 +384,7 @@ declare module '$env/dynamic/private' {
 		VSCODE_INSPECTOR_OPTIONS: string;
 		WINDIR: string;
 		YARN_WRAP_OUTPUT: string;
+		ZES_ENABLE_SYSMAN: string;
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: `${string}`]: string | undefined;
 	}

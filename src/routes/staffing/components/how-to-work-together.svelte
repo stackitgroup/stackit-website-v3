@@ -3,18 +3,17 @@
 		<h2 class="col-span-3 px-5 text-3xl font-light 2xl:px-0 md:text-5xl pb-[5%]">
 			How to Work Together
 		</h2>
-
 		<!-- Discovery Stage -->
 		<picture title="Discovery Stage" class="grid col-span-3 md:col-span-1">
 			<div class="z-10 [grid-row:1/2] [grid-column:1/2] overlay rounded-xl" />
 			<article
 				class="[grid-row:1/2] py-10 [grid-column:1/2] z-20 grid place-content-center gap-4 px-10 md:place-content-start font-normal text-gray-200"
 			>
-				<h3 class="text-3xl text-[var(--blue)] relative">Discovery</h3>
+				<h3 class="text-3xl text-[--light-blue] relative">Discovery</h3>
 				<p>
-					The journey begins with discovery. We connect with you to gain a deep understanding of
-					your unique project requirements and the specific skills you need. This phase is crucial
-					for laying a strong foundation for a successful partnership.
+					We connect with you to gain a deep understanding of your unique project requirements and
+					the specific skills you need. This phase is crucial for laying a strong foundation for a
+					successful partnership.
 				</p>
 			</article>
 			<img
@@ -23,18 +22,17 @@
 				src="/images/how-to-work-together-discovery.png"
 			/>
 		</picture>
-
 		<!-- Selection Card -->
 		<picture title="Selection Stage" class="grid col-span-3 md:col-span-1">
 			<div class="z-10 [grid-row:1/2] [grid-column:1/2] overlay rounded-xl" />
 			<article
 				class="[grid-row:1/2] py-10 [grid-column:1/2] z-20 grid place-content-center gap-4 px-10 md:place-content-start font-normal text-gray-200"
 			>
-				<h3 class="text-3xl text-[var(--blue)] relative">Selection</h3>
+				<h3 class="text-3xl relative text-[--light-blue]">Selection</h3>
 				<p>
-					Next, we embark on the selection process. With expertise and precision, we handpick the
-					perfect candidates from our pool of skilled Latin American Developers tailored precisely
-					to your requirements. Our thorough vetting ensures that you receive top-tier talent.
+					With expertise and precision, we handpick the perfect candidates from our pool of skilled
+					Latin American Developers tailored precisely to your requirements. Our thorough vetting
+					ensures that you receive top-tier talent.
 				</p>
 			</article>
 			<img
@@ -43,14 +41,13 @@
 				src="/images/how-to-work-together-selection.png"
 			/>
 		</picture>
-
 		<!-- Integration -->
 		<picture title="Integration Stage" class="grid col-span-3 md:col-span-1">
 			<div class="z-10 [grid-row:1/2] [grid-column:1/2] overlay rounded-xl" />
 			<article
 				class="[grid-row:1/2] py-10 [grid-column:1/2] z-20 grid place-content-center gap-4 px-10 md:place-content-start font-normal text-gray-200"
 			>
-				<h3 class="text-3xl text-[var(--blue)] relative">
+				<h3 class="text-3xl text-[--light-blue] relative">
 					<span class="absolute text-2xl font-semibold text-gray-400 -left-5 top-3 md:hidden">
 						<svg width="13" height="13" viewBox="0 0 11 11" fill="none">
 							<circle cx="5.5" cy="5.5" r="5" stroke="#F2F2F2" stroke-opacity="0.6" />

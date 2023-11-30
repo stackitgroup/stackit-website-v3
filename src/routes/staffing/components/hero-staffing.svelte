@@ -17,7 +17,7 @@
 			<LetsTalkButton />
 		</div>
 		<img
-			class="[grid-row:1/2] [grid-column:1/2] object-cover w-full h-full max-h-[600px]"
+			class="[grid-row:1/2] [grid-column:1/2] object-cover w-full h-full max-h-[520px]"
 			alt="Staffing Innovation Hero"
 			src="/images/hero.jpeg"
 			style="aspect-ratio: 75/34;"

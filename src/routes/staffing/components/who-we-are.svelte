@@ -1,4 +1,4 @@
-<section id="who-we-are" title="Who we are Section" class="w-full py-[2%] px-[5%]">
+<section id="who-we-are" title="Who we are Section" class="w-full p-[5%] bg-[--light-gray]">
 	<div class="grid grid-cols-2 gap-10 mx-auto max-w-[1730px]">
 		<article
 			class="flex flex-col gap-5 col-span-2 text-md md:col-span-1"
@@ -8,8 +8,8 @@
 				<h2 class="text-3xl md:col-span-1 md:text-5xl font-light">Who we are</h2>
 			</header>
 			<p>
-				Stack IT, based in San Diego, CA, is your gateway to success. Since 2017, we've linked
-				companies with top
+				<span class="font-semibold">Stack IT</span>, based in San Diego, CA, is your gateway to
+				success. Since 2017, we've linked companies with top
 				<span class="font-semibold text-[var(--blue)]"> tech professionals </span>
 				from Latin America, providing
 				<span class="font-semibold text-[var(--blue)]">
@@ -30,9 +30,19 @@
 				<span class="font-semibold text-[var(--blue)]"> tech recruitment best practices </span> in our
 				blog. When you're ready, contact Stack It to unlock success.
 			</p>
+			<a href="/about">
+				<button
+					class="text-base flex items-center justify-center gap-2 rounded-full text-[--brand-blue] border-[1.5px] border-[--blue] h-11 w-40 hover:bg-[--blue] hover:text-white transition-colors duration-400"
+				>
+					About
+				</button>
+			</a>
 		</article>
 
-		<picture class="grid col-span-2 md:col-span-1" title="Image to describe Software Development">
+		<picture
+			class="grid col-span-2 md:col-span-1 h-fit"
+			title="Image to describe Software Development"
+		>
 			<div class="[grid-row:1/2] z-10 [grid-column:1/2] overlay rounded-xl" />
 			<div
 				class="[grid-row:1/2] z-20 [grid-column:1/2] grid w-full h-full gap-1 text-3xl font-light text-white md:text-4xl place-content-center"
