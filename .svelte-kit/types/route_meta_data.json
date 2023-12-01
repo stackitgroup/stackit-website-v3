@@ -2,11 +2,8 @@
 	"/": [
 		"src/routes/+page.ts"
 	],
-	"/about": [],
-	"/case-study": [],
 	"/contact": [
 		"src/routes/contact/+page.server.ts"
 	],
-	"/custom-software": [],
-	"/staffing": []
+	"/custom-software": []
 }

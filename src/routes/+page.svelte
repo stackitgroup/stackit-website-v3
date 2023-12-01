@@ -1,9 +1,9 @@
 <script>
-	import HeroStaffing from './staffing/components/hero-staffing.svelte';
+	import HeroBanner from '../components/hero-banner.svelte';
+	import TheResult from '../components/the-result.svelte';
 	import HowToWorkTogether from './staffing/components/how-to-work-together.svelte';
-	import SomeOfOurClients from './staffing/components/some-of-our-clients.svelte';
-	import StaffingInnovation from './staffing/components/staffing-innovation.svelte';
-	import TheResult from './staffing/components/the-result.svelte';
+	import OurServices from './staffing/components/our-services.svelte';
+	import TrustedBy from './staffing/components/trusted-by.svelte';
 	import WhoWeAre from './staffing/components/who-we-are.svelte';
 	import WhyWeExcel from './staffing/components/why-we-excel.svelte';
 </script>
@@ -13,10 +13,23 @@
 	<meta name="og:description" content="Stackit Website" />
 </svelte:head>
 
-<HeroStaffing />
-<SomeOfOurClients />
+<HeroBanner backgroundImage="/images/staffing-hero.jpeg">
+	<slot slot="tittle">
+		<h1>Staffing Innovation with</h1>
+		<h2 class="font-normal text-blue-500">Latin American</h2>
+		<h2>
+			&lt;<span class="font-normal text-blue-500">Software Talent</span>/>
+		</h2>
+	</slot>
+</HeroBanner>
+
+<TrustedBy />
 <WhoWeAre />
-<StaffingInnovation />
+<OurServices />
 <WhyWeExcel />
 <HowToWorkTogether />
-<TheResult />
+<TheResult>
+	<h3 class="text-xl text-gray-200 md:text-2xl">
+		Top-tier professionals with the skillset to build you nothing but the best software.
+	</h3>
+</TheResult>

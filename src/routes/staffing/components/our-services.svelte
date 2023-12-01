@@ -2,29 +2,35 @@
 	import SectionContainer from '../../../components/section-container.svelte';
 </script>
 
-<SectionContainer tittle="Maintenance & Support Section" backgroundColor="bg-[--blue]">
+<SectionContainer backgroundColor="bg-[--blue]" tittle="staffing-innovation">
 	<article
-		class="flex flex-col gap-7 col-span-2 text-md md:col-span-1 text-white [&>p]:opacity-80"
-		title="Maintenance & Support Article"
+		class="flex flex-col gap-5 col-span-2 text-md md:col-span-1 text-white [&>p]:opacity-80"
+		title="Staffing Innovation Article"
 	>
-		<header>
-			<h2 class="text-3xl md:col-span-1 md:text-4xl">Maintenance & Support</h2>
+		<header class="mb-5">
+			<h2 class="text-3xl font-light md:col-span-1 md:text-5xl">Our Services</h2>
 		</header>
 		<p>
-			At Stack IT, we don't stop at creation; we <span class="font-semibold"> care. </span>
-			Our commitment extends to providing comprehensive
-			<span class="font-semibold">maintenance and support</span> that covers everything from
-			enhancements to bug fixes and vigilant
-			<span class="font-semibold">system monitoring.</span>
+			At Stack IT, we've redefined <span class="font-bold"> staffing innovation. </span>
+			Our comprehensive
+			<span class="font-bold">full-stack staffing solution</span>
+			connects you with top-tier
+			<span class="font-bold">software developers</span> from Latin America, propelling your business
+			to new heights.
 		</p>
-
 		<p>
-			We continually assess your software's <span class="font-semibold"> usability </span>, conduct
-			<span class="font-semibold">code audits</span>, and rigorously test your
-			<span class="font-semibold">cloud infrastructure.</span> This approach ensures your software
-			remains in peak condition, allowing us to provide
-			<span class="font-semibold">insightful advice</span> that informs your critical business decisions.
-			Choose Stack IT for ongoing care that ensures the longevity and performance of your software solutions.
+			Through a meticulous selection process, <span class="font-bold">
+				tech talent acquisition
+			</span>
+			becomes a breeze. We customize training to fit your unique needs and evaluate candidates keenly.
+			With our expertise, we handpick the
+			<span class="font-bold">perfect talent</span> that aligns with your specific requirements, industry
+			standards, and technological demands.
+		</p>
+		<p>
+			<span class="font-bold">Innovative staffing solutions</span>
+			await you at Stack IT. Contact us to explore how our
+			<span class="font-bold">cost-effective tech staffing</span> services can benefit your business.
 		</p>
 	</article>
 

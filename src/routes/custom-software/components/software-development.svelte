@@ -1,16 +1,15 @@
-<section
-	id="software-development"
-	title="Software Development Section"
-	class="grid w-full grid-cols-2 mx-auto max-w-[1730px]"
->
+<script>
+	import SectionContainer from '../../../components/section-container.svelte';
+</script>
+
+<SectionContainer tittle="software-development" backgroundColor="bg-[var(--light-gray)]">
 	<article
-		class="col-span-2 px-5 py-5 2xl:pl-0 text-md md:col-span-1"
+		class="flex flex-col col-span-2 gap-5 text-md md:col-span-1"
 		title="Software Development Article"
 	>
 		<header>
 			<h2 class="text-3xl md:col-span-1 md:text-4xl">Software Development</h2>
 		</header>
-		<br />
 		<p>
 			At Stack IT, we're your trusted partner in <span class="font-semibold text-[var(--blue)]">
 				software development
@@ -21,7 +20,6 @@
 			innovative
 			<span class="font-semibold text-[var(--blue)]"> mobile and web applications.</span>
 		</p>
-		<br />
 		<p>
 			Our expertise and agile approach empower us to deliver transformative solutions that elevate
 			your operations. If you can envision it, we have the expertise to <span
@@ -31,10 +29,13 @@
 		</p>
 	</article>
 
-	<picture class="grid col-span-2 md:col-span-1" title="Image to describe Software Development">
-		<div class="[grid-row:1/2] z-10 [grid-column:1/2] overlay" />
+	<picture
+		class="grid col-span-2 md:col-span-1 h-fit"
+		title="Image to describe Software Development"
+	>
+		<div class="[grid-row:1/2] z-10 [grid-column:1/2] overlay rounded-xl" />
 		<div
-			class="[grid-row:1/2] z-20 [grid-column:1/2] px-5 grid w-full h-full gap-1 text-3xl font-light text-white md:text-4xl place-content-center"
+			class="[grid-row:1/2] z-20 [grid-column:1/2] grid w-full h-full gap-1 text-3xl font-light text-white md:text-4xl place-content-center"
 		>
 			<span>Bespoke software designed</span>
 			<span class="text-[#259AFF] font-normal">Amplify your Path to Success</span>
@@ -42,15 +43,15 @@
 		<source
 			class="[grid-row:1/2] [grid-column:1/2] object-cover w-full h-full"
 			media="(min-width: 768px)"
-			srcset="/images/software_development.jpg"
+			srcset="/images/software_development.jpeg"
 		/>
 		<img
-			class="[grid-row:1/2] [grid-column:1/2] object-cover w-full h-full"
+			class="[grid-row:1/2] [grid-column:1/2] object-cover w-full h-full rounded-xl max-h-[400px]"
 			alt="Software Development"
-			src="/images/software_development.jpg"
+			src="/images/software_development.jpeg"
 		/>
 	</picture>
-</section>
+</SectionContainer>
 
 <style>
 	.overlay {

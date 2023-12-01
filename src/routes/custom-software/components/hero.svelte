@@ -22,7 +22,7 @@
 		<img
 			class="[grid-row:1/2] [grid-column:1/2] object-cover w-full h-96"
 			alt="Staffing Innovation Hero"
-			src="/images/hero_2.jpeg"
+			src="/images/custom-software-hero.jpeg"
 			style="aspect-ratio: 75/34;"
 		/>
 	</picture>
