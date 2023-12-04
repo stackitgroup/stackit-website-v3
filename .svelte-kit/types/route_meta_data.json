@@ -1,9 +1,0 @@
-{
-	"/": [
-		"src/routes/+page.ts"
-	],
-	"/contact": [
-		"src/routes/contact/+page.server.ts"
-	],
-	"/custom-software": []
-}
