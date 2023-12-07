@@ -19,7 +19,7 @@
 	class="flex right-3 duration-200 fixed z-50 bg-[#259aff] border border-none rounded-full w-14 h-14 items-center justify-center bottom-6"
 >
 	<a
-		href="#top"
+		href="https://calendly.com/fiore-0pe/introductory-meeting-with-stack-it"
 		class="text-white"
 		on:click|preventDefault={() =>
 			window.scrollTo({
