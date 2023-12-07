@@ -26,7 +26,7 @@
 		</header>
 
 		{#each CaseStudies as e}
-			<article title={e.title} class="grid col-span-3 md:col-span-1 bg-white ] rounded-xl">
+			<article title={e.title} class="grid col-span-3 md:col-span-1 bg-white rounded-xl">
 				<div
 					class="[grid-row:1/2] py-10 [grid-column:1/2] z-20 grid gap-4 px-10 md:place-content-between font-normal text-gray-200"
 				>
@@ -57,7 +57,7 @@
 </section>
 
 <dialog class="modal modal-bottom sm:modal-middle" class:modal-open={modalOpen}>
-	<div class="modal-box bg-[--brand-blue]">
+	<div class="modal-box bg-[--gray] p-[3%] max-w-[600px]">
 		<h3 class="text-lg font-bold text-black">{currentCaseStudy.title}</h3>
 
 		<picture class="grid justify-center">
@@ -71,7 +71,7 @@
 
 		<div class="modal-action">
 			<a
-				class="text-base flex items-center justify-center gap-2 rounded-full text-gray-200 border-[1.5px] border-[#016fce] h-11 w-44 bg-[#016fce] transition-colors duration-400"
+				class="text-base flex items-center justify-center gap-2 rounded-full text-gray-200 border-[1.5px] border-[#016fce] h-11 w-44 bg-[--blue] transition-colors duration-400"
 				href="/case-study/{currentCaseStudy.id}">See Case Study</a
 			>
 		</div>
