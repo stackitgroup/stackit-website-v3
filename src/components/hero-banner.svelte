@@ -68,7 +68,7 @@
 		<button class="absolute z-20 text-2xl text-white bottom-5 left-5" on:click={prevStage}>
 			👈
 		</button>
-		<button class="absolute z-[99] text-2xl text-white bottom-5 right-5" on:click={nextStage}>
+		<button class="absolute z-20 text-2xl text-white bottom-5 right-5" on:click={nextStage}>
 			👉
 		</button>
 	</picture>
