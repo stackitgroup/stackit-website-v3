@@ -2,10 +2,6 @@
 	import HeroBanner from '../../components/hero-banner.svelte';
 	import TheResult from '../../components/the-result.svelte';
 	import TrustedBy from '../staffing/components/trusted-by.svelte';
-	import HowWeCollaborate from './components/how-we-collaborate.svelte';
-	import MaintenanceSupport from './components/maintenance-support.svelte';
-	import SoftwareDevelopment from './components/software-development.svelte';
-	import WhyChooseUs from './components/why-choose-us.svelte';
 </script>
 
 <svelte:head>
@@ -16,10 +12,10 @@
 <HeroBanner />
 
 <TrustedBy />
-<SoftwareDevelopment />
+<!-- <SoftwareDevelopment />
 <MaintenanceSupport />
 <WhyChooseUs />
-<HowWeCollaborate />
+<HowWeCollaborate /> -->
 <TheResult>
 	<h3 class="text-xl text-gray-200 md:text-2xl">
 		A solid custom software solution for your business.

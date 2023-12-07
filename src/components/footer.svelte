@@ -38,8 +38,8 @@
 		<section class="flex flex-col col-span-2 gap-2 md:col-span-1">
 			<h3 class="text-xl font-semibold">Quick links</h3>
 			<ul class="flex flex-col gap-2 pl-1 text-sm">
-				<li><a href="/staffing">Staffing</a></li>
-				<li><a href="/custom-software">Custom Software</a></li>
+				<li><p>Staffing</p></li>
+				<li><p>Custom Software</p></li>
 			</ul>
 		</section>
 		<!-- Contact -->
@@ -70,32 +70,34 @@
 				<ul class="flex flex-col gap-2 pl-1 text-sm">
 					<li><a href="#software-development">Software Development</a></li>
 					<li>
-						<a href="#maintenance-support" class="text-clip">Maintenance & Support</a>
+						<p class="text-clip">Maintenance & Support</p>
 					</li>
 					<li>
-						<a href="#why-choose-us">Why choose us</a>
+						<p>Why choose us</p>
 					</li>
 					<li>
-						<a href="#how-we-collaborate">How We Collaborate</a>
+						<p>How We Collaborate</p>
 					</li>
-					<li><a href="#our-clients">Our clients</a></li>
+					<li>
+						<p>Our clients</p>
+					</li>
 				</ul>
 			</section>
 		{:else}
 			<section class="flex flex-col col-span-2 gap-2 md:col-span-1">
 				<h3 class="text-xl font-semibold">Revisit</h3>
 				<ul class="flex flex-col gap-2 pl-1 text-sm">
-					<li><a href="#who-we-are">Who we are</a></li>
+					<li><p>Who we are</p></li>
 					<li>
-						<a href="#staffing-innovation" class="text-clip">Staffing Innovation </a>
+						<p class="text-clip">Staffing Innovation</p>
 					</li>
 					<li>
-						<a href="#why-we-excel">Why we excel</a>
+						<p>Why we excel</p>
 					</li>
 					<li>
-						<a href="#how-to-work-together">How to work together</a>
+						<p>How to work together</p>
 					</li>
-					<li><a href="#our-clients">Our clients</a></li>
+					<li><p>Our clients</p></li>
 				</ul>
 			</section>
 		{/if}

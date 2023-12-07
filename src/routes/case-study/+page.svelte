@@ -71,22 +71,6 @@
 		);
 	}
 
-	picture:nth-of-type(1) {
-		animation: slideInFromLeft linear both;
-		animation-timeline: view();
-		animation-range: 0% 10%;
-	}
-	picture:nth-of-type(2) {
-		animation: slideInFromLeft linear both;
-		animation-timeline: view();
-		animation-range: 0% 15%;
-	}
-	picture:nth-of-type(3) {
-		animation: slideInFromLeft linear both;
-		animation-timeline: view();
-		animation-range: 0% 25%;
-	}
-
 	@keyframes slideInFromLeft {
 		0% {
 			transform: translateY(100%);

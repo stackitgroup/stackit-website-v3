@@ -53,7 +53,6 @@
 			<LetsTalkButton />
 		</div>
 
-		{carrouselIndex}
 		{#each carrousel as e, index}
 			{#if index === carrouselIndex}
 				<img
