@@ -12,8 +12,13 @@
 			// Else, add opacity
 			const isTopVisible = !$top?.getBoundingClientRect().top;
 
-			$backToTop?.classList.remove(isTopVisible ? 'right-3' : '-right-20');
-			$backToTop?.classList.add(isTopVisible ? '-right-20' : 'right-3');
+			if (isTopVisible) {
+				$backToTop?.classList.remove('right-3');
+				$backToTop?.classList.add('-right-20');
+			} else {
+				$backToTop?.classList.remove('-right-20');
+				$backToTop?.classList.add('right-3');
+			}
 		});
 	});
 </script>
