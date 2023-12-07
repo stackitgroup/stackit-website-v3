@@ -1,34 +1,7 @@
 <script>
 	import { Icon } from 'svelte-awesome';
 	import locationArrow from 'svelte-awesome/icons/locationArrow';
-
-	const Cards = [
-		{
-			title: 'LEDA - NFT Marketplace',
-			technologies: 'Solidity, Nest.js, Next.js, Hardhat, Redux, TypeScript, esLint, Prettier.',
-			location: 'AUSTRALIA',
-			contractedService: 'Customer Software Solution',
-			image: '/images/case-studies/leda_logo.webp',
-			link: 'https://calendly.com/fiore-0pe/introductory-meeting-with-stack-it'
-		},
-		{
-			title: 'DefiSpot',
-			technologies:
-				'React.js, Redux, SASS, Jest, TypeScript, xchainjs, Chart.js, Ethers.js, esLint, Prettier.',
-			location: 'NORWAY',
-			contractedService: 'Customer Software Solution',
-			image: '/images/case-studies/defispot_logo.svg',
-			link: 'https://calendly.com/fiore-0pe/introductory-meeting-with-stack-it'
-		},
-		{
-			title: 'Metis Messenger',
-			technologies: 'React Native, React.js, Redux, Material UI.',
-			location: 'UNITED STATES',
-			contractedService: 'Customer Software Solution',
-			image: '/images/case-studies/metis_logo.svg',
-			link: 'https://calendly.com/fiore-0pe/introductory-meeting-with-stack-it'
-		}
-	];
+	import { CaseStudies } from './data/case-studies';
 </script>
 
 <svelte:head>
@@ -45,7 +18,7 @@
 			</span>
 		</header>
 
-		{#each Cards as e}
+		{#each CaseStudies as e}
 			<article title={e.title} class="grid col-span-3 md:col-span-1">
 				<div
 					class="[grid-row:1/2] py-10 [grid-column:1/2] z-20 grid place-content-center gap-4 px-10 md:place-content-between font-normal text-gray-200"
@@ -69,7 +42,7 @@
 						<br />
 						<a
 							class="text-base flex items-center justify-center gap-2 rounded-full text-gray-200 border-[1.5px] border-[#016fce] h-11 w-44 bg-[#016fce] transition-colors duration-400"
-							href="https://calendly.com/fiore-0pe/introductory-meeting-with-stack-it"
+							href="/case-study/{e.id}"
 						>
 							View Case Study
 							<img src="/icons/arrow.svg" class="w-3 rotate-90" alt="arrow to scroll up" />
