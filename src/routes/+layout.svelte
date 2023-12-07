@@ -28,7 +28,7 @@
 
 <div
 	id="back-to-top"
-	class="flex duration-200 fixed z-50 bg-[#259aff] border border-none rounded-full w-14 h-14 items-center justify-center bottom-6"
+	class="flex duration-200 fixed z-50 bg-[#259aff] border border-none rounded-full w-14 h-14 items-center -right-20 justify-center bottom-6"
 >
 	<a
 		href="#top"
