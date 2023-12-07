@@ -4,7 +4,7 @@
 </script>
 
 <section id={tittle} title={tittle} class="w-full p-[5%] {backgroundColor}">
-	<div class="grid grid-cols-2 gap-10 mx-auto max-w-[1730px]">
+	<div class="grid grid-cols-2 gap-10 mx-auto max-w-[1730px] w-full">
 		<slot />
 	</div>
 </section>

@@ -30,9 +30,9 @@
 			<span class="font-semibold text-[var(--blue)]"> tech recruitment best practices </span> in our
 			blog. When you're ready, contact Stack It to unlock success.
 		</p>
-		<a href="/about">
+		<a class="w-fit" href="/about">
 			<button
-				class="text-base flex items-center justify-center gap-2 rounded-full text-[--brand-blue] border-[1.5px] border-[--blue] h-11 w-40 hover:bg-[--blue] hover:text-white transition-colors duration-400"
+				class="text-base flex items-center justify-center gap-2 rounded-full text-[--brand-blue] border-[1.5px] border-[--blue] h-10 w-40 hover:bg-[--blue] hover:text-white transition-colors duration-400"
 			>
 				About
 			</button>

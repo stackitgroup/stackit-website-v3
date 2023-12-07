@@ -2,43 +2,47 @@
 	import SectionContainer from '../../../components/section-container.svelte';
 </script>
 
-<SectionContainer backgroundColor="bg-[--blue]" tittle="staffing-innovation">
+<SectionContainer backgroundColor="bg-white" tittle="Staffing Innovation">
 	<article
-		class="flex flex-col gap-5 col-span-2 text-md md:col-span-1 text-white [&>p]:opacity-80"
+		class="flex flex-col gap-5 col-span-2 text-md md:col-span-1 text-black [&>p]:opacity-80"
 		title="Staffing Innovation Article"
 	>
-		<header class="mb-5">
-			<h2 class="text-3xl font-light md:col-span-1 md:text-5xl">Our Services</h2>
-		</header>
+		<h2 class="text-3xl font-light md:col-span-1 md:text-5xl mb-5">Staffing Innovation</h2>
+
 		<p>
-			At Stack IT, we've redefined <span class="font-bold"> staffing innovation. </span>
+			At Stack IT, we've redefined <span class="font-bold text-[--blue]">
+				staffing innovation.
+			</span>
 			Our comprehensive
-			<span class="font-bold">full-stack staffing solution</span>
+			<span class="font-bold text-[--blue]">full-stack staffing solution</span>
 			connects you with top-tier
-			<span class="font-bold">software developers</span> from Latin America, propelling your business
-			to new heights.
+			<span class="font-bold text-[--blue]">software developers</span> from Latin America, propelling
+			your business to new heights.
 		</p>
 		<p>
-			Through a meticulous selection process, <span class="font-bold">
+			Through a meticulous selection process, <span class="font-bold text-[--blue]">
 				tech talent acquisition
 			</span>
 			becomes a breeze. We customize training to fit your unique needs and evaluate candidates keenly.
 			With our expertise, we handpick the
-			<span class="font-bold">perfect talent</span> that aligns with your specific requirements, industry
-			standards, and technological demands.
+			<span class="font-bold text-[--blue]">perfect talent</span> that aligns with your specific requirements,
+			industry standards, and technological demands.
 		</p>
 		<p>
-			<span class="font-bold">Innovative staffing solutions</span>
-			await you at Stack IT. Contact us to explore how our
-			<span class="font-bold">cost-effective tech staffing</span> services can benefit your business.
+			Through a meticulous selection process, <span class="font-bold text-[--blue]">
+				tech talent acquisition
+			</span>
+			becomes a breeze. We customize training to fit your unique needs and evaluate candidates keenly.
+			With our expertise, we handpick the
+			<span class="font-bold text-[--blue]">perfect talent</span> that aligns with your specific requirements,
+			industry standards, and technological demands.
 		</p>
-		<a class="w-fit" href="/services">
-			<button
-				class="text-base flex items-center justify-center gap-2 rounded-full text-black h-10 w-40 bg-white hover:bg-[--white] hover:bg-black hover:text-white transition-colors duration-400"
-			>
-				Services
-			</button>
-		</a>
+		<p>
+			<span class="font-bold text-[--blue]">Innovative staffing solutions</span>
+			await you at Stack IT. Contact us to explore how our
+			<span class="font-bold text-[--blue]">cost-effective tech staffing</span> services can benefit
+			your business.
+		</p>
 	</article>
 
 	<picture class="grid col-span-2 md:[grid-column:1/2] md:[grid-row:1/2]">
