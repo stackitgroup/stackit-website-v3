@@ -2,7 +2,7 @@
 	import { CaseStudies, type CaseStudy } from '../../case-study/data/case-studies';
 	let modalOpen = false;
 
-	let currentCaseStudy: CaseStudy = {};
+	let currentCaseStudy = {} as CaseStudy;
 
 	const createSelectCaseStudyClick = (caseStudy: CaseStudy) => () => {
 		console.log(caseStudy);
@@ -61,7 +61,7 @@
 	</div>
 </section>
 
-<dialog class="modal modal-bottom sm:modal-middle modal-open" class:modal-open={modalOpen}>
+<dialog class="modal modal-bottom sm:modal-middle" class:modal-open={modalOpen}>
 	<div class="modal-box">
 		<h3 class="text-lg font-bold text-white">{currentCaseStudy.title}</h3>
 
