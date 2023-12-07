@@ -51,7 +51,7 @@
 	<p>Email Sent Successfully! You will be answered soon.</p>
 {/if}
 
-<form method="POST" class="flex flex-col w-full gap-5 pt-0 p-5" use:enhance={handleSubmit}>
+<form method="POST" class="flex flex-col w-full gap-5 p-5 pt-0" use:enhance={handleSubmit}>
 	<span class="text-2xl text-center">Consult with our specialists.</span>
 	<input
 		type="text"
@@ -108,3 +108,26 @@
 		{/if}
 	</button>
 </form>
+
+<style lang="postcss">
+	form {
+		opacity: 0;
+		animation: reveal linear both;
+		animation-timeline: view();
+		animation-range: 0% 15%;
+		scroll-behavior: smooth;
+	}
+
+	@keyframes reveal {
+		0% {
+			opacity: 0;
+			transform: translateX(100px);
+			scale: 0.9;
+		}
+		100% {
+			opacity: 1;
+			transform: translateX(0px);
+			scale: 1;
+		}
+	}
+</style>
