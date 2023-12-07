@@ -3,6 +3,7 @@
 	import TheResult from '../components/the-result.svelte';
 	import HowToWorkTogether from './staffing/components/how-to-work-together.svelte';
 	import OurServices from './staffing/components/our-services.svelte';
+	import OurWork from './staffing/components/our-work.svelte';
 	import TrustedBy from './staffing/components/trusted-by.svelte';
 	import WhoWeAre from './staffing/components/who-we-are.svelte';
 	import WhyWeExcel from './staffing/components/why-we-excel.svelte';
@@ -26,6 +27,7 @@
 <TrustedBy />
 <WhoWeAre />
 <OurServices />
+<OurWork />
 <WhyWeExcel />
 <HowToWorkTogether />
 <TheResult>

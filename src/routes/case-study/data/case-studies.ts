@@ -3,6 +3,9 @@ export const CaseStudies = [
 		id: '1',
 		title: 'LEDA - NFT Marketplace',
 		technologies: 'Solidity, Nest.js, Next.js, Hardhat, Redux, TypeScript, esLint, Prettier.',
+		introduction: "LEDA's NFT Marketplace redefines digital assets with versatile trading.",
+		description:
+			"LEDA's NFT Marketplace is a revolutionary platform reshaping the digital asset landscape. Users engage in creating, buying, selling, and crafting collections, experiencing a dynamic space designed for versatility and creativity.",
 		location: 'AUSTRALIA',
 		contractedService: 'Customer Software Solution',
 		image: '/images/case-studies/leda_logo.webp',
@@ -36,6 +39,10 @@ export const CaseStudies = [
 		technologies:
 			'React.js, Redux, SASS, Jest, TypeScript, xchainjs, Chart.js, Ethers.js, esLint, Prettier.',
 		location: 'NORWAY',
+		introduction:
+			'DefiSpot, a top DEX, excels in cross-chain swaps, prioritizing user-friendliness.',
+		description:
+			"DefiSpot, a decentralized exchange (DEX), stands out with multi-chain functionality, facilitating smooth cross-chain swaps. Engineered for user-friendliness and security, it epitomizes excellence in blockchain technology, aligning seamlessly with AlphaBlock's commitment to advancing decentralized applications.",
 		contractedService: 'Customer Software Solution',
 		image: '/images/case-studies/defispot_logo.svg',
 
@@ -72,6 +79,9 @@ export const CaseStudies = [
 		title: 'Metis Messenger',
 		technologies: 'React Native, React.js, Redux, Material UI.',
 		location: 'UNITED STATES',
+		introduction: 'Revolutionizing digital communication with decentralization and security.',
+		description:
+			"Metis Messenger reimagines digital communication with a focus on decentralization and security, aiming to redefine how individuals connect in today's interconnected world.",
 		contractedService: 'Customer Software Solution',
 		image: '/images/case-studies/metis_logo.svg',
 
@@ -97,3 +107,5 @@ export const CaseStudies = [
 			"The collaboration with Sigwo Technologies resulted in a transformative evolution of Metis Messenger. Key accomplishments encompassed a seamless migration of legacy accounts, ensuring data integrity through meticulous encryption protocols. The onboarding experience was enhanced, fostering user-friendly interactions. A unified development framework streamlined the creation of a shared codebase for web and mobile platforms, achieving feature parity. Responsive design principles were implemented, optimizing the user interface across diverse devices. This success reflects our dedication to overcoming complexities and delivering solutions that align with our clients' visionary goals."
 	}
 ];
+
+export type CaseStudy = (typeof CaseStudies)[0];
