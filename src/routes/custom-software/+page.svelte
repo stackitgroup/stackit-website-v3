@@ -13,14 +13,7 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<HeroBanner section="custom-software">
-	<slot slot="tittle">
-		<h1>Custom-built software to</h1>
-		<h2>
-			&lt;<span class="font-normal text-blue-500">Empower your Success.</span>/>
-		</h2>
-	</slot>
-</HeroBanner>
+<HeroBanner />
 
 <TrustedBy />
 <SoftwareDevelopment />

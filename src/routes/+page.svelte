@@ -17,15 +17,7 @@
 	<meta name="og:description" content="Stackit Website" />
 </svelte:head>
 
-<HeroBanner section="staffing">
-	<slot slot="tittle">
-		<h1>Staffing Innovation with</h1>
-		<h2 class="font-normal text-blue-500">Latin American</h2>
-		<h2>
-			&lt;<span class="font-normal text-blue-500">Software Talent</span>/>
-		</h2>
-	</slot>
-</HeroBanner>
+<HeroBanner />
 <TrustedBy />
 <WhoWeAre />
 <OurServices />
