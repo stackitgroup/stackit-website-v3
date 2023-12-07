@@ -17,7 +17,7 @@
 	<meta name="og:description" content="Stackit Website" />
 </svelte:head>
 
-<HeroBanner backgroundImage="/images/staffing-hero.jpeg">
+<HeroBanner section="staffing">
 	<slot slot="tittle">
 		<h1>Staffing Innovation with</h1>
 		<h2 class="font-normal text-blue-500">Latin American</h2>

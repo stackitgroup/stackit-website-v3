@@ -13,7 +13,7 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<HeroBanner backgroundImage="/images/custom-software-hero.jpeg">
+<HeroBanner section="custom-software">
 	<slot slot="tittle">
 		<h1>Custom-built software to</h1>
 		<h2>
