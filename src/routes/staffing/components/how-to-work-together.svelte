@@ -21,14 +21,14 @@
 	];
 </script>
 
-<section id="how-to-work-together" class="w-full p-[5%]" title="How to work together Section">
-	<div class="grid grid-cols-3 mx-auto w-full max-w-[1730px] gap-5">
+<section id="how-to-work-together" class="w-full p-[5%]" title="How to work together">
+	<div class="grid grid-cols-3 mx-auto w-full max-w-[1730px] gap-10">
 		<h2 class="col-span-3 px-5 text-3xl font-light 2xl:px-0 md:text-5xl pb-[5%]">
 			How to Work Together
 		</h2>
 		<!-- Discovery Stage -->
 		{#each Cards as e}
-			<picture class="grid col-span-3 md:col-span-1">
+			<picture class="grid col-span-3 md:col-span-1 max-w-[600px]">
 				<div class="z-10 [grid-row:1/2] [grid-column:1/2] overlay rounded-xl" />
 				<article
 					class="[grid-row:1/2] py-10 [grid-column:1/2] z-20 grid place-content-center gap-4 px-10 md:place-content-start font-normal text-gray-200"

@@ -14,7 +14,7 @@
 		>
 			<h1>Custom-built software to</h1>
 			<h2>
-				&lt;<span class="font-normal text-blue-500">Empower your Success.</span>/>
+				&lt;<span class="font-normal text-[--blue]">Empower your Success.</span>/>
 			</h2>
 			<br />
 			<LetsTalkButton />

@@ -1,5 +1,6 @@
 <script>
 	import AboutSection from './components/about-section.svelte';
+	import MulticulturalSection from './components/multicultural-section.svelte';
 	import Timeline from './components/timeline.svelte';
 </script>
 
@@ -9,3 +10,4 @@
 
 <AboutSection />
 <Timeline />
+<MulticulturalSection />

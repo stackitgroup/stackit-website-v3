@@ -21,22 +21,22 @@
 <TrustedBy />
 <WhoWeAre />
 <OurServices />
-<OurWork />
 <WhyWeExcel />
+<OurWork />
 <HowToWorkTogether />
 
-<section id="get-in-touch" title="Contact Us" class="w-full p-[5%] contact-bg">
-	<div class="grid gap-10 gird-cols-1 md:grid-cols-2 mx-auto w-full max-w-[1730px] text-white">
-		<header
-			class="col-span-3 px-5 2xl:px-0 pb-[5%] flex gap-5 justify-center items-center flex-col"
-		>
+<section title="Contact Us" class="w-full p-[5%] contact-bg">
+	<div class="flex flex-col gap-10 mx-auto w-full max-w-[1730px] text-white">
+		<header class="px-5 2xl:px-0 pb-[5%] flex gap-5 justify-center items-center flex-col">
 			<h2 class="text-2xl">Get in touch</h2>
-			<p class="text-5xl">
+			<h3 class="text-5xl text-center">
 				Let's shape the <span class="text-[var(--light-blue)]">future</span>
-			</p>
+			</h3>
 		</header>
-		<CalendlyWidget />
-		<ContactForm {form} />
+		<div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 w-full">
+			<CalendlyWidget />
+			<ContactForm {form} />
+		</div>
 	</div>
 </section>
 

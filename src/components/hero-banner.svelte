@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { fade } from 'svelte/transition';
 	import LetsTalkButton from './lets-talk-button.svelte';
+	import Fa from 'svelte-fa/src/fa.svelte';
+	import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 	const carrousel = [
 		{
@@ -65,11 +67,17 @@
 			{/if}
 		{/each}
 
-		<button class="absolute z-20 text-2xl text-white bottom-5 left-5" on:click={prevStage}>
-			👈
+		<button
+			class="absolute z-20 text-2xl text-white bottom-[calc(5%)] left-[calc(5%)] opacity-60 hover:opacity-80"
+			on:click={prevStage}
+		>
+			<Fa icon={faChevronLeft} />
 		</button>
-		<button class="absolute z-20 text-2xl text-white bottom-5 right-5" on:click={nextStage}>
-			👉
+		<button
+			class="absolute z-20 text-2xl text-white bottom-[calc(5%)] right-[calc(5%)] opacity-60 hover:opacity-80"
+			on:click={nextStage}
+		>
+			<Fa icon={faChevronRight} />
 		</button>
 	</picture>
 </section>

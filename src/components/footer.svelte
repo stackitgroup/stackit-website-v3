@@ -24,8 +24,8 @@
 			{ title: 'Trusted By', href: '#trusted-by' },
 			{ title: 'Who we are', href: '#who-we-are' },
 			{ title: 'Our Services', href: '#our-services' },
-			{ title: 'Our Work', href: '#our-work' },
 			{ title: 'Why we Excel. Why us.', href: '#why-we-excel' },
+			{ title: 'Our Work', href: '#our-work' },
 			{ title: 'How to Work Together', href: '#how-to-work-together' }
 		],
 		'/services': [
@@ -41,15 +41,18 @@
 </script>
 
 <footer title="Layout Footer" class="w-full pt-[4%] px-[5%] pb-[1%]">
-	<div class="grid grid-cols-4 gap-2 mx-auto md:grid-cols-5 max-w-[1730px]">
+	<div class="grid grid-cols-4 gap-5 mx-auto md:grid-cols-5 max-w-[1730px]">
 		<section class="flex flex-col col-span-4 gap-2 md:col-span-1">
-			<figure class="flex items-center w-full gap-2">
-				<img
-					class="h-12 w-44 object-fit"
-					src="/images/stackit_logo_dark.png"
-					alt="Stakit Logotipo"
-				/>
-			</figure>
+			<a href="/" class="w-fit">
+				<figure class="flex items-center w-full gap-2">
+					<img
+						class="h-12 w-44 object-fit"
+						src="/images/stackit_logo_dark.png"
+						alt="Stakit Logotipo"
+					/>
+				</figure>
+			</a>
+
 			<div class="flex-col hidden w-1/2 text-xl md:flex">
 				<span>Success.</span>
 				<span class="font-medium text-blue-500">Coded.</span>

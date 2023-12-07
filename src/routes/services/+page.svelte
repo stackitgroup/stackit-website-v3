@@ -19,17 +19,17 @@
 <CustomSoftwareService />
 <Build />
 <section title="Contact Us" class="w-full p-[5%] contact-bg">
-	<div class="grid gap-10 gird-cols-1 md:grid-cols-2 mx-auto w-full max-w-[1730px] text-white">
-		<header
-			class="col-span-3 px-5 2xl:px-0 pb-[5%] flex gap-5 justify-center items-center flex-col"
-		>
+	<div class="flex flex-col mx-auto w-full max-w-[1730px] text-white">
+		<header class="px-5 2xl:px-0 pb-[5%] flex gap-5 justify-center items-center flex-col">
 			<h2 class="text-2xl">Get in touch</h2>
 			<p class="text-5xl">
 				Let's shape the <span class="text-[var(--light-blue)]">future</span>
 			</p>
 		</header>
-		<CalendlyWidget />
-		<ContactForm {form} />
+		<div>
+			<CalendlyWidget />
+			<ContactForm {form} />
+		</div>
 	</div>
 </section>
 

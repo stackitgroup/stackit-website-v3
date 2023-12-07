@@ -1,6 +1,9 @@
-<section title="About Stack IT" id="about-stack-it" class="w-full p-[5%] bg-[--light-gray]">
+<section title="About Stack IT" id="about-stack-it" class="w-full p-[5%] bg-[--blue]">
 	<div class="grid grid-cols-2 mx-auto max-w-[1730px]">
-		<article class="col-span-2 px-5 py-5 2xl:pl-0 text-md md:col-span-1" title="Who we are">
+		<article
+			class="col-span-2 px-5 py-5 2xl:pl-0 text-md md:col-span-1 text-white"
+			title="Who we are"
+		>
 			<header>
 				<h2 class="text-3xl md:text-4xl md:col-span-1">Who we are</h2>
 			</header>
@@ -8,27 +11,24 @@
 			<p>
 				Stack IT, based in San Diego, CA, is your gateway to success. Since 2017, we've linked
 				companies with top
-				<span class="font-semibold text-[var(--blue)]"> tech professionals </span>
+				<span class="font-semibold"> tech professionals </span>
 				from Latin America, providing
-				<span class="font-semibold text-[var(--blue)]">
-					cost-effective remote staffing solutions.
-				</span> Our motto, "Success. Coded." underscores our commitment to delivering the ideal technical
-				talent for your needs. We're shaping the future of work with a diverse tech workforce.
+				<span class="font-semibold"> cost-effective remote staffing solutions. </span> Our motto, "Success.
+				Coded." underscores our commitment to delivering the ideal technical talent for your needs. We're
+				shaping the future of work with a diverse tech workforce.
 			</p>
 			<br />
 			<p>
 				Discover innovative staffing services and stay updated with the latest
-				<span class="font-semibold text-[var(--blue)]">talent acquisition trends.</span>
+				<span class="font-semibold">talent acquisition trends.</span>
 			</p>
 			<br />
 			<p>
 				Explore our
-				<span class="font-semibold text-[var(--blue)]">
-					Stack It staffing services, remote talent,
-				</span>
+				<span class="font-semibold"> Stack It staffing services, remote talent, </span>
 				and insightful
-				<span class="font-semibold text-[var(--blue)]"> tech recruitment best practices </span> in our
-				blog. When you're ready, contact Stack It to unlock success.
+				<span class="font-semibold"> tech recruitment best practices </span> in our blog. When you're
+				ready, contact Stack It to unlock success.
 			</p>
 		</article>
 

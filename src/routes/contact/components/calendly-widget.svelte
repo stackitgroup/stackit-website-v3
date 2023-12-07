@@ -11,7 +11,7 @@
 </script>
 
 <div
-	class="calendly-inline-widget h-[600px] md:w-[500px] md:h-[600px]"
+	class="calendly-inline-widget h-[600px] sm:w-[500px] md:h-[600px] mx-auto"
 	data-url="https://calendly.com/testingalphablock/30min?hide_event_type_details=1&hide_gdpr_banner=1&background_color=510621&text_color=ffffff&primary_color=ed3688"
 />
 

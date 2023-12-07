@@ -11,27 +11,30 @@
 	};
 </script>
 
-<section id="our-work" class="w-full p-[5%]" title="How to work together Section">
-	<div class="grid grid-cols-3 mx-auto w-full max-w-[1730px] gap-5">
-		<header class="col-span-3 px-5 2xl:px-0 md:text-5xl pb-[5%] grid gap-5">
-			<h2>
-				Our
-				<span class="text-[var(--blue)]">Work</span>
-			</h2>
-			<span class="pl-5 text-xl text-gray-500">
+<section
+	id="how-to-work-together"
+	class="w-full p-[5%] bg-[--gray]"
+	title="How to work together Section"
+>
+	<div class="grid grid-cols-3 mx-auto w-full max-w-[1730px] gap-10">
+		<header class="col-span-3 px-5 2xl:px-0 md:text-5xl grid gap-5">
+			<h2 class="text-3xl md:text-5xl text-[--blue]">Our Work</h2>
+			<span class="text-xl opacity-80">
 				Here's a snapshot of our past successes and the tools we use to deliver exceptional
 				services.
 			</span>
 		</header>
 
 		{#each CaseStudies as e}
-			<article title={e.title} class="grid col-span-3 md:col-span-1">
+			<article title={e.title} class="grid col-span-3 md:col-span-1 bg-white ] rounded-xl">
 				<div
 					class="[grid-row:1/2] py-10 [grid-column:1/2] z-20 grid gap-4 px-10 md:place-content-between font-normal text-gray-200"
 				>
 					<header>
-						<h3 class="text-2xl text-[var(--blue)] relative">{e.title}</h3>
-						<small>
+						<h3 class="text-2xl relative text-[--brand-blue] font-semibold">
+							{e.title}
+						</h3>
+						<small class="text-black opacity-80">
 							{e.introduction}
 						</small>
 					</header>
@@ -48,29 +51,21 @@
 						</button>
 					</footer>
 				</div>
-
-				<!-- Background -->
-				<div class="z-10 [grid-row:1/2] [grid-column:1/2] overlay rounded-xl" />
-				<img
-					class="object-cover w-full h-full [grid-row:1/2] [grid-column:1/2] rounded-xl"
-					alt="who_we_are"
-					src="/images/how-to-work-together-discovery.png"
-				/>
 			</article>
 		{/each}
 	</div>
 </section>
 
 <dialog class="modal modal-bottom sm:modal-middle" class:modal-open={modalOpen}>
-	<div class="modal-box">
-		<h3 class="text-lg font-bold text-white">{currentCaseStudy.title}</h3>
+	<div class="modal-box bg-[--brand-blue]">
+		<h3 class="text-lg font-bold text-black">{currentCaseStudy.title}</h3>
 
 		<picture class="grid justify-center">
 			<img class="object-contain h-52" src={currentCaseStudy.image} alt={currentCaseStudy.title} />
 		</picture>
 
 		<br />
-		<p class="text-white">
+		<p class="text-black bg-red">
 			{currentCaseStudy.description}
 		</p>
 
@@ -87,14 +82,6 @@
 </dialog>
 
 <style>
-	.overlay {
-		background: linear-gradient(
-			137deg,
-			rgba(3, 21, 35, 0.76) 54.87%,
-			rgba(1, 111, 206, 0.2) 101.73%
-		);
-	}
-
 	article:nth-of-type(1) {
 		animation: slideInFromLeft linear both;
 		animation-timeline: view();

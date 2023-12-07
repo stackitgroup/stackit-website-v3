@@ -27,12 +27,8 @@
 			<span class="font-bold">perfect talent</span> that aligns with your specific requirements, industry
 			standards, and technological demands.
 		</p>
-		<p>
-			<span class="font-bold">Innovative staffing solutions</span>
-			await you at Stack IT. Contact us to explore how our
-			<span class="font-bold">cost-effective tech staffing</span> services can benefit your business.
-		</p>
-		<a class="w-fit" href="/services">
+
+		<a class="w-fit mx-auto md:mx-0" href="/services">
 			<button
 				class="text-base flex items-center justify-center gap-2 rounded-full text-black h-10 w-40 bg-white hover:bg-[--white] hover:bg-black hover:text-white transition-colors duration-400"
 			>
