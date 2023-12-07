@@ -25,7 +25,7 @@
 <WhyWeExcel />
 <HowToWorkTogether />
 
-<section title="Contact Us" class="w-full p-[5%] contact-bg">
+<section id="get-in-touch" title="Contact Us" class="w-full p-[5%] contact-bg">
 	<div class="grid gap-10 gird-cols-1 md:grid-cols-2 mx-auto w-full max-w-[1730px] text-white">
 		<header
 			class="col-span-3 px-5 2xl:px-0 pb-[5%] flex gap-5 justify-center items-center flex-col"

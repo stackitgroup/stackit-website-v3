@@ -2,7 +2,7 @@
 	import SectionContainer from '../../../components/section-container.svelte';
 </script>
 
-<SectionContainer backgroundColor="bg-[--blue]" tittle="staffing-innovation">
+<SectionContainer backgroundColor="bg-[--blue]" tittle="our-services">
 	<article
 		class="flex flex-col gap-5 col-span-2 text-md md:col-span-1 text-white [&>p]:opacity-80"
 		title="Staffing Innovation Article"

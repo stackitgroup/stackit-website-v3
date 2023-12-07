@@ -1,11 +1,11 @@
 <script lang="ts">
-	import ServicesOverview from './components/services-overview.svelte';
-	import StaffingService from './components/staffing-service.svelte';
-	import CustomSoftwareService from './components/custom-software-service.svelte';
-	import Build from './components/build.svelte';
+	import type { ActionData } from '../contact/$types';
 	import CalendlyWidget from '../contact/components/calendly-widget.svelte';
 	import ContactForm from '../contact/components/contact-form.svelte';
-	import type { ActionData } from '../contact/$types';
+	import Build from './components/build.svelte';
+	import CustomSoftwareService from './components/custom-software-service.svelte';
+	import ServicesOverview from './components/services-overview.svelte';
+	import StaffingService from './components/staffing-service.svelte';
 	export let form: ActionData;
 </script>
 

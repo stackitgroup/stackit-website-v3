@@ -11,7 +11,7 @@
 	};
 </script>
 
-<section id="how-to-work-together" class="w-full p-[5%]" title="How to work together Section">
+<section id="our-work" class="w-full p-[5%]" title="How to work together Section">
 	<div class="grid grid-cols-3 mx-auto w-full max-w-[1730px] gap-5">
 		<header class="col-span-3 px-5 2xl:px-0 md:text-5xl pb-[5%] grid gap-5">
 			<h2>

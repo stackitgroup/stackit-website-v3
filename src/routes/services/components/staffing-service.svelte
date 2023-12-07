@@ -2,12 +2,12 @@
 	import SectionContainer from '../../../components/section-container.svelte';
 </script>
 
-<SectionContainer backgroundColor="bg-white" tittle="Staffing Innovation">
+<SectionContainer backgroundColor="bg-white" tittle="staffing-service">
 	<article
 		class="flex flex-col gap-5 col-span-2 text-md md:col-span-1 text-black [&>p]:opacity-80"
 		title="Staffing Innovation Article"
 	>
-		<h2 class="text-3xl font-light md:col-span-1 md:text-5xl mb-5">Staffing Innovation</h2>
+		<h2 class="mb-5 text-3xl font-light md:col-span-1 md:text-5xl">Staffing Innovation</h2>
 
 		<p>
 			At Stack IT, we've redefined <span class="font-bold text-[--blue]">

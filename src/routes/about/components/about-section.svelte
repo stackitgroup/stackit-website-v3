@@ -1,4 +1,4 @@
-<section title="About Stack IT" class="w-full p-[5%] bg-[--light-gray]">
+<section title="About Stack IT" id="about-stack-it" class="w-full p-[5%] bg-[--light-gray]">
 	<div class="grid grid-cols-2 mx-auto max-w-[1730px]">
 		<article class="col-span-2 px-5 py-5 2xl:pl-0 text-md md:col-span-1" title="Who we are">
 			<header>

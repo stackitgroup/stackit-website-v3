@@ -2,7 +2,7 @@
 	import SectionContainer from '../../../components/section-container.svelte';
 </script>
 
-<SectionContainer tittle="Staffing Innovation">
+<SectionContainer tittle="custom-software-service">
 	<article
 		class="flex flex-col gap-5 col-span-2 text-md md:col-span-1 text-black [&>p]:opacity-80"
 		title="Custom Software Service Description"

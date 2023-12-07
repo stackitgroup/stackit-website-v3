@@ -12,11 +12,32 @@
 				// eslint-disable-next-line @typescript-eslint/no-explicit-any
 				document.querySelector(anchor?.getAttribute('href') as any).scrollIntoView({
 					behavior: 'smooth',
-					block: 'center'
+					block: 'center',
+					inline: 'center'
 				});
 			});
 		});
 	});
+
+	const revisitLinks: Record<string, { title: string; href: string }[]> = {
+		'/': [
+			{ title: 'Trusted By', href: '#trusted-by' },
+			{ title: 'Who we are', href: '#who-we-are' },
+			{ title: 'Our Services', href: '#our-services' },
+			{ title: 'Our Work', href: '#our-work' },
+			{ title: 'Why we Excel. Why us.', href: '#why-we-excel' },
+			{ title: 'How to Work Together', href: '#how-to-work-together' }
+		],
+		'/services': [
+			{ title: 'Stackit Overview', href: '#services-overview' },
+			{ title: 'Staffing Innovation', href: '#staffing-service' },
+			{ title: 'Custom Software', href: '#custom-software-service' }
+		],
+		'/about': [
+			{ title: 'About Us', href: '#about-stack-it' },
+			{ title: 'Meet Stack IT', href: '#stack-it-team' }
+		]
+	};
 </script>
 
 <footer title="Layout Footer" class="w-full pt-[4%] px-[5%] pb-[1%]">
@@ -38,15 +59,23 @@
 		<section class="flex flex-col col-span-2 gap-2 md:col-span-1">
 			<h3 class="text-xl font-semibold">Quick links</h3>
 			<ul class="flex flex-col gap-2 pl-1 text-sm">
-				<li><p>Staffing</p></li>
-				<li><p>Custom Software</p></li>
+				<li><a href="/services">Services</a></li>
+				<li><a href="/about">About</a></li>
+				<li><a href="/contact">Contact</a></li>
+				<li><a href="/case-study">Case Study</a></li>
 			</ul>
 		</section>
 		<!-- Contact -->
-		<section class="col-span-2 gap-2 flex flex-col md:[grid-column:5/6] md:[grid-row:1/2]">
+		<section
+			class="col-span-2 gap-2 flex flex-col {revisitLinks[$page.url.pathname]
+				? 'md:[grid-column:5/6] md:[grid-row:1/2]'
+				: 'md:[grid-column:4/5] md:[grid-row:1/2]'}"
+		>
 			<h3 class="text-xl font-semibold">Contact</h3>
 			<ul class="flex flex-col gap-2 pl-1 text-sm">
-				<li>Phone: +1 (619) 917 5387</li>
+				<li>
+					<a href="tel:+16199175387"> Phone: +1 (619) 917 5387 </a>
+				</li>
 				<li>
 					<a class="text-base" href="mailto:hello@stackitgroup.com"> hello@stackitgroup.com</a>
 				</li>
@@ -62,42 +91,17 @@
 			</ul>
 		</section>
 		<!-- Revisit -->
-
-		{#if $page.url.pathname === '/custom-software'}
-			<section class="flex flex-col col-span-2 gap-2 md:col-span-1">
-				<h3 class="text-xl font-semibold">Revisit</h3>
-
-				<ul class="flex flex-col gap-2 pl-1 text-sm">
-					<li><a href="#software-development">Software Development</a></li>
-					<li>
-						<p class="text-clip">Maintenance & Support</p>
-					</li>
-					<li>
-						<p>Why choose us</p>
-					</li>
-					<li>
-						<p>How We Collaborate</p>
-					</li>
-					<li>
-						<p>Our clients</p>
-					</li>
-				</ul>
-			</section>
-		{:else}
+		{#if revisitLinks[$page.url.pathname]}
 			<section class="flex flex-col col-span-2 gap-2 md:col-span-1">
 				<h3 class="text-xl font-semibold">Revisit</h3>
 				<ul class="flex flex-col gap-2 pl-1 text-sm">
-					<li><p>Who we are</p></li>
-					<li>
-						<p class="text-clip">Staffing Innovation</p>
-					</li>
-					<li>
-						<p>Why we excel</p>
-					</li>
-					<li>
-						<p>How to work together</p>
-					</li>
-					<li><p>Our clients</p></li>
+					{#each revisitLinks[$page.url.pathname] as item}
+						<li>
+							<a href={item.href}>
+								{item.title}
+							</a>
+						</li>
+					{/each}
 				</ul>
 			</section>
 		{/if}
@@ -107,9 +111,13 @@
 			<h3 class="text-xl font-semibold">Product Sites</h3>
 
 			<ul class="flex flex-col gap-2 pl-1 text-sm">
-				<li>LEDA</li>
+				<li>
+					<a href="https://ledav2.jup.io/"> LEDA </a>
+				</li>
 				<li>Metis</li>
-				<li>Interview Buddy</li>
+				<li>
+					<a href="https://www.defispot.com/"> Defispot </a>
+				</li>
 			</ul>
 		</section>
 		<div class="col-span-4 md:col-span-5">
