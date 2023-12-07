@@ -1,4 +1,6 @@
 <script>
+	import { faCalendarPlus } from '@fortawesome/free-solid-svg-icons';
+	import Fa from 'svelte-fa';
 	import Footer from '../components/footer.svelte';
 	import Header from '../components/header.svelte';
 	import './styles.css';
@@ -18,13 +20,14 @@
 >
 	<a
 		href="#top"
+		class="text-white"
 		on:click|preventDefault={() =>
 			window.scrollTo({
 				top: 0,
 				behavior: 'smooth'
 			})}
 	>
-		<img src="/icons/arrow.svg" alt="arrow to scroll up" />
+		<Fa icon={faCalendarPlus} size="1.3x" />
 	</a>
 </div>
 
