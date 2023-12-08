@@ -11,13 +11,9 @@
 	};
 </script>
 
-<section
-	id="how-to-work-together"
-	class="w-full p-[5%] bg-[--gray]"
-	title="How to work together Section"
->
+<section id="our-work" class="w-full p-[5%] bg-[--gray]" title="How to work together Section">
 	<div class="grid grid-cols-3 mx-auto w-full max-w-[1730px] gap-10">
-		<header class="col-span-3 px-5 2xl:px-0 md:text-5xl grid gap-5">
+		<header class="grid col-span-3 gap-5 px-5 2xl:px-0 md:text-5xl">
 			<h2 class="text-3xl md:text-5xl text-[--blue]">Our Work</h2>
 			<span class="text-xl opacity-80">
 				Here's a snapshot of our past successes and the tools we use to deliver exceptional
@@ -26,7 +22,7 @@
 		</header>
 
 		{#each CaseStudies as e}
-			<article title={e.title} class="grid col-span-3 md:col-span-1 bg-white rounded-xl">
+			<article title={e.title} class="grid col-span-3 bg-white md:col-span-1 rounded-xl">
 				<div
 					class="[grid-row:1/2] py-10 [grid-column:1/2] z-20 grid gap-4 px-10 md:place-content-between font-normal text-gray-200"
 				>
