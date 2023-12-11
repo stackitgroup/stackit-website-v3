@@ -6,16 +6,17 @@
 		>
 			<h2 class="text-3xl font-light md:col-span-1 md:text-5xl">Stack IT Overview</h2>
 			<p>
-				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-				been the industry's standard dummy text ever since the 1500s,
+				Redefining Talent Acquisition, we connect you with top-tier Tech Professionals from Latin
+				America. Our meticulous selection process ensures tailored strategic partnerships for
+				Staffing Services of real quality.
 			</p>
 			<p>
-				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-				been the industry's standard dummy text ever since the 1500s,
+				In Custom Software, we unleash LATAM's tech expertise, crafting transformative solutions
+				from blockchain to web development or AI.
 			</p>
 			<p>
-				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-				been the industry's standard dummy text ever since the 1500s,
+				At <span class="font-semibold">Stack IT</span>, success isn't just coded; it's a
+				collaboration fueled by innovation and the vibrant energy of LATAM
 			</p>
 		</section>
 		<section

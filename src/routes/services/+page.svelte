@@ -21,12 +21,13 @@
 <section title="Contact Us" class="w-full p-[5%] contact-bg">
 	<div class="flex flex-col mx-auto w-full max-w-[1730px] text-white">
 		<header class="px-5 2xl:px-0 pb-[5%] flex gap-5 justify-center items-center flex-col">
-			<h2 class="text-2xl">Get in touch</h2>
-			<p class="text-5xl">
-				Let's shape the <span class="text-[var(--light-blue)]">future</span>
+			<h2 class="text-2xl">Start the Conversation</h2>
+			<p class="text-5xl text-center">
+				Let's Talk Solutions and <span class="text-[var(--light-blue)]">Forge Success Together</span
+				>
 			</p>
 		</header>
-		<div>
+		<div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 w-full">
 			<CalendlyWidget />
 			<ContactForm {form} />
 		</div>

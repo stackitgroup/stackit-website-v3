@@ -51,7 +51,11 @@
 	<p>Email Sent Successfully! You will be answered soon.</p>
 {/if}
 
-<form method="POST" class="flex flex-col w-full gap-5 p-5 pt-0" use:enhance={handleSubmit}>
+<form
+	method="POST"
+	class="flex flex-col w-full gap-5 p-5 pt-0 max-w-[600px]"
+	use:enhance={handleSubmit}
+>
 	<span class="text-2xl text-center">Consult with our specialists.</span>
 	<input
 		type="text"

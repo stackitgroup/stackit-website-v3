@@ -29,19 +29,8 @@
 			industry standards, and technological demands.
 		</p>
 		<p>
-			Through a meticulous selection process, <span class="font-bold text-[--blue]">
-				tech talent acquisition
-			</span>
-			becomes a breeze. We customize training to fit your unique needs and evaluate candidates keenly.
-			With our expertise, we handpick the
-			<span class="font-bold text-[--blue]">perfect talent</span> that aligns with your specific requirements,
-			industry standards, and technological demands.
-		</p>
-		<p>
-			<span class="font-bold text-[--blue]">Innovative staffing solutions</span>
-			await you at Stack IT. Contact us to explore how our
-			<span class="font-bold text-[--blue]">cost-effective tech staffing</span> services can benefit
-			your business.
+			Our cost-effective tech staffing solutions await your exploration. Contact Stack IT today to
+			elevate your business with strategic talent acquisition and innovative staffing solutions.
 		</p>
 	</article>
 

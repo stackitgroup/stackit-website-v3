@@ -8,39 +8,19 @@
 		title="Custom Software Service Description"
 	>
 		<h2 class="text-3xl font-light md:col-span-1 md:text-5xl mb-5">Custom Software</h2>
+		<p>Experience innovation with Stack IT, your partner for cutting-edge Custom Software.</p>
 		<p>
-			At Stack IT, we've redefined <span class="font-bold text-[--blue]">
-				staffing innovation.
-			</span>
-			Our comprehensive
-			<span class="font-bold text-[--blue]">full-stack staffing solution</span>
-			connects you with top-tier
-			<span class="font-bold text-[--blue]">software developers</span> from Latin America, propelling
-			your business to new heights.
+			From blockchain to AI, we craft transformative mobile and web apps with <span
+				class="text-[--blue] font-semibold">expertise and agility</span
+			>. Our commitment extends to comprehensive
+			<span class="text-[--blue] font-semibold">Maintenance & Support</span>, ensuring peak
+			performance. Stack IT's tech consulting offers fresh perspectives, aligning tech investments
+			with strategic goals.
 		</p>
 		<p>
-			Through a meticulous selection process, <span class="font-bold text-[--blue]">
-				tech talent acquisition
-			</span>
-			becomes a breeze. We customize training to fit your unique needs and evaluate candidates keenly.
-			With our expertise, we handpick the
-			<span class="font-bold text-[--blue]">perfect talent</span> that aligns with your specific requirements,
-			industry standards, and technological demands.
-		</p>
-		<p>
-			Through a meticulous selection process, <span class="font-bold text-[--blue]">
-				tech talent acquisition
-			</span>
-			becomes a breeze. We customize training to fit your unique needs and evaluate candidates keenly.
-			With our expertise, we handpick the
-			<span class="font-bold text-[--blue]">perfect talent</span> that aligns with your specific requirements,
-			industry standards, and technological demands.
-		</p>
-		<p>
-			<span class="font-bold text-[--blue]">Innovative staffing solutions</span>
-			await you at Stack IT. Contact us to explore how our
-			<span class="font-bold text-[--blue]">cost-effective tech staffing</span> services can benefit
-			your business.
+			Choose Stack IT <span class="text-[--blue] font-semibold">for forward-looking solutions</span
+			>, ongoing care, and insightful consulting, propelling your business
+			<span class="text-[--blue] font-semibold">into the digital future</span>.
 		</p>
 	</article>
 

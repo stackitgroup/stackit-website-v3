@@ -7,21 +7,23 @@
 		<li class="flex flex-row gap-2 justify-between">
 			<div class="rounded-full bg-[--blue] h-[10px] w-[10px] mt-[2%]" />
 			<p class="w-[95%]">
-				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-				been the industry's standard dummy text ever since the 1500s,
+				Elevate your vision with Stack IT, where expertise meets commitment. We understand your
+				project intricacies, tailoring strategies to your goals.
 			</p>
 		</li>
 		<li class="flex flex-row gap-2 justify-between">
 			<div class="rounded-full bg-[--blue] h-[10px] w-[10px] mt-[2%]" />
 			<p class="w-[95%]">
-				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-				been the industry's standard dummy text ever since the 1500s,
+				Our specialized team designs a customized software plan, focusing on architecture and
+				technology stack. Efficient development, client involvement, and comprehensive testing
+				ensure reliability.
 			</p>
 		</li>
 		<li class="flex flex-row gap-2 justify-between">
 			<div class="rounded-full bg-[--blue] h-[10px] w-[10px] mt-[2%]" />
 			<p class="w-[95%]">
-				Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+				From deployment to ongoing maintenance, Stack IT is your partner in turning ideas into
+				digital reality.
 			</p>
 		</li>
 	</ul>

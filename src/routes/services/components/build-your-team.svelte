@@ -7,21 +7,22 @@
 		<li class="flex flex-row gap-2 justify-between">
 			<div class="rounded-full bg-white h-[10px] w-[10px] mt-[2%]" />
 			<p class="w-[95%]">
-				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-				been the industry's standard dummy text ever since the 1500s,
+				Craft your dream team with Stack IT, your strategic partner in talent acquisition.
 			</p>
 		</li>
 		<li class="flex flex-row gap-2 justify-between">
 			<div class="rounded-full bg-white h-[10px] w-[10px] mt-[2%]" />
 			<p class="w-[95%]">
-				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-				been the industry's standard dummy text ever since the 1500s,
+				Our recruitment team, armed with cutting-edge strategies, ensures a seamless process. We
+				redefine staffing innovation, connecting you with top-tier tech professionals from Latin
+				America.
 			</p>
 		</li>
 		<li class="flex flex-row gap-2 justify-between">
 			<div class="rounded-full bg-white h-[10px] w-[10px] mt-[2%]" />
 			<p class="w-[95%]">
-				Lorem Ipsum is simply dummy text of the printing and typesetting industry
+				Meticulous selection, customized training, and industry-aligned evaluations guarantee a team
+				that exceeds expectations.
 			</p>
 		</li>
 	</ul>
