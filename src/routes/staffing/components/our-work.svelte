@@ -5,7 +5,6 @@
 	let currentCaseStudy = {} as CaseStudy;
 
 	const createSelectCaseStudyClick = (caseStudy: CaseStudy) => () => {
-		console.log(caseStudy);
 		currentCaseStudy = caseStudy;
 		modalOpen = !modalOpen;
 	};
@@ -53,7 +52,7 @@
 </section>
 
 <dialog class="modal modal-bottom sm:modal-middle" class:modal-open={modalOpen}>
-	<div class="modal-box bg-[--gray] p-[3%] max-w-[600px]">
+	<div class="modal-box bg-[--gray] p-[3%] max-w-[600px] md:overflow-y-hidden">
 		<h3 class="text-lg font-bold text-black">{currentCaseStudy.title}</h3>
 
 		<picture class="grid justify-center">

@@ -1,35 +1,38 @@
 <section title="About Stack IT" id="about-stack-it" class="w-full p-[5%] bg-[--blue]">
 	<div class="grid grid-cols-2 mx-auto max-w-[1730px]">
 		<article
-			class="col-span-2 px-5 py-5 2xl:pl-0 text-md md:col-span-1 text-white"
+			class="col-span-2 px-5 pb-5 text-white 2xl:pl-0 text-md md:col-span-1"
 			title="Who we are"
 		>
 			<header>
 				<h2 class="text-3xl md:text-4xl md:col-span-1">Who we are</h2>
 			</header>
 			<br />
-			<p>
-				Stack IT, based in San Diego, CA, is your gateway to success. Since 2017, we've linked
-				companies with top
-				<span class="font-semibold"> tech professionals </span>
-				from Latin America, providing
-				<span class="font-semibold"> cost-effective remote staffing solutions. </span> Our motto, "Success.
-				Coded." underscores our commitment to delivering the ideal technical talent for your needs. We're
-				shaping the future of work with a diverse tech workforce.
-			</p>
+
+			Founded in 2017, Stack IT is not just a software development company; we are architects of
+			digital revolutions. Our inception was driven by a passion to redefine tech possibilities in
+			Latin America, and since then, our journey has been fueled by an unwavering commitment to
+			excellence.
+
 			<br />
-			<p>
-				Discover innovative staffing services and stay updated with the latest
-				<span class="font-semibold">talent acquisition trends.</span>
-			</p>
 			<br />
-			<p>
-				Explore our
-				<span class="font-semibold"> Stack It staffing services, remote talent, </span>
-				and insightful
-				<span class="font-semibold"> tech recruitment best practices </span> in our blog. When you're
-				ready, contact Stack It to unlock success.
-			</p>
+
+			Led by a triumvirate of visionaries, we transcend traditional paradigms, inspiring
+			breakthroughs for our clients and providing an inviting canvas for passionate individuals to
+			join us in reshaping the future of technology.
+
+			<br />
+			<br />
+
+			Stack IT is more than a company; it's an immersive invitation to be part of something
+			transformative. For 5+ years, we've been linking companies with top tech professionals from
+			Latin America, offering cost-effective remote staffing solutions that elevate businesses to
+			new heights.
+			<br />
+			<br />
+
+			Join us in a journey where innovation knows no bounds, and every project is an opportunity for
+			impactful change.
 		</article>
 
 		<picture class="grid col-span-2 md:col-span-1 rounded-xl" title="Development Team">

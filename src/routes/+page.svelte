@@ -33,7 +33,7 @@
 				Let's shape the <span class="text-[var(--light-blue)]">future</span>
 			</h3>
 		</header>
-		<div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 w-full">
+		<div class="grid w-full grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-20">
 			<CalendlyWidget />
 			<ContactForm {form} />
 		</div>
