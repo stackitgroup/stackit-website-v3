@@ -5,10 +5,27 @@
 			title="Services Overview Description"
 		>
 			<h2 class="text-3xl font-light md:col-span-1 md:text-5xl">Stack IT Overview</h2>
-			Collaboration is at the heart of our team's success. Our talented individuals work closely together,
-			leveraging their collective skills to tackle complex challenges and deliver high-quality outcomes.
-			Whether it's web development, mobile app development, or software engineering, our team is equipped
-			with the expertise to meet diverse client needs.
+
+			At Stack IT, we take pride in our amazing tech team, composed of talented collaborators from
+			Argentina, Mexico, Venezuela, Colombia, Italy, the US, and other countries. Our team is a
+			powerhouse of software engineering expertise and is dedicated to delivering exceptional
+			results for our clients.
+
+			<br />
+			<br />
+
+			Each member of our tech team is handpicked for their exceptional skills and passion for
+			technology. We believe in nurturing talent and providing our team with a supportive
+			environment to excel. From experienced software engineers to up-and-coming talents, our team
+			is a dynamic mix of expertise and potential.
+
+			<br />
+			<br />
+
+			Collaboration is at the heart of our team's success. Our talented individuals work closely
+			together, leveraging their collective skills to tackle complex challenges and deliver
+			high-quality outcomes. Whether it's web development, mobile app development, or software
+			engineering, our team is equipped with the expertise to meet diverse client needs.
 		</section>
 		<section
 			class="grid grid-cols-4 col-span-6 gap-5 md:col-span-4"
