@@ -8,31 +8,24 @@
 				<h2 class="text-3xl md:text-4xl md:col-span-1">Who we are</h2>
 			</header>
 			<br />
-
-			Founded in 2017, Stack IT is not just a software development company; we are architects of
-			digital revolutions. Our inception was driven by a passion to redefine tech possibilities in
-			Latin America, and since then, our journey has been fueled by an unwavering commitment to
-			excellence.
-
+			We are architects of digital revolutions. Our inception was driven by a passion to redefine technological
+			possibilities in Latin America, and since then, our journey has been fueled by an unwavering commitment
+			to excellence.
 			<br />
 			<br />
 
-			Led by a triumvirate of visionaries, we transcend traditional paradigms, inspiring
-			breakthroughs for our clients and providing an inviting canvas for passionate individuals to
-			join us in reshaping the future of technology.
+			Guided by a trio of visionaries, we transcend traditional paradigms, inspiring breakthroughs
+			for our clients and providing a welcoming platform for passionate individuals to join us in
+			reshaping the future of technology.
 
 			<br />
 			<br />
 
-			Stack IT is more than a company; it's an immersive invitation to be part of something
-			transformative. For 5+ years, we've been linking companies with top tech professionals from
-			Latin America, offering cost-effective remote staffing solutions that elevate businesses to
-			new heights.
-			<br />
-			<br />
-
-			Join us in a journey where innovation knows no bounds, and every project is an opportunity for
-			impactful change.
+			Stack IT is more than a company; it’s an immersive invitation to be part of something
+			transformative. For over 5 years, we’ve been connecting companies with the best tech
+			professionals from Latin America, offering cost-effective remote staffing solutions that
+			elevate businesses to new heights. Join us on a journey where innovation knows no bounds, and
+			every project is an opportunity for impactful change.
 		</article>
 
 		<picture class="grid col-span-2 md:col-span-1 rounded-xl" title="Development Team">

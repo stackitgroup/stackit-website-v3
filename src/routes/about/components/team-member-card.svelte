@@ -18,12 +18,12 @@
 		</h4>
 		<div class="overflow-hidden">
 			<p class="opacity-80 text-clip">
-				{teamMember.bio.slice(0, 150)}...
+				{teamMember.bio.slice(0, 200)}...
 			</p>
 		</div>
 
 		<button
-			class="text-base flex items-center justify-center gap-2 rounded-full text-gray-200 border-[1.5px] border-[#016fce] h-11 w-44 bg-[#016fce] transition-colors duration-400"
+			class="mt-4 text-base flex items-center justify-center gap-2 rounded-full text-gray-200 border-[1.5px] border-[#016fce] h-11 w-44 bg-[#016fce] transition-colors duration-400"
 			on:click={createSelectCaseStudyClick(teamMember)}
 		>
 			Read More
