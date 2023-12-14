@@ -5,26 +5,10 @@
 			title="Services Overview Description"
 		>
 			<h2 class="text-3xl font-light md:col-span-1 md:text-5xl">Stack IT Overview</h2>
-
-			We are architects of digital revolutions. Our inception was driven by a passion to redefine
-			tech possibilities in Latin America, and since then, our journey has been fueled by an
-			unwavering commitment to excellence.
-
-			<br />
-			<br />
-
-			Led by a triumvirate of visionaries, we transcend traditional paradigms, inspiring
-			breakthroughs for our clients and providing an inviting canvas for passionate individuals to
-			join us in reshaping the future of technology.
-
-			<br />
-			<br />
-
-			Stack IT is more than a company; it's an immersive invitation to be part of something
-			transformative. For 5+ years, we've been linking companies with top tech professionals from
-			Latin America, offering cost-effective remote staffing solutions that elevate businesses to
-			new heights. Join us in a journey where innovation knows no bounds, and every project is an
-			opportunity for impactful change.
+			Collaboration is at the heart of our team's success. Our talented individuals work closely together,
+			leveraging their collective skills to tackle complex challenges and deliver high-quality outcomes.
+			Whether it's web development, mobile app development, or software engineering, our team is equipped
+			with the expertise to meet diverse client needs.
 		</section>
 		<section
 			class="grid grid-cols-4 col-span-6 gap-5 md:col-span-4"
