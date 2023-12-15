@@ -1,13 +1,13 @@
 <script>
 	import Icon from 'svelte-awesome';
 	import bars from 'svelte-awesome/icons/bars';
-	import remove from 'svelte-awesome/icons/remove';
 	import { page } from '$app/stores';
+	import { faXmark } from '@fortawesome/free-solid-svg-icons';
+	import Fa from 'svelte-fa';
 </script>
 
-<aside class="w-1/2 drawer drawer-end md:hidden" title="Aside Menu">
+<aside class="w-1/2 drawer drawer-end md:hidden" title="Side Menu">
 	<div class="drawer-content">
-		<!-- Page content here -->
 		<label for="my-drawer-4">
 			<Icon data={bars} scale={1.5} />
 		</label>
@@ -16,50 +16,52 @@
 	<input id="my-drawer-4" type="checkbox" class=" drawer-toggle" />
 	<div class="drawer-side">
 		<label for="my-drawer-4" aria-label="close sidebar" class="drawer-overlay"></label>
-		<ul class="min-h-full p-4 text-xl bg-white menu w-80 text-base-content">
-			<!-- Sidebar content here -->
+		<ul class="min-h-full text-xl bg-white w-80 text-base-content p-[5%] flex flex-col gap-3">
 			<li>
-				<label class="absolute top-0 right-0" for="my-drawer-4">
-					<Icon data={remove} scale={1.5} />
+				<label class="absolute top-5 right-5" for="my-drawer-4">
+					<Fa icon={faXmark} />
 				</label>
 			</li>
-			<br />
 			<li>
-				<a
-					class="focus:bg-none text-black hover:underline decoration-blue-500 decoration-2
-			{$page.url.pathname === '/' && 'underline font-semibold'}"
-					href="/"
-				>
-					Staffing
+				<a class="relative group" href="/services">
+					Services
+					<hr
+						class="absolute h-1 duration-700 transform -translate-x-1/2 bg-blue-500 left-1/2 group-hover:w-full"
+						class:w-full={$page.url.pathname === '/custom-software'}
+						class:w-0={$page.url.pathname !== '/custom-software'}
+					/>
 				</a>
 			</li>
 			<li>
-				<a
-					class="text-black hover:underline decoration-blue-500 decoration-2
-			{$page.url.pathname === '/custom-software' && 'underline font-semibold'}"
-					href="/custom-software"
-				>
-					Custom Software
-				</a>
-			</li>
-			<!-- <li>
-				<a
-					class="text-black hover:underline decoration-blue-500 decoration-2
-			{$page.url.pathname === '/about' && 'underline font-semibold'}"
-					href="/about"
-				>
+				<a class="relative group" href="/about">
 					About
+					<hr
+						class="absolute h-1 duration-700 transform -translate-x-1/2 bg-blue-500 left-1/2 group-hover:w-full"
+						class:w-full={$page.url.pathname === '/about'}
+						class:w-0={$page.url.pathname !== '/about'}
+					/>
 				</a>
-			</li> -->
-			<!-- <li>
-				<a
-					class="text-black hover:underline decoration-blue-500 decoration-2
-			{$page.url.pathname === '/contact-us' && 'underline font-semibold'}"
-					href="/#contact-us"
-				>
-					Contact Us
+			</li>
+			<li>
+				<a class="relative group" href="/contact">
+					Contact
+					<hr
+						class="absolute h-1 duration-700 transform -translate-x-1/2 bg-blue-500 left-1/2 group-hover:w-full"
+						class:w-full={$page.url.pathname === '/contact'}
+						class:w-0={$page.url.pathname !== '/contact'}
+					/>
 				</a>
-			</li> -->
+			</li>
+			<li>
+				<a class="relative group" href="/case-study">
+					Case Study
+					<hr
+						class="absolute h-1 duration-700 transform -translate-x-1/2 bg-blue-500 left-1/2 group-hover:w-full"
+						class:w-full={$page.url.pathname === '/case-study'}
+						class:w-0={$page.url.pathname !== '/case-study'}
+					/>
+				</a>
+			</li>
 		</ul>
 	</div>
 </aside>
