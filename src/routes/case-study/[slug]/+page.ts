@@ -3,7 +3,6 @@ import { CaseStudies } from '../data/case-studies';
 import type { PageLoad } from './$types';
 
 export const load: PageLoad = ({ params }) => {
-	console.log(params);
 	const slug = params.slug;
 
 	const caseStudy = CaseStudies.find((caseStudy) => caseStudy.id === slug);
@@ -14,5 +13,5 @@ export const load: PageLoad = ({ params }) => {
 		};
 	}
 
-	throw error(404, 'Not found');
+	error(404, 'Not found');
 };
