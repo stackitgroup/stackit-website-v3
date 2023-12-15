@@ -12,9 +12,9 @@
 	title="How to work together Section"
 >
 	<div class="grid grid-cols-3 mx-auto w-full max-w-[1730px] gap-5">
-		<header class="col-span-3 px-5 2xl:px-0 md:text-5xl pb-[5%] grid gap-5">
-			<h2>Our Work</h2>
-			<span class="pl-5 text-xl text-gray-500">
+		<header class="grid col-span-3 gap-5 px-5 2xl:px-0 md:text-5xl">
+			<h2 class="text-3xl md:text-5xl text-[--blue]">Our Work</h2>
+			<span class="md:text-xl opacity-80">
 				Here's a snapshot of our past successes and the tools we use to deliver exceptional
 				services.
 			</span>
