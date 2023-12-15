@@ -26,7 +26,7 @@ export const actions: Actions = {
 
 			const email = await resend.emails.send({
 				from: result.fullName,
-				to: 'alefrank.martinez@stackitgroup.com',
+				to: import.meta.env.VITE_HOST_EMAIL,
 				subject: 'Message from contact form on StackIT Group website',
 				reply_to: result.email,
 				html: `<strong>${result.message}</strong>`
