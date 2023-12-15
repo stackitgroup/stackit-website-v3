@@ -10,11 +10,7 @@
 	};
 </script>
 
-<section
-	id="our-work"
-	class="w-full px-[5%] py-[10%] md:py-[3%] bg-[--gray]"
-	title="How to work together Section"
->
+<section id="our-work" class="w-full px-[5%] py-[10%] md:py-[3%] bg-[--gray]">
 	<div class="grid grid-cols-3 mx-auto w-full max-w-[1730px] gap-10">
 		<header class="grid col-span-3 gap-5 px-5 2xl:px-0 md:text-5xl">
 			<h2 class="text-3xl md:text-5xl text-[--blue]">Our Work</h2>

@@ -3,10 +3,7 @@
 </script>
 
 <SectionContainer tittle="custom-software-service">
-	<article
-		class="flex flex-col gap-5 col-span-2 text-md md:col-span-1 text-black [&>p]:opacity-80"
-		title="Custom Software Service Description"
-	>
+	<article class="flex flex-col gap-5 col-span-2 text-md md:col-span-1 text-black [&>p]:opacity-80">
 		<h2 class="text-3xl font-light md:col-span-1 md:text-5xl mb-5">Custom Software</h2>
 		<p>Experience innovation with Stack IT, your partner for cutting-edge Custom Software.</p>
 		<p>

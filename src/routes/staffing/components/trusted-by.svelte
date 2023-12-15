@@ -1,4 +1,4 @@
-<section id="trusted-by" title="Some of our Clients" class="w-full py-[5%] md:py-[3%] px-[5%]">
+<section id="trusted-by" class="w-full py-[5%] md:py-[3%] px-[5%]">
 	<div class="grid grid-cols-6 gap-2 mx-auto w-full max-w-[1730px]">
 		<h2 class="col-span-6 mb-10 text-3xl font-light md:text-5xl">Trusted by</h2>
 

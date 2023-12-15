@@ -3,7 +3,7 @@
 </script>
 
 <SectionContainer tittle="who-we-are" backgroundColor="bg-[--light-gray]">
-	<article class="flex flex-col col-span-2 gap-5 text-md md:col-span-1" title="Who we are Article">
+	<article class="flex flex-col col-span-2 gap-5 text-md md:col-span-1">
 		<header class="mb-5">
 			<h2 class="text-3xl font-light md:col-span-1 md:text-5xl">Who we are</h2>
 		</header>

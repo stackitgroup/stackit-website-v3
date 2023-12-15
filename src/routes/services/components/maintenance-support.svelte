@@ -3,10 +3,7 @@
 </script>
 
 <SectionContainer tittle="Maintenance & Support Section" backgroundColor="bg-[--blue]">
-	<article
-		class="flex flex-col gap-7 col-span-2 text-md md:col-span-1 text-white [&>p]:opacity-80"
-		title="Maintenance & Support Article"
-	>
+	<article class="flex flex-col gap-7 col-span-2 text-md md:col-span-1 text-white [&>p]:opacity-80">
 		<header>
 			<h2 class="text-3xl md:col-span-1 md:text-4xl">Maintenance & Support</h2>
 		</header>

@@ -40,7 +40,7 @@
 	};
 </script>
 
-<footer title="Layout Footer" class="w-full py-[10%] md:py-[3%] px-[5%]">
+<footer class="w-full py-[10%] md:py-[3%] px-[5%]">
 	<div class="grid grid-cols-4 gap-5 mx-auto md:grid-cols-5 max-w-[1730px]">
 		<section class="flex flex-col col-span-4 gap-2 md:col-span-1">
 			<a href="/" class="w-fit">

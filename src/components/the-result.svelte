@@ -2,7 +2,7 @@
 	import LetsTalkButton from './lets-talk-button.svelte';
 </script>
 
-<section class="w-full px-[5%] pb-[3%]" title="The result Section">
+<section class="w-full px-[5%] pb-[3%]">
 	<div class="mx-auto max-w-[1730px] rounded-xl">
 		<picture class="grid">
 			<div class="[grid-row:1/2] z-10 [grid-column:1/2] overlay rounded-xl" />

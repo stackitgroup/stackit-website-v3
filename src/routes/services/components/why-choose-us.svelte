@@ -68,7 +68,7 @@
 	];
 </script>
 
-<section id="why-choose-us" title="Why choose us Section" class="w-full py-[3%] px-[5%]">
+<section id="why-choose-us" class="w-full py-[3%] px-[5%]">
 	<div class="grid grid-cols-3 gap-5 xl:gap-10 w-full mx-auto max-w-[1730px]">
 		<h2 class="col-span-3 px-5 text-3xl font-light 2xl:px-0 md:text-5xl pb-[4%]">Why Choose Us</h2>
 		{#each Cards as e}

@@ -1,8 +1,8 @@
 <script lang="ts">
+	import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
+	import Fa from 'svelte-fa';
 	import { fade } from 'svelte/transition';
 	import LetsTalkButton from './lets-talk-button.svelte';
-	import Fa from 'svelte-fa';
-	import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 	const carrousel = [
 		{
@@ -39,7 +39,7 @@
 </script>
 
 <!-- custom-software-hero.jpeg -->
-<section id="hero" title="Hero Section" class="w-full h-auto mx-auto border-b-2 border-blue-400">
+<section id="hero" class="w-full h-auto mx-auto border-b-2 border-blue-400">
 	<picture class="grid min-h-[300px] md:min-h-[400px] h-auto relative">
 		<div class="[grid-row:1/2] z-10 [grid-column:1/2] overlay" />
 		<div

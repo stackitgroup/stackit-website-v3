@@ -1,6 +1,5 @@
 <article
 	class="flex items-center col-span-3 p-[1%] md:p-[5%] md:items-start md:flex-col md:col-span-1 rounded-xl border border-[--light-blue] md:h-[408px]"
-	title="Expertise Principle"
 >
 	<span
 		class="md:text-[6rem] md:justify-start flex items-center justify-center w-1/3 h-48 md:h-24 font-light text-[12rem]"

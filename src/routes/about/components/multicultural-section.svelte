@@ -1,9 +1,6 @@
 <section id="services-overview" class="w-full p-[5%] bg-[--light-gray]">
 	<div class="grid grid-cols-6 grid-rows-2 md:grid-rows-1 gap-10 mx-auto max-w-[1730px] w-full">
-		<section
-			class="flex flex-col col-span-6 gap-5 text-black md:col-span-2"
-			title="Services Overview Description"
-		>
+		<section class="flex flex-col col-span-6 gap-5 text-black md:col-span-2">
 			<h2 class="text-3xl font-light md:col-span-1 md:text-5xl">Stack IT Overview</h2>
 
 			At Stack IT, we take pride in our amazing tech team, composed of talented collaborators from
@@ -27,10 +24,7 @@
 			high-quality outcomes. Whether it's web development, mobile app development, or software
 			engineering, our team is equipped with the expertise to meet diverse client needs.
 		</section>
-		<section
-			class="grid grid-cols-1 col-span-6 gap-5 md:grid-cols-4 md:col-span-4"
-			title="Services Showcase Images"
-		>
+		<section class="grid grid-cols-1 col-span-6 gap-5 md:grid-cols-4 md:col-span-4">
 			<picture class="h-full rounded-xl mexico" />
 			<picture class="h-full rounded-xl argentina" />
 			<picture class="h-full rounded-xl venezuela" />

@@ -1,6 +1,5 @@
 <section
 	class="flex flex-col gap-5 col-span-6 md:col-span-3 bg-[--light-gray] p-[5%] rounded-xl border border-[--light-blue]"
-	title="Services Overview Description"
 >
 	<h2 class="text-3xl font-light md:col-span-1 md:text-5xl">Build Your Idea</h2>
 	<ul class="flex flex-col gap-5">

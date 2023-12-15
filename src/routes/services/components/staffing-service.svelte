@@ -3,10 +3,7 @@
 </script>
 
 <SectionContainer backgroundColor="bg-white" tittle="staffing-service">
-	<article
-		class="flex flex-col gap-5 col-span-2 text-md md:col-span-1 text-black [&>p]:opacity-80"
-		title="Staffing Innovation Article"
-	>
+	<article class="flex flex-col gap-5 col-span-2 text-md md:col-span-1 text-black [&>p]:opacity-80">
 		<h2 class="mb-5 text-3xl font-light md:col-span-1 md:text-5xl">Staffing Innovation</h2>
 
 		<p>

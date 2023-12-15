@@ -6,11 +6,7 @@
 	<title>Case Study | Stack IT</title>
 </svelte:head>
 
-<section
-	id="how-to-work-together"
-	class="w-full p-[5%] bg-[--gray]"
-	title="How to work together Section"
->
+<section id="how-to-work-together" class="w-full p-[5%] bg-[--gray]">
 	<div class="grid grid-cols-3 mx-auto w-full max-w-[1730px] gap-5">
 		<header class="grid col-span-3 gap-5 px-5 2xl:px-0 md:text-5xl">
 			<h2 class="text-3xl md:text-5xl text-[--blue]">Our Work</h2>

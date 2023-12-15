@@ -1,9 +1,6 @@
 <section id="services-overview" class="w-full p-[5%] bg-[--blue]">
 	<div class="grid grid-cols-6 grid-rows-2 md:grid-rows-1 gap-10 mx-auto max-w-[1730px] w-full">
-		<section
-			class="flex flex-col col-span-6 gap-5 text-white md:col-span-2"
-			title="Services Overview Description"
-		>
+		<section class="flex flex-col col-span-6 gap-5 text-white md:col-span-2">
 			<h2 class="text-3xl font-light md:col-span-1 md:text-5xl">Stack IT Overview</h2>
 			<p>
 				Redefining Talent Acquisition, we connect you with top-tier Tech Professionals from Latin
@@ -19,10 +16,7 @@
 				collaboration fueled by innovation and the vibrant energy of LATAM
 			</p>
 		</section>
-		<section
-			class="grid grid-cols-1 col-span-6 gap-5 md:grid-cols-4 md:col-span-4"
-			title="Services Showcase Images"
-		>
+		<section class="grid grid-cols-1 col-span-6 gap-5 md:grid-cols-4 md:col-span-4">
 			<picture class="h-full rounded-xl services_showcase_1 min-h-[50px]" />
 			<picture class="h-full rounded-xl services_showcase_2 min-h-[50px]" />
 			<picture class="h-full rounded-xl services_showcase_3 min-h-[50px]" />

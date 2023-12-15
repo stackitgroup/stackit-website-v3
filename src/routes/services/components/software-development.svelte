@@ -3,10 +3,7 @@
 </script>
 
 <SectionContainer tittle="software-development" backgroundColor="bg-[var(--light-gray)]">
-	<article
-		class="flex flex-col col-span-2 gap-5 text-md md:col-span-1"
-		title="Software Development Article"
-	>
+	<article class="flex flex-col col-span-2 gap-5 text-md md:col-span-1">
 		<header>
 			<h2 class="text-3xl md:col-span-1 md:text-4xl">Software Development</h2>
 		</header>
@@ -29,10 +26,7 @@
 		</p>
 	</article>
 
-	<picture
-		class="grid col-span-2 md:col-span-1 h-fit"
-		title="Image to describe Software Development"
-	>
+	<picture class="grid col-span-2 md:col-span-1 h-fit">
 		<div class="[grid-row:1/2] z-10 [grid-column:1/2] overlay rounded-xl" />
 		<div
 			class="[grid-row:1/2] z-20 [grid-column:1/2] grid w-full h-full gap-1 text-3xl font-light text-white md:text-4xl place-content-center"

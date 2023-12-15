@@ -1,12 +1,12 @@
 <script>
-	import Icon from 'svelte-awesome';
-	import bars from 'svelte-awesome/icons/bars';
 	import { page } from '$app/stores';
 	import { faXmark } from '@fortawesome/free-solid-svg-icons';
+	import Icon from 'svelte-awesome';
+	import bars from 'svelte-awesome/icons/bars';
 	import Fa from 'svelte-fa';
 </script>
 
-<aside class="w-1/2 drawer drawer-end md:hidden" title="Side Menu">
+<aside class="w-1/2 drawer drawer-end md:hidden">
 	<div class="drawer-content">
 		<label for="my-drawer-4">
 			<Icon data={bars} scale={1.5} />

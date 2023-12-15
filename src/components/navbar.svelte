@@ -2,7 +2,7 @@
 	import { page } from '$app/stores';
 </script>
 
-<nav class="hidden w-1/2 gap-4 text-lg md:justify-end md:flex" title="Navigation Menu">
+<nav class="hidden w-1/2 gap-4 text-lg md:justify-end md:flex">
 	<a class="relative group" href="/services">
 		Services
 		<hr
