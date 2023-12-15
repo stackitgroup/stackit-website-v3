@@ -39,7 +39,7 @@
 		type="text"
 		placeholder="Full name"
 		name="fullName"
-		class="w-full input"
+		class="w-full input bg-[#181823]/60"
 		class:input-error={form?.errors?.fullName?.at(0)}
 	/>
 	{#if form?.errors}
@@ -51,14 +51,14 @@
 		placeholder="Email"
 		class:input-error={form?.errors?.email?.at(0)}
 		name="email"
-		class="w-full input"
+		class="w-full input bg-[#181823]/60"
 	/>
 	{#if form?.errors}
 		<h2 class="text-center text-red-600">{form?.errors.email?.at(0)}</h2>
 	{/if}
 
 	<textarea
-		class="textarea full"
+		class="w-full textarea bg-[#181823]/60"
 		class:textarea-error={form?.errors?.message?.at(0)}
 		name="message"
 		placeholder="What can we do for you?"
@@ -69,7 +69,7 @@
 
 	<button
 		title="Send Email"
-		class="mx-auto text-base flex items-center justify-center gap-2 rounded-full text-gray-200 border-[1.5px] border-[#016fce] h-11 w-40 bg-black hover:text-black hover:bg-white transition ease-in-out duration-300 cursor-pointer"
+		class="mx-auto border-none text-base flex items-center justify-center gap-2 rounded-full text-gray-200 border-[1.5px] border-[#016fce] h-11 w-40 bg-black hover:text-black hover:bg-white transition ease-in-out duration-300 cursor-pointer"
 	>
 		{#if isLoading}
 			Loading...
