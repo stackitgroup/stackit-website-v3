@@ -10,11 +10,15 @@
 	};
 </script>
 
-<section id="our-work" class="w-full p-[5%] bg-[--gray]" title="How to work together Section">
+<section
+	id="our-work"
+	class="w-full px-[5%] py-[10%] md:py-[3%] bg-[--gray]"
+	title="How to work together Section"
+>
 	<div class="grid grid-cols-3 mx-auto w-full max-w-[1730px] gap-10">
 		<header class="grid col-span-3 gap-5 px-5 2xl:px-0 md:text-5xl">
 			<h2 class="text-3xl md:text-5xl text-[--blue]">Our Work</h2>
-			<span class="text-xl opacity-80">
+			<span class="md:text-xl opacity-80">
 				Here's a snapshot of our past successes and the tools we use to deliver exceptional
 				services.
 			</span>
@@ -26,10 +30,10 @@
 					class="[grid-row:1/2] py-10 [grid-column:1/2] z-20 grid gap-4 px-10 md:place-content-between font-normal text-gray-200"
 				>
 					<header>
-						<h3 class="text-2xl relative text-[--brand-blue] font-semibold">
+						<h3 class="text-3xl md:text-2xl relative text-[--brand-blue] font-semibold mb-5">
 							{e.title}
 						</h3>
-						<small class="text-black opacity-80">
+						<small class="text-base text-black opacity-80">
 							{e.introduction}
 						</small>
 					</header>

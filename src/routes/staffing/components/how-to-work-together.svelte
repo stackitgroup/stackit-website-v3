@@ -21,9 +21,13 @@
 	];
 </script>
 
-<section id="how-to-work-together" class="w-full p-[5%]" title="How to work together">
+<section
+	id="how-to-work-together"
+	class="w-full px-[5%] py-[10%] md:py-[3%]"
+	title="How to work together"
+>
 	<div class="grid grid-cols-3 mx-auto w-full max-w-[1730px] gap-10">
-		<h2 class="col-span-3 px-5 text-3xl font-light 2xl:px-0 md:text-5xl pb-[5%]">
+		<h2 class="col-span-3 px-5 text-3xl font-light 2xl:px-0 md:text-5xl pb-[2%]">
 			How to Work Together
 		</h2>
 		<!-- Discovery Stage -->

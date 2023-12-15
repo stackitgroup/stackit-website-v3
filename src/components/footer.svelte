@@ -40,7 +40,7 @@
 	};
 </script>
 
-<footer title="Layout Footer" class="w-full pt-[4%] px-[5%] pb-[1%]">
+<footer title="Layout Footer" class="w-full py-[10%] md:py-[3%] px-[5%]">
 	<div class="grid grid-cols-4 gap-5 mx-auto md:grid-cols-5 max-w-[1730px]">
 		<section class="flex flex-col col-span-4 gap-2 md:col-span-1">
 			<a href="/" class="w-fit">
@@ -79,7 +79,7 @@
 				<li>
 					<a href="tel:+16199175387"> Phone: +1 (619) 917 5387 </a>
 				</li>
-				<li>
+				<li class="w-full overflow-hidden text-ellipsis">
 					<a class="text-base" href="mailto:hello@stackitgroup.com"> hello@stackitgroup.com</a>
 				</li>
 				<li>
@@ -128,7 +128,7 @@
 		<div class="col-span-4 md:col-span-5">
 			<div class="bg-gray-300 h-[2px] divider"></div>
 
-			<div class="py-3 text-gray-400">
+			<div class="text-gray-400">
 				Copyright © Stack IT | 4955 Wightman St. San Diego, California, 92105 United States | VAT,
 				tax code, and number of registration with the US Equivalent
 			</div>
