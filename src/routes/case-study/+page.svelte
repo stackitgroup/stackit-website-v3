@@ -26,10 +26,10 @@
 					class="[grid-row:1/2] py-10 [grid-column:1/2] z-20 grid gap-4 px-10 md:place-content-between font-normal text-gray-200"
 				>
 					<header>
-						<h3 class="text-2xl relative text-[--brand-blue] font-semibold">
+						<h3 class="text-3xl md:text-2xl relative text-[--brand-blue] font-semibold mb-5">
 							{e.title}
 						</h3>
-						<small class="text-black opacity-80">
+						<small class="text-base text-black opacity-80">
 							{e.introduction}
 						</small>
 					</header>
