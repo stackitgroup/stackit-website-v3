@@ -58,7 +58,7 @@
 	{/if}
 
 	<textarea
-		class="textarea"
+		class="textarea full"
 		class:textarea-error={form?.errors?.message?.at(0)}
 		name="message"
 		placeholder="What can we do for you?"
@@ -80,6 +80,9 @@
 </form>
 
 <style lang="postcss">
+	textarea::placeholder {
+		font-size: 1rem;
+	}
 	form {
 		opacity: 0;
 		animation: reveal linear both;
