@@ -109,14 +109,10 @@
 			</section>
 		{/if}
 
-		<!-- Product Sites -->
 		<section class="flex flex-col col-span-2 gap-2 md:col-span-1">
 			<h3 class="text-xl font-semibold">Product Sites</h3>
 
 			<ul class="flex flex-col gap-2 pl-1 text-sm">
-				<li>
-					<a href="https://alphablock.dev" target="_blank"> AlphaBlock </a>
-				</li>
 				<li>
 					<a href="https://ledav2.jup.io/" target="_blank"> LEDA </a>
 				</li>
@@ -128,10 +124,7 @@
 		<div class="col-span-4 md:col-span-5">
 			<div class="bg-gray-300 h-[2px] divider"></div>
 
-			<div class="text-gray-400">
-				Copyright © Stack IT | 4955 Wightman St. San Diego, California, 92105 United States | VAT,
-				tax code, and number of registration with the US Equivalent
-			</div>
+			<div class="text-gray-400">Copyright © Stack IT | San Diego, California, United States</div>
 		</div>
 	</div>
 </footer>
