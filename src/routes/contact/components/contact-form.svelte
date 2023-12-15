@@ -1,12 +1,9 @@
 <script lang="ts">
 	import { enhance } from '$app/forms';
 	import type { SubmitFunction } from '@sveltejs/kit';
-	import { Recaptcha } from 'svelte-recaptcha-v2';
 	import type { ActionData } from '../$types';
-	const VITE_GOOGLE_RECAPTCHA_PUBLIC_KEY = import.meta.env.VITE_GOOGLE_RECAPTCHA_PUBLIC_KEY;
 
 	let isLoading = false;
-	let isRobot = true;
 
 	export let form: ActionData;
 
@@ -21,25 +18,6 @@
 
 			await update();
 		};
-	};
-
-	// eslint-disable-next-line @typescript-eslint/no-explicit-any
-	const onCaptchaSuccess = (event: any) => {
-		console.log('token received: ' + event.detail.token);
-
-		if (event.detail.token) {
-			isRobot = false;
-		}
-	};
-
-	const onCaptchaError = () => {
-		console.log('recaptcha init has failed.');
-		isRobot = true;
-	};
-
-	const onCaptchaExpire = () => {
-		console.log('recaptcha api has expired');
-		isRobot = true;
 	};
 </script>
 
@@ -89,21 +67,9 @@
 		<h2 class="text-center text-red-600">{form?.errors.message?.at(0)}</h2>
 	{/if}
 
-	{#if isRobot}
-		<div class="mx-auto">
-			<Recaptcha
-				on:success={onCaptchaSuccess}
-				on:error={onCaptchaError}
-				on:expired={onCaptchaExpire}
-				sitekey={VITE_GOOGLE_RECAPTCHA_PUBLIC_KEY}
-				badge="bottomleft"
-				size="normal"
-			/>
-		</div>
-	{/if}
 	<button
+		title="Send Email"
 		class="mx-auto text-base flex items-center justify-center gap-2 rounded-full text-gray-200 border-[1.5px] border-[#016fce] h-11 w-40 bg-black hover:text-black hover:bg-white transition ease-in-out duration-300 cursor-pointer"
-		disabled={isRobot}
 	>
 		{#if isLoading}
 			Loading...
