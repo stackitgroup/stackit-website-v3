@@ -16,7 +16,7 @@
 	<input id="my-drawer-4" type="checkbox" class=" drawer-toggle" />
 	<div class="drawer-side">
 		<label for="my-drawer-4" aria-label="close sidebar" class="drawer-overlay"></label>
-		<ul class="min-h-screen text-xl bg-white w-80 text-black p-[5%] flex flex-col gap-3">
+		<ul class="h-[100dvh] text-xl bg-white w-80 text-black p-[5%] flex flex-col gap-3">
 			<li>
 				<label class="absolute top-5 right-5" for="my-drawer-4">
 					<Fa icon={faXmark} />
