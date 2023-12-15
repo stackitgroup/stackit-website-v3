@@ -88,9 +88,6 @@ devDependencies:
   svelte-check:
     specifier: 3.6.2
     version: 3.6.2(postcss@8.4.31)(svelte@4.2.7)
-  svelte-recaptcha-v2:
-    specifier: ^0.0.2
-    version: 0.0.2
   tailwindcss:
     specifier: 3.3.5
     version: 3.3.5
@@ -3118,14 +3115,6 @@ packages:
       strip-indent: 3.0.0
       svelte: 4.2.7
       typescript: 5.3.2
-    dev: true
-
-  /svelte-recaptcha-v2@0.0.2:
-    resolution: {integrity: sha512-Sx4QuV/AtjxuwOf6C3yih+n3TLlKN+DefYt7wAFR8hjGcAOIAzcb66d0QQdElZJ2H34hvQc1hIaj3AtkoA7G6w==}
-    dependencies:
-      debug: 4.3.4
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /svelte@4.2.7:
