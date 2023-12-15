@@ -1,7 +1,7 @@
 <section id="services-overview" class="w-full p-[5%] bg-[--blue]">
-	<div class="grid grid-cols-6 gap-10 mx-auto max-w-[1730px] w-full">
+	<div class="grid grid-cols-6 grid-rows-2 md:grid-rows-1 gap-10 mx-auto max-w-[1730px] w-full">
 		<section
-			class="flex flex-col gap-5 col-span-6 md:col-span-2 text-white"
+			class="flex flex-col col-span-6 gap-5 text-white md:col-span-2"
 			title="Services Overview Description"
 		>
 			<h2 class="text-3xl font-light md:col-span-1 md:text-5xl">Stack IT Overview</h2>
@@ -20,13 +20,13 @@
 			</p>
 		</section>
 		<section
-			class="grid grid-cols-4 col-span-6 md:col-span-4 gap-5"
+			class="grid grid-cols-1 col-span-6 gap-5 md:grid-cols-4 md:col-span-4"
 			title="Services Showcase Images"
 		>
-			<picture class="h-full rounded-xl services_showcase_1" />
-			<picture class="h-full rounded-xl services_showcase_2" />
-			<picture class="h-full rounded-xl services_showcase_3" />
-			<picture class="h-full rounded-xl services_showcase_4" />
+			<picture class="h-full rounded-xl services_showcase_1 min-h-[50px]" />
+			<picture class="h-full rounded-xl services_showcase_2 min-h-[50px]" />
+			<picture class="h-full rounded-xl services_showcase_3 min-h-[50px]" />
+			<picture class="h-full rounded-xl services_showcase_4 min-h-[50px]" />
 		</section>
 	</div>
 </section>
