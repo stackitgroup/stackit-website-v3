@@ -48,7 +48,7 @@
 
 	<input
 		type="email"
-		placeholder="Full name"
+		placeholder="Email"
 		class:input-error={form?.errors?.email?.at(0)}
 		name="email"
 		class="w-full input"
