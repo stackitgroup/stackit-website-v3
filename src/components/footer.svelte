@@ -115,13 +115,13 @@
 
 			<ul class="flex flex-col gap-2 pl-1 text-sm">
 				<li>
-					<a href="https://alphablock.dev"> AlphaBlock </a>
+					<a href="https://alphablock.dev" target="_blank"> AlphaBlock </a>
 				</li>
 				<li>
-					<a href="https://ledav2.jup.io/"> LEDA </a>
+					<a href="https://ledav2.jup.io/" target="_blank"> LEDA </a>
 				</li>
 				<li>
-					<a href="https://www.defispot.com/"> Defispot </a>
+					<a href="https://www.defispot.com/" target="_blank"> Defispot </a>
 				</li>
 			</ul>
 		</section>
