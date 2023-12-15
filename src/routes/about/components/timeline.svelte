@@ -45,3 +45,23 @@
 		<button on:click={() => (modalOpen = !modalOpen)}>close</button>
 	</form>
 </dialog>
+
+<style>
+	::-webkit-scrollbar {
+		width: 0.5rem;
+	}
+	/* Track */
+	::-webkit-scrollbar-track {
+		background: var(--gray);
+	}
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+		background: #757575;
+		border-radius: 9999px;
+		opacity: 0.4;
+	}
+	/* Handle on hover */
+	::-webkit-scrollbar-thumb:hover {
+		background: var(--blue);
+	}
+</style>
