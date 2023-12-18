@@ -2,8 +2,7 @@ import { fail } from '@sveltejs/kit';
 import { Resend } from 'resend';
 import { ZodError, z } from 'zod';
 import type { Actions } from './$types';
-const VITE_RESEND_API_KEY = import.meta.env.VITE_GOOGLE_RECAPTCHA_PUBLIC_KEY;
-const resend = new Resend(VITE_RESEND_API_KEY);
+const resend = new Resend(import.meta.env.VITE_RESEND_API_KEY);
 
 const requestSchema = z.object({
 	email: z.string().email({ message: 'Invalid email address' }),
@@ -22,22 +21,26 @@ export const actions: Actions = {
 		const data: ContactForm = Object.fromEntries(await request.formData());
 		try {
 			const result = requestSchema.parse(data);
-			console.log(result.email);
 
-			const email = await resend.emails.send({
-				from: result.fullName,
-				to: import.meta.env.VITE_HOST_EMAIL,
-				subject: 'Message from contact form on StackIT Group website',
-				reply_to: result.email,
-				html: `<strong>${result.message}</strong>`
-			});
-
-			console.log(email);
+			await resend.emails
+				.send({
+					from: result.email,
+					to: import.meta.env.VITE_HOST_EMAIL,
+					subject: 'Message from contact form on StackIT Group website',
+					text: 'Message from contact form on StackIT Group website:\n\n' + result.message
+					// html: `<strong>${result.message}</strong>`
+				})
+				.catch((err) => {
+					console.log({ err });
+					throw err;
+				});
 
 			return { success: true };
 		} catch (err) {
+			console.log({ err });
 			const error = err as ZodError;
 			const { fieldErrors: errors } = error.flatten();
+
 			return fail(400, { errors, data });
 		}
 	}

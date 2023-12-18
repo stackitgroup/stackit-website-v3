@@ -31,6 +31,7 @@
 
 <form
 	method="POST"
+	action="/contact"
 	class="flex flex-col w-full gap-5 p-5 pt-0 max-w-[600px]"
 	use:enhance={handleSubmit}
 >
@@ -43,7 +44,7 @@
 		class:input-error={form?.errors?.fullName?.at(0)}
 	/>
 	{#if form?.errors}
-		<h2 class="text-center text-red-600">{form?.errors.fullName?.at(0)}</h2>
+		<h2 class="text-center text-red-600">{form?.errors.fullName?.at(0) || ''}</h2>
 	{/if}
 
 	<input
@@ -54,7 +55,7 @@
 		class="w-full input bg-[#181823]/60"
 	/>
 	{#if form?.errors}
-		<h2 class="text-center text-red-600">{form?.errors.email?.at(0)}</h2>
+		<h2 class="text-center text-red-600">{form?.errors.email?.at(0) || ''}</h2>
 	{/if}
 
 	<textarea
@@ -64,7 +65,7 @@
 		placeholder="What can we do for you?"
 	></textarea>
 	{#if form?.errors}
-		<h2 class="text-center text-red-600">{form?.errors.message?.at(0)}</h2>
+		<h2 class="text-center text-red-600">{form?.errors.message?.at(0) || ''}</h2>
 	{/if}
 
 	<button
